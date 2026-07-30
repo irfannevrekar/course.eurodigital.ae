@@ -1,0 +1,4 @@
+# Ignore helper/temporary python scripts
+read_catch.py
+*.pyc
+__pycache__/
