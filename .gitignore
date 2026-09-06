@@ -1,4 +1,10 @@
-# Ignore helper/temporary python scripts
-read_catch.py
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / Scratch Files
+*.tmp
+*.temp
 *.pyc
 __pycache__/

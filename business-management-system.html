@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Management System Courses | Euro Digital Technologies</title>
+  <meta name="description"
+    content="Explore the 3-Tier Business Management System by Euro Digital Technologies. From 7-Layer forensic diagnosis to 60-day done-with-you systems installation and bespoke AI technology deployment.">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:title" content="Business Management System Courses | Euro Digital Technologies">
+  <meta property="og:description"
+    content="The complete 3-Tier Business Management System. Diagnose operational bottlenecks, install 5 core business machines, and scale with custom AI technology.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="mainHeader">
+    <div class="container header-nav">
+      <a href="index.html" class="logo" aria-label="Euro Digital Technologies Home">
+        <img src="assets/images/Euro_Digital_Technologies_Logo.png" alt="Euro Digital Technologies Logo">
+      </a>
+
+      <nav class="nav-links" aria-label="Desktop Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <div class="nav-dropdown">
+          <div class="dropdown-trigger" tabindex="0">
+            Courses
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+          <div class="dropdown-menu dropdown-menu-wide">
+            <div class="dropdown-category-col">
+              <a href="business-management-system.html" class="dropdown-category-title" style="color: var(--accent-orange); font-weight: 800;">
+                Business Management System
+                <span style="font-size: 11px;">→</span>
+              </a>
+              <a href="business-x-ray.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">Business X-Ray™</span>
+                  <span class="dropdown-item-badge badge-orange">Tier 01</span>
+                </div>
+                <span class="dropdown-item-desc">7-Layer Business Diagnosis & Masterclass</span>
+              </a>
+              <a href="business-acceleration-engine.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">Business Acceleration Engine™</span>
+                  <span class="dropdown-item-badge badge-green">Tier 02</span>
+                </div>
+                <span class="dropdown-item-desc">60-Day Systems & Scale Installation</span>
+              </a>
+              <a href="ai-tech-integration-bootcamp.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">AI + Tech Business Integration</span>
+                  <span class="dropdown-item-badge badge-blue">Tier 03</span>
+                </div>
+                <span class="dropdown-item-desc">Bespoke 1-on-1 DWY Implementation</span>
+              </a>
+            </div>
+
+            <div class="dropdown-category-col">
+              <a href="human-resource-management-system.html" class="dropdown-category-title hr-category">
+                Human Resource Management System
+                <span style="font-size: 11px;">→</span>
+              </a>
+              <a href="workforce-x-ray.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">Workforce X-Ray™</span>
+                  <span class="dropdown-item-badge badge-teal">Tier 01</span>
+                </div>
+                <span class="dropdown-item-desc">HR Diagnostic Heatmap & 2-Hr Workshop</span>
+              </a>
+              <a href="workforce-acceleration-engine.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">Workforce Acceleration Engine™</span>
+                  <span class="dropdown-item-badge badge-indigo">Tier 02</span>
+                </div>
+                <span class="dropdown-item-desc">60-Day HR Systems Installation</span>
+              </a>
+              <a href="ai-tech-workforce-integration-bootcamp.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">AI + Tech Workforce Integration</span>
+                  <span class="dropdown-item-badge badge-cyan">Tier 03</span>
+                </div>
+                <span class="dropdown-item-desc">Bespoke HR Tech & AI Agent Integration</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="mri-scan.html" class="nav-link">MRI Scan</a>
+        <a href="business-clarity-test.html" class="nav-link">Clarity Test</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="https://wa.me/971555113655?text=Business%20X-Ray%20Program" target="_blank" rel="noopener"
+          class="btn btn-orange btn-sm">Start Business Diagnosis</a>
+        <a href="https://wa.me/971555113655?text=Workforce%20X-Ray%20Program" target="_blank" rel="noopener"
+          class="btn btn-teal btn-sm">Start Workforce Diagnosis</a>
+      </div>
+
+      <button class="burger-btn" id="burgerBtn" aria-label="Toggle Mobile Menu" aria-expanded="false"
+        aria-controls="mobileNavDrawer">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER NAVIGATION -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link" onclick="toggleMobileNav()">Home</a>
+      <div class="mobile-dropdown-container" id="mobileCoursesContainer">
+        <div class="mobile-dropdown-header mobile-nav-link" onclick="toggleMobileCoursesAccordion()">
+          <span>Courses</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+        <div class="mobile-dropdown-list">
+          <a href="business-management-system.html" class="mobile-sublink" onclick="toggleMobileNav()"
+            style="font-size: 12px; font-weight: 800; color: var(--accent-orange); text-transform: uppercase; margin-top: 4px;">
+            ✦ Business Management System Suite
+          </a>
+          <a href="business-x-ray.html" class="mobile-sublink" onclick="toggleMobileNav()">→ Business X-Ray™ (Tier 1)</a>
+          <a href="business-acceleration-engine.html" class="mobile-sublink" onclick="toggleMobileNav()">→ Acceleration Engine (Tier 2)</a>
+          <a href="ai-tech-integration-bootcamp.html" class="mobile-sublink" onclick="toggleMobileNav()">→ AI Tech Bootcamp (Tier 3)</a>
+
+          <a href="human-resource-management-system.html" class="mobile-sublink" onclick="toggleMobileNav()"
+            style="font-size: 12px; font-weight: 800; color: var(--accent-lime-dark); text-transform: uppercase; margin-top: 10px;">
+            ✦ HR Management System Suite
+          </a>
+          <a href="workforce-x-ray.html" class="mobile-sublink" onclick="toggleMobileNav()">→ Workforce X-Ray™ (Tier 1)</a>
+          <a href="workforce-acceleration-engine.html" class="mobile-sublink" onclick="toggleMobileNav()">→ Workforce Engine (Tier 2)</a>
+          <a href="ai-tech-workforce-integration-bootcamp.html" class="mobile-sublink" onclick="toggleMobileNav()">→ AI Workforce Bootcamp (Tier 3)</a>
+        </div>
+      </div>
+      <a href="mri-scan.html" class="mobile-nav-link" onclick="toggleMobileNav()">MRI Scan</a>
+      <a href="business-clarity-test.html" class="mobile-nav-link" onclick="toggleMobileNav()">Clarity Test</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="https://wa.me/971555113655?text=Business%20X-Ray%20Program" target="_blank" rel="noopener"
+        class="btn btn-orange" onclick="toggleMobileNav()">Start Business Diagnosis</a>
+      <a href="https://wa.me/971555113655?text=Workforce%20X-Ray%20Program" target="_blank" rel="noopener"
+        class="btn btn-teal" style="margin-top: 8px;" onclick="toggleMobileNav()">Start Workforce Diagnosis</a>
+    </div>
+  </div>
+
+  <!-- BREADCRUMB -->
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <div class="container">
+      <div class="breadcrumb-list">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span class="breadcrumb-current">Business Management System</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section" style="padding-top: 50px; padding-bottom: 40px; background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);">
+      <div class="container" style="text-align: center;">
+        <span class="badge badge-orange" style="margin-bottom: 16px;">Core Master Program</span>
+        <h1 style="font-size: clamp(28px, 4.5vw, 48px); font-weight: 800; line-height: 1.15; margin-bottom: 16px; text-transform: uppercase;">
+          Business Management System
+        </h1>
+        <p style="font-size: clamp(16px, 2vw, 19px); color: var(--text-secondary); max-width: 820px; margin: 0 auto 12px auto; line-height: 1.6;">
+          Our complete structured scaling curriculum engineered around the <strong>Diagnostic-First Model</strong>. Move from founder firefighting to precision diagnosis, 60-day done-with-you system installation, and bespoke AI technology deployment across 3 sequential milestones.
+        </p>
+
+        <!-- ANIMATED INTERACTIVE COURSE ROADMAP -->
+        <div class="bms-roadmap-wrapper">
+          <div class="bms-roadmap-header">
+            <div class="bms-roadmap-title-group">
+              <h3>
+                Business Management System Journey
+                <span class="course-highlight">Course Roadmap</span>
+              </h3>
+              <p>Complete 3-milestone progression from operational diagnosis to autonomous AI deployment.</p>
+            </div>
+            <div class="bms-roadmap-legend">
+              <span class="legend-item"><span class="legend-dot orange"></span> Milestone 1: Diagnosis</span>
+              <span class="legend-item"><span class="legend-dot green"></span> Milestone 2: Installation</span>
+              <span class="legend-item"><span class="legend-dot blue"></span> Milestone 3: AI Integration</span>
+            </div>
+          </div>
+
+          <div class="bms-roadmap-track-container">
+            <!-- Animated Progress Line -->
+            <div class="bms-roadmap-track-line">
+              <div class="bms-roadmap-track-progress"></div>
+              <div class="bms-roadmap-track-pulse"></div>
+            </div>
+
+            <!-- Milestone 01 Node -->
+            <a href="#bxray-card" class="bms-milestone-node node-1">
+              <div class="bms-milestone-indicator-row">
+                <span class="bms-milestone-badge-pill">Milestone 01</span>
+                <div class="bms-milestone-marker">
+                  01
+                  <div class="bms-milestone-marker-ring"></div>
+                </div>
+              </div>
+              <div class="bms-milestone-role-tag">Stage 1 • Operational Diagnosis</div>
+              <div class="bms-milestone-title">
+                Business X-Ray™
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+              <p class="bms-milestone-desc">
+                62-point self-diagnostic assessment across 7 business layers + coach-reviewed 20-page fix roadmap & 2-hr live interactive masterclass.
+              </p>
+              <div class="bms-milestone-outcome">
+                <div>
+                  <span class="outcome-label">Deliverable</span>
+                  <span>7-Layer Gap Analysis</span>
+                </div>
+                <span class="bms-milestone-price-tag">$10</span>
+              </div>
+            </a>
+
+            <!-- Milestone 02 Node -->
+            <a href="#bae-card" class="bms-milestone-node node-2">
+              <div class="bms-milestone-indicator-row">
+                <span class="bms-milestone-badge-pill">Milestone 02</span>
+                <div class="bms-milestone-marker">
+                  02
+                  <div class="bms-milestone-marker-ring"></div>
+                </div>
+              </div>
+              <div class="bms-milestone-role-tag">Stage 2 • Core Systems Installation</div>
+              <div class="bms-milestone-title">
+                Business Acceleration Engine™
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+              <p class="bms-milestone-desc">
+                60-day Done-With-You installation of 5 core business machines (marketing, sales pipeline, delivery, delegation KPIs & cash flow).
+              </p>
+              <div class="bms-milestone-outcome">
+                <div>
+                  <span class="outcome-label">Deliverable</span>
+                  <span>5-Machine Autopilot</span>
+                </div>
+                <span class="bms-milestone-price-tag">$299</span>
+              </div>
+            </a>
+
+            <!-- Milestone 03 Node -->
+            <a href="#aitech-card" class="bms-milestone-node node-3">
+              <div class="bms-milestone-indicator-row">
+                <span class="bms-milestone-badge-pill">Milestone 03</span>
+                <div class="bms-milestone-marker">
+                  03
+                  <div class="bms-milestone-marker-ring"></div>
+                </div>
+              </div>
+              <div class="bms-milestone-role-tag">Stage 3 • Autonomous AI Scaling</div>
+              <div class="bms-milestone-title">
+                AI + Tech Integration Bootcamp
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+              <p class="bms-milestone-desc">
+                Bespoke 1-on-1 DWY integration of Euro Digital's software suite (eurodigital.ae) and autonomous AI agent ecosystem (eurodigi.ai).
+              </p>
+              <div class="bms-milestone-outcome">
+                <div>
+                  <span class="outcome-label">Deliverable</span>
+                  <span>Custom AI Deployment</span>
+                </div>
+                <span class="bms-milestone-price-tag">Custom</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE 3-TIER BUSINESS MANAGEMENT SYSTEM CATALOG -->
+    <section class="section" id="program-suite" style="padding-top: 30px;">
+      <div class="container">
+        <div class="section-header section-header-wide" style="margin-bottom: 40px;">
+          <span class="badge badge-orange section-tag">Complete Course Catalog</span>
+          <h2 class="single-line-title">The 3-Tier Business Management System</h2>
+          <p style="max-width: 680px; margin-left: auto; margin-right: auto;">
+            Review syllabus deliverables, video introductions, and multi-language brochures for each program tier below.
+          </p>
+        </div>
+
+        <div class="courses-grid">
+
+          <!-- Course 1: Low Ticket -->
+          <div class="course-card tier-1" id="bxray-card">
+            <div class="course-video-container"
+              onclick="openVideoModal('assets/videos/Euro_Digital_Courses_Intro_video.mp4')">
+              <video class="course-video-preview" src="assets/videos/Euro_Digital_Courses_Intro_video.mp4" autoplay loop
+                muted playsinline></video>
+              <div class="video-play-overlay">
+                <div class="play-btn-circle">
+                  <svg viewBox="0 0 24 24">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="course-logo-wrapper">
+              <img src="assets/images/Business_XRay_Logo.png" alt="Business X-Ray Logo" class="course-card-logo">
+            </div>
+            <span class="course-category">Tier 01 | Business Diagnosis & Clarity Suite</span>
+            <h3 class="course-title"><a href="business-x-ray.html" style="color:inherit;">Business X-Ray™</a></h3>
+            <p class="course-desc">The 7-Layer Business Diagnosis Program. Pinpoint your exact operational & mindset
+              bottlenecks, receive a personalized report, and join a live 2-hour masterclass.</p>
+            <div class="course-meta-tags">
+              <span class="meta-tag">Diagnostic Form</span>
+              <span class="meta-tag">Live Masterclass</span>
+            </div>
+
+            <div class="course-features">
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>62-Point Diagnostic Form:</strong> Comprehensive audit of your 7 operational layers and
+                  mindset.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Personalised X-Ray Report:</strong> Custom, coach-reviewed analysis of operational & mindset
+                  bottlenecks.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>2-Hour Live Masterclass:</strong> Live cohort session to decode results & build your
+                  roadmap.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>60-Day Priority Roadmap:</strong> Focused action plan mapping bottlenecks to specific
+                  fixes.</span>
+              </div>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-pricing">
+                <div class="price-original">$180 Value</div>
+                <div class="price-current" id="card-price-tier1">$10</div>
+                <div class="price-label" id="card-label-tier1">One-Time</div>
+              </div>
+              <div class="course-emi"
+                style="visibility: hidden; margin-top: 0; margin-bottom: 0; height: 0; overflow: hidden;">&nbsp;</div>
+              <a href="https://wa.me/971555113655?text=Business%20X-Ray%20Program" target="_blank" rel="noopener"
+                class="course-cta-btn">
+                Get Instant Diagnosis
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <div class="course-footer-bottom">
+                <a href="business-x-ray.html" class="course-detail-trigger">View Full Syllabus & 4 Bonuses →</a>
+                <div class="brochure-download-section">
+                  <span class="brochure-title">Download Course Brochure</span>
+                  <div class="brochure-links">
+                    <a href="assets/docs/Euro_Digital_Business_X-Ray_Brochure_English.pdf"
+                      download="assets/docs/Euro_Digital_Business_X-Ray_Brochure_English.pdf"
+                      class="brochure-link">English</a>
+                    <span class="brochure-sep">|</span>
+                    <a href="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Arabic.pdf"
+                      download="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Arabic.pdf"
+                      class="brochure-link">Arabic</a>
+                    <span class="brochure-sep">|</span>
+                    <a href="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Hinglish.pdf"
+                      download="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Hinglish.pdf"
+                      class="brochure-link">Hinglish</a>
+                    <span class="brochure-sep">|</span>
+                    <a href="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Hindi.pdf"
+                      download="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Hindi.pdf"
+                      class="brochure-link">Hindi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 2: Mid Ticket -->
+          <div class="course-card tier-2 featured" id="bae-card">
+            <div class="card-popular-tag">Most Popular Choice</div>
+            <div class="course-video-container"
+              onclick="openVideoModal('assets/videos/Business_Acceleration_Engine.mp4')">
+              <video class="course-video-preview" src="assets/videos/Business_Acceleration_Engine.mp4" autoplay loop muted
+                playsinline></video>
+              <div class="video-play-overlay">
+                <div class="play-btn-circle">
+                  <svg viewBox="0 0 24 24">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="course-logo-wrapper">
+              <img src="assets/images/Business_Acceleration_Engine_logo.png" alt="Business Acceleration Engine Logo"
+                class="course-card-logo">
+            </div>
+            <span class="course-category">Tier 02 | Done-With-You Systems & Scale Installation</span>
+            <h3 class="course-title"><a href="business-acceleration-engine.html" style="color:inherit;">Business
+                Acceleration Engine™</a></h3>
+            <p class="course-desc">The 60-Day Systems & Scale Installation Program. Build robust machines for lead
+              generation, sales, delivery, and team delegation.</p>
+            <div class="course-meta-tags">
+              <span class="meta-tag">60 Days</span>
+              <span class="meta-tag">Recorded + 8 Live</span>
+            </div>
+
+            <div class="course-features">
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>5 Core Systems:</strong> Install marketing, sales, delegation, onboarding, and money
+                  metrics.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Lead Gen Machine:</strong> Set up 3-channel consistent acquisition model.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Sales Conversion Scripts:</strong> Close deals predictably on WhatsApp/Zoom.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>8 Live Mentorship Calls:</strong> Interactive audits, reviews, and hot-seat coaching.</span>
+              </div>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-pricing">
+                <div class="price-original">$999 Value</div>
+                <div class="price-current" id="card-price-tier2">$299</div>
+                <div class="price-label">One-Time</div>
+              </div>
+              <div class="course-emi"
+                style="visibility: hidden; margin-top: 0; margin-bottom: 0; height: 0; overflow: hidden;">&nbsp;</div>
+              <a href="https://wa.me/971555113655?text=Business%20Acceleration%20Engine%20Program" target="_blank"
+                rel="noopener" class="course-cta-btn">
+                Install Scaling Engine
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <div class="course-footer-bottom">
+                <a href="business-acceleration-engine.html" class="course-detail-trigger">View Full Syllabus & 6 Bonuses
+                  →</a>
+                <div class="brochure-download-section">
+                  <span class="brochure-title">Download Course Brochure</span>
+                  <div class="brochure-links">
+                    <a id="bae-brochure-english"
+                      href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_English.pdf"
+                      download="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_English.pdf"
+                      class="brochure-link">English</a>
+                    <span class="brochure-sep">|</span>
+                    <a id="bae-brochure-arabic"
+                      href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Arabic.pdf"
+                      download="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Arabic.pdf"
+                      class="brochure-link">Arabic</a>
+                    <span class="brochure-sep">|</span>
+                    <a id="bae-brochure-hinglish"
+                      href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hinglish.pdf"
+                      download="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hinglish.pdf"
+                      class="brochure-link">Hinglish</a>
+                    <span class="brochure-sep">|</span>
+                    <a id="bae-brochure-hindi"
+                      href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hindi.pdf"
+                      download="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hindi.pdf"
+                      class="brochure-link">Hindi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 3: High Ticket -->
+          <div class="course-card tier-3" id="aitech-card">
+            <div class="course-video-container image-only">
+              <img class="course-video-preview" src="assets/images/ED_AI+Tech_Business_Integration_Bootcamp.png"
+                alt="AI + Tech Business Integration Bootcamp Preview">
+            </div>
+            <div class="course-logo-wrapper">
+              <img src="assets/images/AI_Tech_Business_Bootcamp_Logo.png"
+                alt="AI + Tech Business Integration Bootcamp Logo" class="course-card-logo">
+            </div>
+            <span class="course-category">Tier 03 | Bespoke AI & Technology Integration Suite</span>
+            <h3 class="course-title"><a href="ai-tech-integration-bootcamp.html" style="color:inherit;">AI + Tech Business
+                Integration Bootcamp</a></h3>
+            <p class="course-desc">Integrate Euro Digital's complete AI + software + hosting ecosystem into your business
+              - custom-scoped to the exact layers your diagnosis revealed as weak, and engineered for 10x-50x growth.</p>
+            <div class="course-meta-tags">
+              <span class="meta-tag">Custom Duration</span>
+              <span class="meta-tag">Bespoke 1-on-1 Implementation</span>
+            </div>
+
+            <div class="course-features">
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>2-Platform Ecosystem:</strong> Integrate custom solutions from eurodigital.ae and
+                  eurodigi.ai.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>1-on-1 Tech-Fit Audit:</strong> Pinpoint weak layers and design your custom integration
+                  roadmap.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>AI & Software Levers:</strong> Deploy WhatsApp/web chatbots, CRM/ERP pipelines, and
+                  automated workflows.</span>
+              </div>
+              <div class="feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Done-With-You Delivery:</strong> Build alongside your team so capability stays in your
+                  business.</span>
+              </div>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-pricing" style="flex-direction: column; align-items: flex-start; gap: 4px;">
+                <div class="price-current">Custom Pricing</div>
+                <div class="price-label" style="margin-bottom: 0;">Quoted post-Audit in USD</div>
+              </div>
+              <div class="course-emi">Based on Selected Technology Levers</div>
+              <a href="https://wa.me/971555113655?text=Hello%20Euro%20Digital%20Technologies%2C%20I%20am%20interested%20in%20booking%20a%201-on-1%20Tech-Fit%20Audit%20for%20the%20AI%20%2B%20Tech%20Business%20Integration%20Bootcamp."
+                target="_blank" rel="noopener" class="course-cta-btn">
+                Book Tech-Fit Audit
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="ai-tech-integration-bootcamp.html" class="course-detail-trigger">View Full Syllabus & 3 Bonuses
+                →</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- THE 7-LAYER DIAGNOSTIC ARCHITECTURE PHILOSOPHY -->
+    <section class="section section-bg-secondary">
+      <div class="container">
+        <div class="section-header" style="max-width: 980px;">
+          <span class="badge badge-orange section-tag">Core Philosophy</span>
+          <h2 style="font-size: clamp(22px, 3.2vw, 34px);">Why Diagnosis Must Always Precede Prescription</h2>
+          <p style="max-width: 720px; margin: 0 auto;">
+            Most businesses stall because founders buy random courses, hire ad agencies, or purchase complex tools without diagnosing the root illness. Our 7-layer framework eliminates guessing.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; max-width: 1060px; margin: 0 auto;">
+          <div style="background: var(--bg-white); border: 1.5px solid var(--border-color); border-radius: var(--radius-md); padding: 24px; box-shadow: var(--shadow-sm);">
+            <span class="badge badge-orange" style="margin-bottom: 8px;">Layer 01 & 02</span>
+            <h3 style="font-size: 18px; margin-bottom: 8px;">Strategy & Revenue Streams</h3>
+            <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.5;">Audit offer pricing, unit economics, market positioning, and lifetime value before spending a single dollar on paid advertising.</p>
+          </div>
+
+          <div style="background: var(--bg-white); border: 1.5px solid var(--border-color); border-radius: var(--radius-md); padding: 24px; box-shadow: var(--shadow-sm);">
+            <span class="badge badge-orange" style="margin-bottom: 8px;">Layer 03 & 04</span>
+            <h3 style="font-size: 18px; margin-bottom: 8px;">Lead Gen & Sales Conversion</h3>
+            <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.5;">Establish 3 predictable acquisition channels, consultative closing playbooks, and automated WhatsApp follow-ups.</p>
+          </div>
+
+          <div style="background: var(--bg-white); border: 1.5px solid var(--border-color); border-radius: var(--radius-md); padding: 24px; box-shadow: var(--shadow-sm);">
+            <span class="badge badge-orange" style="margin-bottom: 8px;">Layer 05 & 06</span>
+            <h3 style="font-size: 18px; margin-bottom: 8px;">Operations, Delegation & Finance</h3>
+            <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.5;">Deploy our 3-Level Delegation Matrix, 48-hour client onboarding SOPs, and the CEO Money Command Dashboard.</p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 36px;">
+          <a href="mri-scan.html" class="btn btn-outline" style="border-color: var(--accent-orange); color: var(--accent-orange);">
+            Explore The Interactive 7-Layer MRI Scan →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQS SECTION -->
+    <section class="section" id="faqs">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge badge-orange section-tag">Suite Support</span>
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about navigating the Business Management System value ladder.</p>
+        </div>
+
+        <div class="faq-wrapper">
+
+          <div class="faq-item">
+            <div class="faq-header">
+              <h3>How do the three tiers of the Business Management System work together?</h3>
+              <div class="faq-icon-box">
+                <svg viewBox="0 0 24 24">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-body">
+              <div class="faq-body-content">
+                Our suite follows a disciplined <strong>Diagnostic-First Architecture</strong>:
+                <ul style="margin-top: 10px; padding-left: 20px; list-style-type: disc;">
+                  <li style="margin-bottom: 8px;"><strong>Tier 01 (Business X-Ray™):</strong> Uncovers the exact 7-layer bottlenecks, providing total clarity and a 60-day roadmap for just $10.</li>
+                  <li style="margin-bottom: 8px;"><strong>Tier 02 (Business Acceleration Engine™):</strong> Installs the 5 core business machines over 60 days on a Done-With-You basis.</li>
+                  <li style="margin-bottom: 8px;"><strong>Tier 03 (AI + Tech Bootcamp):</strong> Integrates custom software, CRM/ERP workflows, and autonomous AI agents to scale your proven machines.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-header">
+              <h3>Which tier should I start with?</h3>
+              <div class="faq-icon-box">
+                <svg viewBox="0 0 24 24">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-body">
+              <div class="faq-body-content">
+                We strongly recommend starting with the <strong>Business X-Ray™ ($10)</strong>. Because it is priced as a friction-free handshake offer, it delivers immediate clarity on which operational layer is bleeding the most cash or founder energy before you invest in heavy execution or software tools.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-header">
+              <h3>Can I enroll directly into Tier 2 or Tier 3 without doing Tier 1?</h3>
+              <div class="faq-icon-box">
+                <svg viewBox="0 0 24 24">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-body">
+              <div class="faq-body-content">
+                Yes for Tier 2: Founders generating $100K+ annual revenue who already recognize their operational bottlenecks can join the Business Acceleration Engine™ directly.
+                <br><br>
+                For Tier 3 (AI + Tech Bootcamp), an operational diagnostic (either Tier 1 or Tier 2) is required on file so our engineering team can scope technical levers accurately against verified operational baselines.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-header">
+              <h3>What guarantees protect my investment across these courses?</h3>
+              <div class="faq-icon-box">
+                <svg viewBox="0 0 24 24">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-body">
+              <div class="faq-body-content">
+                We stand 100% behind our methodologies:
+                <ul style="margin-top: 10px; padding-left: 20px; list-style-type: disc;">
+                  <li style="margin-bottom: 6px;"><strong>Tier 1:</strong> 100% No-Questions-Asked Money-Back Guarantee within 7 days.</li>
+                  <li style="margin-bottom: 6px;"><strong>Tier 2:</strong> Implementation-Based Double Guarantee (60 days to functioning machines, or 30 days free 1-on-1 coaching or 100% refund).</li>
+                  <li style="margin-bottom: 6px;"><strong>Tier 3:</strong> Minimum 3x Year-1 Projected Financial ROI Hurdle before project approval.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/images/Euro_Digital_Technologies_Footer_Logo.png" alt="Euro Digital Technologies Logo">
+          </div>
+          <p><strong style="font-size: 16px; display: block; margin-bottom: 6px; color: var(--bg-white);">Euro Digital Technologies LLC</strong>
+            Mussafah Shabiya MBZ-12,<br>
+            Building No. C-201, Office No. M-03,<br>
+            Abu Dhabi, UAE
+          </p>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M6.62 10.79a15.15 15.15 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.27 1.11z" />
+            </svg>
+            <span>+971 55 511 3655</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+            </svg>
+            <span>bdm@eurodigital.ae</span>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Business Management System</h4>
+          <ul>
+            <li><a href="business-management-system.html" class="footer-link" style="color: var(--accent-orange); font-weight: 700;">✦ All BMS Courses</a></li>
+            <li><a href="business-x-ray.html" class="footer-link">Business X-Ray™</a></li>
+            <li><a href="business-acceleration-engine.html" class="footer-link">Business Acceleration Engine™</a></li>
+            <li><a href="ai-tech-integration-bootcamp.html" class="footer-link">AI + Tech Business Integration Bootcamp</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Human Resource Management System</h4>
+          <ul>
+            <li><a href="human-resource-management-system.html" class="footer-link" style="color: var(--accent-lime-dark); font-weight: 700;">✦ All HRMS Courses</a></li>
+            <li><a href="workforce-x-ray.html" class="footer-link">Workforce X-Ray™</a></li>
+            <li><a href="workforce-acceleration-engine.html" class="footer-link">Workforce Acceleration Engine™</a></li>
+            <li><a href="ai-tech-workforce-integration-bootcamp.html" class="footer-link">AI + Tech Workforce Integration Bootcamp</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Legal & Safety</h4>
+          <ul>
+            <li><a href="#privacy-policy" class="footer-link" onclick="openLegalModal('privacy')">Privacy Policy</a>
+            </li>
+            <li><a href="#terms-of-service" class="footer-link" onclick="openLegalModal('terms')">Terms of Service</a>
+            </li>
+            <li><a href="#refund-policy" class="footer-link" onclick="openLegalModal('refund')">Refund Guarantee
+                Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-bottom-text">© 2026 Euro Digital Technologies L.L.C. — Abu Dhabi, UAE. UAE Free Zone Trade License.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- VIDEO PLAYER MODAL -->
+  <div class="modal-overlay" id="videoPlayerModal">
+    <div class="modal-container" style="max-width: 800px; padding: 12px; background-color: #000;">
+      <button class="modal-close-btn" onclick="closeVideoModal()" style="color: #fff; background: rgba(255,255,255,0.2);">✕</button>
+      <video id="modalVideoPlayer" controls style="width: 100%; height: auto; display: block; border-radius: 8px;"></video>
+    </div>
+  </div>
+
+  <!-- LEGAL MODAL -->
+  <div class="modal-overlay" id="legalModal">
+    <div class="modal-container" style="max-width: 760px; max-height: 90vh;">
+      <button class="modal-close-btn" onclick="closeLegalModal()">✕</button>
+      <div class="modal-header">
+        <h2 class="modal-title" id="legalModalTitle">Privacy Policy</h2>
+      </div>
+      <div class="modal-body">
+        <div id="legalModalContent" class="legal-text-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

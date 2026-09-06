@@ -1,0 +1,524 @@
+﻿
+BUSINESS DIAGNOSIS & CLARITY PROGRAM
+Complete Course Architecture + Webinar Scripts
+3-Tier Product Suite: Low Ticket | Mid Ticket | High Ticket
+Designed for Business Owners, Coaches, Consultants, Course Creators & Agency Owners
+Version 1.0 | April 2026
+
+
+TABLE OF CONTENTS
+
+PART 1: Strategic Product Architecture Overview
+PART 2: COURSE 1 - Business X-Ray (Low Ticket ₹99)
+    Course Structure, Modules, Bonuses & Upsell
+    Webinar Script (45 Minutes)
+PART 3: COURSE 2 - Business Acceleration Engine (Mid Ticket ₹9,999)
+    Course Structure, Modules, Bonuses & Upsell/Downsell
+    Webinar Script (90 Minutes)
+PART 4: COURSE 3 - CEO Command Centre (High Ticket ₹49,999)
+    Program Structure, Phases, Bonuses & Upsell/Downsell
+    Webinar Script (120 Minutes)
+PART 5: Product Ecosystem & Funnel Strategy
+PART 6: Diversified Revenue Opportunities
+
+
+PART 1: STRATEGIC PRODUCT ARCHITECTURE OVERVIEW
+This document presents a complete 3-tier product ecosystem built around the Business Diagnosis & Clarity framework. Each tier is designed to attract, convert, and ascend customers through a value ladder that addresses progressively deeper business challenges.
+
+ParameterLow TicketMid TicketHigh TicketCourse NameBusiness X-RayBusiness Acceleration EngineCEO Command CentrePrice₹99₹9,999₹49,999FormatRecorded + DiagnosisRecorded + 8 Live SessionsHybrid: Recorded + 12 Live + 1:1Duration3 Days Self-Paced60 Days90 DaysDeliveryWhatsApp + PortalWhatsApp + Portal + ZoomWhatsApp + Portal + Zoom + In-PersonPrimary GoalDiagnose & Create ClarityBuild Systems & ScaleInstall CEO Operating SystemIdeal SegmentAll target segmentsCoaches, Course CreatorsBusiness Owners ₹50L-5Cr
+VALUE LADDER FLOW
+Ad/Organic Content → Low Ticket (₹99) → Mid Ticket Upsell (₹9,999) → High Ticket Ascension (₹49,999) → Retainer/Mastermind (Future)
+Each product is a standalone profit centre AND a feeder into the next tier. The low ticket course acts as a self-liquidating offer that funds ad spend while building a qualified buyer list.
+
+TARGET AUDIENCE DEMAND ANALYSIS
+Based on 25+ years of business coaching experience and current Indian market dynamics, here is why this product suite is perfectly timed:
+• India has 63+ million MSMEs, and 70% operate without structured business systems - creating massive demand for diagnosis-based programs.
+• The coaching/consulting industry in India is projected to cross ₹4,500 Cr by 2027, with online delivery being the fastest-growing segment.
+• Post-pandemic business owners are hungry for structured execution frameworks, not more motivation.
+• The "course creator" segment is exploding - over 2 lakh Indians launched digital courses in 2024-25, but fewer than 8% achieved consistent revenue.
+• Business owners spending ₹10L-5Cr annually are the ideal buyers: they have money, they have pain, and they need systemisation.
+
+
+
+PART 2: COURSE 1 - BUSINESS X-RAY(tm) (Low Ticket: ₹99)
+The Self-Diagnostic Intelligence System for Serious Business Owners
+
+COURSE OVERVIEW
+Offer Name: Business X-Ray(tm) - The 3-Day Business Diagnosis Sprint
+Price: ₹99 (One-Time Payment)
+Format: 100% Pre-Recorded Video Modules + Business Diagnosis Form + WhatsApp Automation
+Duration: 3 Days Self-Paced (Total ~2.5 Hours of Content)
+Delivery: WhatsApp Group + Hosted Video Portal
+Dream Outcome: In 3 days, you will have a crystal-clear diagnosis of exactly what is broken in your business, what to fix first, and a 60-day priority roadmap.
+
+MODULE STRUCTURE
+Day 1: The Business MRI - Scan What's Really Happening
+1. Video 1 (12 min): Why 93% of Business Owners Are Solving the Wrong Problem - The Misdiagnosis Trap
+2. Video 2 (15 min): The 7-Layer Business Scan Framework - Business Model, Revenue Streams, Lead Generation, Sales Process, Team & Delegation, Time Management, Bottleneck Identification
+3. Action Step: Complete the Business Diagnosis Form (Google Form) - a comprehensive self-assessment covering all 7 layers
+4. Video 3 (8 min): How to Read Your Own Business Diagnosis Results - Scoring Matrix & Red Flag Identification
+Day 2: The Priority Decoder - Find Your #1 Leverage Point
+1. Video 4 (15 min): The Leverage Hierarchy - Which Business Problem to Solve First (and Why the Order Matters)
+2. Video 5 (12 min): The 5 Business Stages Model - Discover Which Stage You Are In and What That Stage Demands
+3. Video 6 (10 min): Common Patterns & Costly Mistakes at Each Stage - Real Case Studies from Indian Businesses
+4. Action Step: Identify your business stage and top 3 bottlenecks using the Priority Mapping Worksheet
+Day 3: The 60-Day Roadmap - Your Clarity Action Plan
+1. Video 7 (18 min): Building Your Personalised 60-Day Business Roadmap - Step-by-Step Walkthrough
+2. Video 8 (10 min): The Accountability Architecture - How to Stay on Track Without a Coach (Simple Self-Monitoring System)
+3. Video 9 (8 min): What Comes Next - How to Accelerate Your Results 10x Faster (Bridge to Mid-Ticket Offer)
+4. Deliverable: Your completed 60-Day Business Roadmap document (fillable PDF template provided)
+
+BONUSES (Total Bonus Value: ₹4,997)
+• Bonus 1: The Business Health Scorecard Template (Editable Google Sheet) - Track your 7-layer health score monthly - Value ₹999
+• Bonus 2: 50 Proven Hook Lines for Business Content - Swipe file of attention-grabbing hooks for ads and organic posts - Value ₹499
+• Bonus 3: Access to Private WhatsApp Community for 30 Days - Network with other serious business owners - Value ₹1,999
+• Bonus 4: The "One-Page Business Clarity Canvas" PDF - A strategic snapshot template used by top consultants - Value ₹1,500
+
+UPSELL & DOWNSELL STRATEGY
+Immediate Upsell (Thank You Page): Business Acceleration Engine at ₹9,999 with a "Diagnosis Day" early-bird discount of ₹7,999 (valid 48 hours). Pitch: "Now that you know WHAT is broken, let us help you FIX it with a done-with-you 60-day system."
+Downsell (If Upsell Declined): Offer the first module of Business Acceleration Engine as a standalone "Business Systems Starter Kit" for ₹2,499.
+WhatsApp Sequence Upsell: Day 3 automated message presents a case study + limited seats announcement for the mid-ticket program.
+
+
+WEBINAR SCRIPT: BUSINESS X-RAY(tm) MASTERCLASS
+Format: Pre-Recorded Webinar (Evergreen) | Duration: 45 Minutes
+Goal: Sell the ₹99 Business X-Ray Course to cold and warm audiences
+Automation: Runs on autopilot via YouTube/Vimeo embed + Razorpay + WhatsApp bot
+
+SECTION 1: THE HOOK (0:00 - 5:00)
+[Open with a bold, pattern-interrupt statement]
+"Let me ask you something uncomfortable. You've been in business for 2, 5, maybe 10 years. You've bought courses. You've attended seminars. You've even hired consultants. But if I asked you right now - what is the ONE thing holding your business back - could you answer with absolute certainty? If not, you're not alone. And that's exactly why 93% of business owners stay stuck."
+[Introduce yourself with credibility markers]
+"My name is [Name], and over the last 25 years, I've helped hundreds of business owners - from local retailers to coaches to agency owners doing crores in revenue - and I've discovered something shocking. The #1 reason businesses don't grow isn't lack of effort. It's MISDIAGNOSIS. They're solving the wrong problem."
+[Set the agenda]
+"In the next 45 minutes, I'm going to show you: First, why your business is stuck and it has nothing to do with motivation. Second, the 7-Layer Business Scan that reveals your exact bottleneck. Third, a simple 60-day roadmap to get unstuck. And at the end, I'll show you how to get all of this done for less than the cost of one meal out."
+
+SECTION 2: THE STORY & PROBLEM AMPLIFICATION (5:00 - 15:00)
+[Share a relatable case study]
+"Let me tell you about Rahul. Rahul runs a coaching business. He was doing about ₹15 lakhs a year. Not bad, but he felt stuck. He'd bought 7 different courses on marketing, sales, team building. He was consuming content for 3 hours a day. But his revenue hadn't moved in 18 months."
+"When Rahul came to me, I didn't sell him another course. I made him fill out one form. 15 minutes later, we discovered his real problem: he had ZERO sales process. He was generating leads but had no system to convert them. He was spending ₹50,000 a month on ads and closing manually with no script, no follow-up system, nothing."
+"Within 60 days of fixing just this ONE bottleneck, his revenue jumped to ₹24 lakhs per year. Same ads. Same audience. Just a proper diagnosis and focused execution."
+[Name the 5 symptoms the audience relates to]
+• You're busy every single day but your revenue hasn't grown in months
+• You've invested in courses and mentors but can't figure out what to implement first
+• You know something is wrong but can't pinpoint exactly what
+• Your leads are inconsistent and your sales feel random
+• You're doing everything yourself because you don't trust delegation
+"If even 2 of these hit home, stay till the end. What I'm about to share will change how you think about your business permanently."
+
+SECTION 3: THE FRAMEWORK - DELIVER VALUE (15:00 - 30:00)
+[Teach the 7-Layer Business Scan at a high level]
+"Now, let me walk you through the exact framework I use with every business owner I work with. I call it the 7-Layer Business Scan. Think of it like a full-body MRI for your business."
+1. Layer 1: Business Model Clarity - Are you selling the right thing to the right person at the right price? Most coaches undercharge. Most product businesses have too many SKUs.
+2. Layer 2: Revenue Streams - How many ways does money come in? If you have only one revenue stream, you're one bad month away from crisis.
+3. Layer 3: Lead Generation System - Where do your leads come from? Is it consistent or random? Can it work without you?
+4. Layer 4: Sales Process - Do you have a repeatable, measurable sales system? Or are you "closing by vibes"?
+5. Layer 5: Team & Delegation - Are you the business or do you have a business? If you take 2 weeks off, does it survive?
+6. Layer 6: Time & Execution Discipline - How do you spend your first 3 hours? Revenue-generating or fire-fighting?
+7. Layer 7: Bottleneck Identification - What is the ONE constraint that, if removed, would unlock 10x growth?
+"Now here's the key insight. Most business owners try to fix ALL 7 at once. That's like a doctor prescribing 7 medicines without knowing the disease. You need to find the ONE layer that's most critical RIGHT NOW and attack it with full force for 60 days."
+[Show the Priority Matrix visual - High Impact vs. Ease of Execution]
+"In the Business X-Ray program, I give you a diagnosis form that scores each layer. Then I give you a priority matrix that tells you exactly where to focus first. No guessing. No random action. Just surgical precision."
+
+SECTION 4: THE OFFER (30:00 - 40:00)
+[Transition to the offer]
+"So here's what I want to offer you today. I've packaged everything I just showed you into a complete 3-day self-paced program called Business X-Ray."
+[Stack the value]
+What You GetValue9 Video Modules Across 3 Days₹4,999Business Diagnosis Form (7-Layer Scan)₹2,99960-Day Priority Roadmap Template₹1,999Business Health Scorecard (Bonus)₹99950 Hook Lines Swipe File (Bonus)₹49930-Day WhatsApp Community Access (Bonus)₹1,999One-Page Business Clarity Canvas (Bonus)₹1,500TOTAL VALUE₹14,994
+"The total value of everything you're getting is ₹14,994. But I'm not charging you ₹14,994. I'm not even charging you ₹5,000. Your investment today is just ₹99. That's less than your monthly phone recharge."
+"Why so low? Because I believe that if you get clarity first, you'll want to go deeper. And I want to earn the right to work with you long-term. This is my handshake offer."
+
+SECTION 5: OBJECTION HANDLING & CLOSE (40:00 - 45:00)
+[Handle top 3 objections]
+Objection 1 - "I've bought courses before and didn't finish them." Response: "This isn't a 40-hour course. It's a 3-day sprint. 2.5 hours total. You'll finish it before your weekend ends. And the diagnosis form alone gives you more clarity than most ₹50,000 programs."
+Objection 2 - "Will this work for my specific business?" Response: "The 7-Layer Scan is universal. Whether you're a coach, retailer, agency owner, or manufacturer - every business has these 7 layers. The diagnosis form customises the output to YOUR business."
+Objection 3 - "₹99 seems too cheap, what's the catch?" Response: "No catch. I'm giving you the diagnosis. If you want me to help you fix what we find, there's a more advanced program available. But even if you only do the X-Ray, you'll walk away with more clarity than 90% of business owners."
+[Final CTA]
+"Click the button below this video right now. Pay ₹99. You'll get instant access via WhatsApp within 60 seconds. Start your Business X-Ray today. Your business has waited long enough for a proper diagnosis."
+
+
+
+
+PART 3: COURSE 2 - BUSINESS ACCELERATION ENGINE(tm) (Mid Ticket: ₹9,999)
+The 60-Day Done-With-You Business Systems Installation Program
+
+COURSE OVERVIEW
+Offer Name: Business Acceleration Engine(tm) - 60-Day Systems & Scale Program
+Price: ₹9,999 (One-Time / 2-Part EMI Available: ₹5,499 x 2)
+Format: Pre-Recorded Modules + 8 Weekly LIVE Group Sessions + WhatsApp Accountability Circle
+Duration: 60 Days
+Delivery: Video Portal + Zoom Live Sessions + WhatsApp Group
+Dream Outcome: In 60 days, you will have installed the 5 core business systems - lead generation, sales conversion, delivery, team delegation, and financial tracking - so your business runs predictably instead of chaotically.
+
+MODULE STRUCTURE - 8 WEEKS
+Week 1-2: Foundation & Business Architecture
+Module 1: The Business Blueprint Redesign (5 Videos, ~90 min total)
+• Video 1.1: Reviewing Your Business X-Ray Diagnosis Results (if applicable) or Creating Your Diagnosis from Scratch
+• Video 1.2: The Business Architecture Framework - 7 Pillars of a Scalable Business
+• Video 1.3: Revenue Model Optimisation - How to Add 2 Revenue Streams in 30 Days
+• Video 1.4: Offer Stack Design - Creating a Low-Mid-High Ticket Product Suite
+• Video 1.5: Pricing Psychology for Indian Markets - The ₹99 to ₹99,999 Framework
+Live Session 1: Business Model Review + Hot Seat Coaching (60 min)
+Live Session 2: Offer Stack Critique + Revenue Stream Brainstorm (60 min)
+Week 3-4: Lead Generation & Sales Machine
+Module 2: The Lead Generation Machine (5 Videos, ~90 min total)
+• Video 2.1: The 3-Channel Lead System - Organic, Paid, Partnership
+• Video 2.2: Content That Converts - Hook + Story + Offer Framework for Social Media
+• Video 2.3: Ad Funnel Architecture - From Hook Ad to Landing Page to Payment
+• Video 2.4: Lead Qualification System - Stop Wasting Time on Tyre-Kickers
+• Video 2.5: WhatsApp Marketing Automation - Setting Up Drip Sequences That Sell 24/7
+Module 3: The Sales Conversion System (4 Videos, ~70 min total)
+• Video 3.1: The Consultative Selling Framework for Coaches & Service Businesses
+• Video 3.2: Sales Script Templates + Objection Handling Playbook
+• Video 3.3: Follow-Up System Architecture - The Fortune is in the Follow-Up
+• Video 3.4: Closing on WhatsApp, Zoom & Phone - Platform-Specific Strategies
+Live Session 3: Lead Gen Strategy Review (60 min)
+Live Session 4: Sales Role-Play + Script Critique (60 min)
+Week 5-6: Delivery, Systems & Team
+Module 4: The Delivery Excellence Framework (4 Videos, ~60 min total)
+• Video 4.1: Client Onboarding System - First 48 Hours That Create Raving Fans
+• Video 4.2: Service Delivery SOPs - Standardise Without Losing Personalisation
+• Video 4.3: Feedback & Testimonial Collection Machine
+• Video 4.4: Retention & Upsell Framework - Keep Clients for 3x Longer
+Module 5: The Team & Delegation System (4 Videos, ~60 min total)
+• Video 5.1: The Delegation Readiness Audit - What to Delegate and When
+• Video 5.2: Hiring for ₹10L-50L Businesses - Where to Find, How to Screen
+• Video 5.3: The 3-Level Delegation Matrix - Task, Process, Outcome Delegation
+• Video 5.4: Team Communication Protocols - Daily/Weekly Rhythms That Prevent Chaos
+Live Session 5: Systems Mapping Workshop (60 min)
+Live Session 6: Delegation Roleplay + Team Design (60 min)
+Week 7-8: Financial Clarity & Growth Sprint
+Module 6: Financial Command Dashboard (3 Videos, ~45 min total)
+• Video 6.1: The CEO Money Dashboard - 5 Numbers You Must Track Weekly
+• Video 6.2: Profit First for Indian Businesses - Simplified Cash Allocation System
+• Video 6.3: 90-Day Financial Goal Setting & Reverse Engineering
+Module 7: The 90-Day Growth Sprint Blueprint (3 Videos, ~45 min total)
+• Video 7.1: Combining All Systems Into a 90-Day Execution Calendar
+• Video 7.2: The Weekly CEO Review Process - 15-Minute Weekly Check That Keeps You On Track
+• Video 7.3: Graduation + What's Next - Path to CEO Command Centre
+Live Session 7: Financial Dashboard Setup + Review (60 min)
+Live Session 8: 90-Day Sprint Planning + Graduation (60 min)
+
+BONUSES (Total Bonus Value: ₹29,997)
+• Bonus 1: Sales Script Vault - 12 Proven Sales Scripts for Coaches, Agencies & Service Businesses - Value ₹4,999
+• Bonus 2: WhatsApp Automation Template Pack - Ready-to-deploy welcome, nurture, and sales sequences - Value ₹3,999
+• Bonus 3: The Client Onboarding Toolkit - Welcome emails, SOPs, feedback forms - Value ₹2,999
+• Bonus 4: 60-Day Accountability Partner Matching - Paired with another serious participant - Value ₹4,999
+• Bonus 5: CEO Money Dashboard Template (Google Sheets) - Plug-and-play financial tracker - Value ₹2,999
+• Bonus 6: Lifetime Access to Course Updates + Community - Value ₹10,001
+
+UPSELL & DOWNSELL STRATEGY
+Upsell to High Ticket: Week 6 Live Session includes a "CEO Command Centre Preview." Students who complete 80%+ of modules receive a personalised invitation to apply for the ₹49,999 program with a ₹10,000 loyalty discount.
+Downsell (If Mid Ticket is Declined): Offer a "Single System Install" package at ₹3,999 - access to any ONE module (Lead Gen OR Sales OR Delivery) + 2 live sessions.
+Cross-Sell: Refer-a-friend program: Bring 2 friends who enrol = get next batch FREE (builds social proof and volume).
+
+
+WEBINAR SCRIPT: BUSINESS ACCELERATION ENGINE(tm) MASTERCLASS
+Format: Pre-Recorded Webinar (Evergreen) with Automated Scarcity | Duration: 90 Minutes
+Goal: Sell the ₹9,999 Business Acceleration Engine to warm leads (especially Business X-Ray graduates)
+Automation: Runs on autopilot via webinar platform + Razorpay + WhatsApp bot + email sequence
+
+SECTION 1: THE HOOK - PATTERN INTERRUPT (0:00 - 8:00)
+[Open with a provocative statement]
+"What if I told you that the biggest lie in the business coaching industry is the idea that you need MORE knowledge? You don't. What you need is a SYSTEM. Let me explain."
+"In the last 12 months, I've spoken to over 300 business owners. Coaches, consultants, agency owners, product businesses. And here's what I discovered: Every single one of them knew what to do. Not a single one had a system to do it consistently."
+"Knowledge without systems is entertainment. Systems without knowledge is chaos. But knowledge PLUS systems? That's an engine. And today, I'm going to show you how to build that engine for YOUR business."
+[Establish credibility with specifics]
+"I'm [Name], and in 25+ years, I've helped businesses collectively grow from stuck to structured. My clients include coaches doing ₹5L-50L per month, e-commerce brands scaling to ₹2Cr, agencies managing 50+ clients. But the ones who get results fastest aren't the smartest. They're the ones who installed SYSTEMS."
+[Set the agenda - promise 3 systems in 90 minutes]
+"In the next 90 minutes, here's exactly what I'll show you: First, the 5-System Business Engine that separates ₹10L businesses from ₹1Cr+ businesses. Second, why 82% of course buyers, coaching clients, and business owners fail - and it's not what you think. Third, a live demonstration of how to install your first system in under a week. And finally, a special invitation to join a 60-day implementation program that changes everything."
+
+SECTION 2: STORY - BEFORE/AFTER TRANSFORMATION (8:00 - 22:00)
+[Tell 3 mini case studies - different audience segments]
+Case Study 1 - The Coach (Priya):
+"Priya is a business coach in Pune. When she came to us, she was doing ₹2.5L per month. She had an Instagram following, some courses, and a lot of frustration. Her problem was not lead generation - she was getting 30 enquiries a month. Her problem was she had ZERO sales process. She was replying to DMs randomly, never following up, and closing maybe 2 clients a month."
+"We installed ONE system - the Sales Conversion System. Within 4 weeks, same leads, she went from 2 closes to 8 closes per month. Revenue jumped to ₹8L. Within 60 days, she hit ₹11L. Same person. Same knowledge. New SYSTEM."
+Case Study 2 - The Agency Owner (Vikram):
+"Vikram runs a digital marketing agency in Bangalore. Turnover ₹40L per year. 5 team members. But he was working 14-hour days. He was the bottleneck in every project. If he took a day off, deliverables slipped. He was the entire agency."
+"We installed the Team & Delegation System and the Delivery Excellence Framework. Within 8 weeks, he had SOPs for every service, a clear delegation matrix, and weekly team rhythms. He took his first 10-day holiday in 3 years. Revenue didn't drop a single rupee."
+Case Study 3 - The Course Creator (Meera):
+"Meera had an online course on photography. Great course. 4.8-star reviews. But she'd sold only 47 copies in 6 months. Her problem was not the product. It was lead generation. She had no funnel, no content strategy, no ad system."
+"We installed the Lead Generation Machine. Within 60 days, she had an automated funnel that brought in 15-20 qualified leads daily. Course sales went from 47 in 6 months to 200+ in the next 60 days."
+[Bridge to the core lesson]
+"Notice the pattern? Different businesses. Different problems. But the solution was always the same: identify the missing system and INSTALL it. Not learn about it. Install it."
+
+SECTION 3: THE TEACHING SECTION - THE 5-SYSTEM ENGINE (22:00 - 50:00)
+[Deep-dive into the 5 systems - give enough value to demonstrate expertise but leave the HOW for the course]
+"Every business that operates predictably and profitably has these 5 systems. Miss even one, and you're stuck."
+System 1: Lead Generation Machine - How Customers Find You
+"Most businesses rely on word-of-mouth and random social media posts. That's not a system. A system has 3 channels running simultaneously: organic content, paid ads, and strategic partnerships. Each channel has a weekly rhythm, measured metrics, and optimisation cycles. In the program, I give you the exact templates and automation setups for all three."
+System 2: Sales Conversion Process - How Leads Become Paying Clients
+"If you don't have a documented sales process, you're losing 50-70% of potential revenue. I'm talking about a clear script, a follow-up cadence, objection handling playbooks, and a CRM or WhatsApp-based pipeline. I'll show you how to set this up in under a week."
+System 3: Delivery Excellence Framework - How You Wow Clients
+"Your first 48 hours with a new client determines whether they become a raving fan or a refund request. I'll give you the onboarding system, the SOP templates, and the feedback collection machine that turns every client into a testimonial."
+System 4: Team & Delegation Architecture - How Your Business Runs Without You
+"The 3-Level Delegation Matrix is what separates a self-employed person from a CEO. Level 1 is task delegation. Level 2 is process delegation. Level 3 is outcome delegation. Most owners are stuck at Level 1. I'll show you how to reach Level 3 in 60 days."
+System 5: Financial Command Dashboard - How You Track What Matters
+"If you can't tell me these 5 numbers right now - monthly revenue, cost of acquisition, average client value, monthly burn rate, and net profit - you're flying blind. The CEO Money Dashboard takes 15 minutes per week and gives you more financial clarity than most CAs provide."
+
+SECTION 4: THE BRIDGE - WHY DIY DOESN'T WORK (50:00 - 60:00)
+[Address the elephant in the room]
+"Now you might be thinking: I can figure all of this out on my own. Maybe you can. But let me ask you: How long have you been trying? If you've been in business for more than a year and you still don't have these 5 systems, the issue isn't capability. It's accountability and structured implementation."
+[Introduce the 3 reasons people fail alone]
+1. No Prioritisation: Without someone guiding you, you'll try to install all 5 systems at once and finish none.
+2. No Accountability: You'll watch the videos, feel inspired, and then get buried in daily operations by Monday.
+3. No Feedback Loop: You need someone to review your systems, catch mistakes, and course-correct in real time.
+"That's why I created a DONE-WITH-YOU program. Not a course you watch alone. A program you execute with guidance."
+
+SECTION 5: THE OFFER REVEAL (60:00 - 75:00)
+[Present the offer with a value stack]
+"Introducing the Business Acceleration Engine - a 60-day done-with-you program that installs all 5 business systems."
+What You GetValue7 Pre-Recorded Modules (28 Videos, 8+ Hours)₹24,9998 Weekly LIVE Group Coaching Sessions (60 min each)₹19,999WhatsApp Accountability Group (60 Days)₹4,999Sales Script Vault - 12 Scripts (Bonus)₹4,999WhatsApp Automation Templates (Bonus)₹3,999Client Onboarding Toolkit (Bonus)₹2,999Accountability Partner Matching (Bonus)₹4,999CEO Money Dashboard Template (Bonus)₹2,999Lifetime Access + Updates (Bonus)₹10,001TOTAL VALUE₹79,993
+"The total value is over ₹79,000. But your investment is not ₹79,000. Not ₹49,000. Not even ₹25,000. Your investment for the complete Business Acceleration Engine is just ₹9,999."
+"And if you enrol today, I'll include a special fast-action bonus: a 1-on-1 Business Diagnosis Call with me personally (value ₹5,000) to review your X-Ray results and create your customised 60-day implementation plan."
+"EMI option available: ₹5,499 x 2 monthly payments. No interest. No hassle."
+
+SECTION 6: OBJECTION HANDLING (75:00 - 83:00)
+Objection 1 - "What if I can't attend live sessions?" Response: "Every live session is recorded and available within 24 hours. Plus, you can submit questions in advance via WhatsApp and I'll address them even if you're not there."
+Objection 2 - "I already have a course/mentor." Response: "Great! This program isn't about learning new concepts. It's about INSTALLING systems. Your mentor teaches strategy. I help you build the machine. They complement each other."
+Objection 3 - "₹9,999 is a lot." Response: "If installing just ONE system - say the sales process - brings you 3 extra clients per month at ₹10,000 each, you've made ₹30,000 additional revenue per month. That's ₹3.6L per year from a ₹9,999 investment. What's the ROI on NOT having these systems for another year?"
+Objection 4 - "Is there a guarantee?" Response: "Yes. Complete all 7 modules, attend at least 6 of 8 live sessions, and submit your homework. If you don't see measurable improvement in at least 2 of the 5 systems within 60 days, I'll give you a full refund. I take the risk. You take the action."
+
+SECTION 7: URGENCY & FINAL CLOSE (83:00 - 90:00)
+[Create legitimate scarcity]
+"Because this program includes 8 live sessions where I personally coach you, I can only take 50 participants per batch. This ensures I can review your work, answer your questions, and give you personalised feedback. Once 50 seats are filled, the next batch opens in 60 days."
+[Final emotional close]
+"Let me paint two pictures for you. Picture 1: It's 60 days from now. You're still doing the same things, getting the same results, feeling the same frustration. You're still the bottleneck. Your revenue is flat. Your time is maxed out."
+"Picture 2: It's 60 days from now. You have a lead generation machine running. Your sales process closes predictably. Your clients are onboarded smoothly. Your team knows what to do without you. And every Friday, you spend 15 minutes reviewing a dashboard that tells you exactly where your business stands."
+"Which picture do you want to be in? The button is below. Click it. Enrol now. I'll see you inside."
+
+
+
+
+PART 4: COURSE 3 - CEO COMMAND CENTRE(tm) (High Ticket: ₹49,999)
+The 90-Day Business Transformation & CEO Operating System Installation
+
+PROGRAM OVERVIEW
+Offer Name: CEO Command Centre(tm) - The 90-Day Business Transformation Program
+Price: ₹49,999 (One-Time / 3-Part EMI: ₹18,333 x 3)
+Format: Pre-Recorded Masterclass Library + 12 Weekly LIVE Group Strategy Sessions + 4 x 1-on-1 Private Coaching Calls + WhatsApp Inner Circle + Optional 1-Day In-Person Boardroom Day
+Duration: 90 Days
+Delivery: Premium Video Portal + Zoom + WhatsApp VIP Group + In-Person Event (Optional)
+Dream Outcome: In 90 days, you will have a complete CEO Operating System installed - a business that generates leads, converts sales, delivers excellence, manages itself through a trained team, and grows with financial discipline - while you operate as the CEO, not the employee.
+
+PROGRAM STRUCTURE - 3 PHASES
+PHASE 1: DIAGNOSE & DESIGN (Weeks 1-3)
+Theme: Comprehensive Business Audit + Strategy Architecture
+Module 1: The CEO-Level Business Audit (6 Videos, ~2 Hours)
+• Video 1.1: Advanced 7-Layer Business Diagnosis - Going Beyond Surface Symptoms
+• Video 1.2: Market Position Analysis - Where Do You Stand vs. Competition?
+• Video 1.3: Customer Lifetime Value Mapping - The ₹ Hidden in Your Existing Database
+• Video 1.4: Revenue Leak Audit - Where Your Business is Bleeding Money
+• Video 1.5: Team Capability Assessment - Right People, Right Seats?
+• Video 1.6: Personal CEO Audit - Are YOU the Bottleneck? (Honest Self-Assessment)
+Module 2: Strategic Business Redesign (5 Videos, ~90 min)
+• Video 2.1: The Business Architecture Blueprint - Redesigning Your Business for Scale
+• Video 2.2: Multi-Product Revenue Engine Design - Low/Mid/High Ticket Stack
+• Video 2.3: Strategic Positioning - How to Become the Premium Choice in Your Market
+• Video 2.4: 90-Day North Star Goal + Quarterly OKR Framework
+• Video 2.5: Decision Framework - How CEOs Make Fast, Accurate Decisions
+Live Sessions 1-3: Individual Business Audit Reviews + Strategy Critique + Goal Validation (60 min each)
+1-on-1 Call #1: Personalised Business Diagnosis + 90-Day Custom Roadmap (45 min)
+PHASE 2: BUILD & INSTALL (Weeks 4-8)
+Theme: System Installation + Team Development + Revenue Acceleration
+Module 3: Advanced Lead Generation & Marketing Systems (6 Videos, ~2 Hours)
+• Video 3.1: Multi-Channel Lead Machine - Organic + Paid + Referral + Partnership
+• Video 3.2: Content Marketing Engine - 30-Day Content Calendar That Runs on Autopilot
+• Video 3.3: Advanced Ad Funnel Design - Multi-Step Funnels for ₹50L+ Businesses
+• Video 3.4: Strategic Alliance Framework - How to Get Leads from Others' Audiences
+• Video 3.5: Lead Scoring & Qualification Automation - WhatsApp + CRM Integration
+• Video 3.6: Retargeting & Remarketing Systems - Never Lose a Warm Lead Again
+Module 4: High-Ticket Sales Mastery (5 Videos, ~90 min)
+• Video 4.1: The Consultative Sales Framework for ₹10,000-5,00,000 Offers
+• Video 4.2: Discovery Call Mastery - The 7-Step Call That Closes at 40%+
+• Video 4.3: Proposal & Presentation Framework for Premium Services
+• Video 4.4: Advanced Objection Handling - The Psychology Behind Every "No"
+• Video 4.5: Sales Team Training Framework - How to Get Others to Sell for You
+Module 5: Operations, Delivery & Team Mastery (6 Videos, ~2 Hours)
+• Video 5.1: The CEO's Operating Rhythm - Daily, Weekly, Monthly, Quarterly Reviews
+• Video 5.2: Advanced Delegation - Moving from Outcome Delegation to Strategic Delegation
+• Video 5.3: Hiring A-Players on a B-Player Budget - Practical Hiring SOPs
+• Video 5.4: Performance Management Without Micromanaging - KPI Dashboards for Each Role
+• Video 5.5: Client Success System - From Onboarding to Retention to Referral
+• Video 5.6: Process Documentation Masterclass - Build SOPs That Your Team Actually Follows
+Live Sessions 4-8: Weekly Implementation Workshops + System Reviews + Hot Seats (60 min each)
+1-on-1 Call #2: Mid-Program Review + Bottleneck Removal Session (45 min)
+1-on-1 Call #3: Sales System Audit + Revenue Strategy Session (45 min)
+PHASE 3: OPTIMISE & SCALE (Weeks 9-12)
+Theme: Financial Mastery + Automation + CEO Lifestyle Design
+Module 6: Financial Mastery & Wealth Building (5 Videos, ~90 min)
+• Video 6.1: Advanced CEO Money Dashboard - P&L, Cash Flow, Unit Economics
+• Video 6.2: Profit Maximisation Strategies - Beyond Revenue to True Profitability
+• Video 6.3: Tax Planning Basics for Business Owners (with CA Framework)
+• Video 6.4: Reinvestment Strategy - Where to Put Profits for Maximum Growth
+• Video 6.5: CEO Compensation Design - How to Pay Yourself Properly
+Module 7: Automation & Scale Architecture (4 Videos, ~60 min)
+• Video 7.1: Business Automation Audit - What to Automate and What to Keep Human
+• Video 7.2: WhatsApp, Email & CRM Automation Workflows - Complete Setup Guide
+• Video 7.3: Scaling Playbook - How to 2x Revenue Without 2x Effort
+• Video 7.4: The "Next 12 Months" Strategic Plan - Post-Program Growth Framework
+Module 8: The CEO Lifestyle & Legacy Module (3 Videos, ~45 min)
+• Video 8.1: Designing Your Ideal CEO Week - Time Freedom Blueprint
+• Video 8.2: Energy Management for Business Owners - High Performance Without Burnout
+• Video 8.3: Building a Business That Outlasts You - Legacy Thinking Framework
+Live Sessions 9-12: Optimisation Reviews + Scaling Strategy + Graduation Ceremony (60 min each)
+1-on-1 Call #4: 90-Day Results Review + Next 12-Month Strategic Plan (60 min)
+OPTIONAL: 1-Day In-Person Boardroom Day (Quarterly, in Hyderabad) - Full-day intensive with other CEO Command Centre graduates
+
+BONUSES (Total Bonus Value: ₹1,49,993)
+• Bonus 1: Complete SOP Library - 50+ Ready-to-Use SOPs for HR, Sales, Marketing, Operations, Finance - Value ₹24,999
+• Bonus 2: CEO Decision Journal - Premium Notion Template for Strategic Decision Tracking - Value ₹4,999
+• Bonus 3: Advanced Sales Script Vault - High-Ticket Scripts for Discovery Calls, Webinars, DM Sequences - Value ₹9,999
+• Bonus 4: Private WhatsApp Inner Circle - Lifetime Access to a Curated Group of 50L-5Cr Business Owners - Value ₹24,999
+• Bonus 5: Quarterly Business Review Template + Financial Dashboard Suite - Value ₹9,999
+• Bonus 6: 1-Year Access to Monthly CEO Masterminds (Online, 90 min/month) - Value ₹59,999
+• Bonus 7: Priority Support - Direct WhatsApp Access to Coach for Quick-Fire Questions (Mon-Fri) - Value ₹14,999
+
+UPSELL & DOWNSELL STRATEGY
+Upsell (Post-Graduation): Annual CEO Retainer - ₹9,999/month (billed quarterly at ₹29,997). Includes 2 x 1-on-1 calls/month, ongoing mastermind access, priority support, and quarterly in-person boardroom days. This is the long-term recurring revenue engine.
+Downsell (If High Ticket Declined): Offer the Business Acceleration Engine (₹9,999) as the alternative. Position it as: "If you're not ready for the full transformation, start with systems installation and upgrade later." Provide a ₹9,999 credit toward the CEO Command Centre if they enrol within 6 months.
+Cross-Sell: Exclusive partnership with a CA firm for tax planning services, a virtual assistant agency for delegation execution, and a premium CRM tool - affiliate revenue stream.
+
+
+WEBINAR SCRIPT: CEO COMMAND CENTRE(tm) MASTERCLASS
+Format: Pre-Recorded Webinar (Evergreen) with Application Funnel | Duration: 120 Minutes
+Goal: Generate applications for the ₹49,999 CEO Command Centre program
+Automation: Webinar → Application Form → Qualification Call → Enrolment
+Note: This webinar does NOT hard-sell on the page. It drives applications. The close happens on a 1-on-1 strategy call. This is the proven high-ticket selling model.
+
+SECTION 1: THE EXECUTIVE HOOK (0:00 - 10:00)
+[Open with a high-status, peer-level tone]
+"If you're watching this, you're not a beginner. You have a business. You have revenue. You might even have a team. But here's the question that keeps you up at night: Is this business YOURS, or are YOU the business?"
+"Because here's the uncomfortable truth about running a ₹10 lakh to ₹5 crore business in India today: the things that got you here won't get you there. Your hustle got you to this level. But hustle alone will keep you trapped at this level. Forever."
+"I'm [Name]. In 25+ years of working with business owners, I've seen this pattern thousands of times. Talented, hardworking people who have built something real - but can't seem to break through to the next level. And it's not because of the market. It's not because of competition. It's because they're operating as a glorified employee in their own company, not as the CEO."
+[Promise and agenda]
+"In the next 2 hours, I'm going to share with you the exact operating system that separates business owners from true CEOs. This is not theory. This is the actual playbook I've installed in hundreds of businesses. I'll show you the 3 phases of business transformation, why 90% of business systems fail, what to do about it, and how a select group of business owners is completely rebuilding their businesses in just 90 days."
+"And at the end, for those who qualify, I'll share an invitation to join the most intensive business transformation program I've ever created. But first, let's talk about why you're really here."
+
+SECTION 2: THE CEO IDENTITY SHIFT (10:00 - 25:00)
+[This section reframes the audience's self-image]
+"Let me describe two types of business owners. See which one sounds like you."
+Type A - The Operator:
+• Works IN the business every day, often 12-16 hours
+• Is the best salesperson, the best delivery person, the best everything
+• If they take a week off, the business starts crumbling
+• Has a team but doesn't trust them to make decisions
+• Revenue is growing slowly or is plateaued
+• Feels exhausted but can't see a way out
+Type B - The CEO:
+• Works ON the business - strategy, relationships, innovation
+• Has systems that run the business day-to-day
+• Has a team that makes decisions without constant supervision
+• Can take 2-4 weeks off and the business grows
+• Revenue is predictable and scalable
+• Feels energised because they're in their zone of genius
+"If you're a Type A and you want to become a Type B, you don't need another marketing hack or sales technique. You need a complete Operating System upgrade. You need to install what I call the CEO Command Centre."
+
+SECTION 3: THE 3-PHASE TRANSFORMATION FRAMEWORK (25:00 - 55:00)
+[This is the core teaching section - demonstrate deep expertise]
+PHASE 1: DIAGNOSE & DESIGN (Weeks 1-3)
+"Every transformation starts with truth. Uncomfortable, data-driven truth. In Phase 1, we conduct a CEO-Level Business Audit across 7 critical dimensions. But we go beyond the surface. We look at market position, customer lifetime value, revenue leaks, team capability gaps, and - the hardest one - YOUR personal bottlenecks as the owner."
+[Share a specific insight] "I'll give you a real example. I had a client doing ₹2.3Cr in revenue. On the surface, everything looked great. But when we did the Revenue Leak Audit, we discovered he was losing ₹28L per year on client churn that his team wasn't tracking. Just plugging that one leak - through a simple retention system - added ₹28L of pure profit. No new marketing. No new clients. Just stopping the bleeding."
+PHASE 2: BUILD & INSTALL (Weeks 4-8)
+"Phase 2 is where most programs end and we're just getting started. This is the implementation phase. We install 5 core systems: Advanced Lead Generation, High-Ticket Sales Process, Operations & Delivery Excellence, Team Architecture & Performance Management, and Financial Command Dashboard."
+"But here's what makes this different from a course: you're not doing it alone. Every week, we're in a live session reviewing YOUR systems. I'm looking at YOUR sales scripts. I'm reviewing YOUR team structure. I'm auditing YOUR numbers. Plus, you get 1-on-1 calls with me to go deep on your specific challenges."
+PHASE 3: OPTIMISE & SCALE (Weeks 9-12)
+"By Week 9, your systems are running. Now we optimise. We look at unit economics, profit maximisation, automation opportunities, and scaling strategy. We design your ideal CEO week. We build your next 12-month strategic plan. And we address the personal side: energy management, decision fatigue, and legacy thinking."
+"At the end of 90 days, you don't just have a better business. You have a completely different relationship with your business. You're the architect, not the bricklayer."
+
+SECTION 4: THE PROOF - RESULTS & CASE STUDIES (55:00 - 70:00)
+[Present 3-5 detailed transformation stories]
+Transformation 1 - Suresh, Manufacturing Business (₹1.2Cr → ₹2.1Cr in 6 months):
+"Suresh runs a packaging manufacturing unit in Hyderabad. When he joined, he was doing ₹1.2Cr annually but working 6.5 days a week. His team of 15 people couldn't function without him. Within 90 days, we installed delegation systems, hired 2 key managers using our hiring SOPs, and redesigned his sales process. 6 months later, revenue was ₹2.1Cr and Suresh works 5 days, leaving by 6 PM."
+Transformation 2 - Anita, Business Coach (₹8L/month → ₹22L/month in 90 days):
+"Anita had built a coaching practice doing ₹8L/month. She was doing everything - content, sales calls, delivery, client management. She was burnt out. In Phase 1, we diagnosed her biggest bottleneck: she had no high-ticket offer and no sales team. We designed a ₹50,000 coaching package, built a sales process, and trained a part-time sales person. In 90 days, she went from ₹8L to ₹22L per month while actually working fewer hours."
+Transformation 3 - Raj & Pooja, Online Course Platform (₹30L/year → ₹85L/year):
+"Raj and Pooja run an online education platform for competitive exam prep. Good product, loyal students, but stagnant growth. Their funnel was broken: great organic traffic but abysmal conversion rates. We rebuilt their entire marketing funnel, added a webinar-based selling system, and installed a referral program. Within 90 days, monthly revenue tripled. Within 6 months, they crossed ₹85L annual run rate."
+
+SECTION 5: THE INVISIBLE BARRIERS (70:00 - 85:00)
+[Address the real reasons people don't transform]
+"Now, let me address the elephant in the room. If all of this sounds logical and achievable, why don't more business owners do it? I've identified 5 invisible barriers after working with hundreds of owners."
+1. The Founder's Trap: You're so good at what you do that you can't imagine anyone else doing it. So you keep doing everything yourself. The programme forces you to systematise and delegate.
+2. Shiny Object Syndrome: Every week there's a new strategy, a new platform, a new guru. You keep starting and never finishing. The programme gives you ONE focused roadmap for 90 days. Nothing else.
+3. Isolation: Running a business is lonely. You can't discuss real challenges with employees or family. The programme surrounds you with 50L-5Cr business owners who GET it.
+4. No Accountability: No one is checking if you're doing what you said you'd do. The programme has weekly sessions, homework submissions, and 1-on-1 check-ins. You can't hide.
+5. Identity Resistance: The hardest shift isn't operational - it's psychological. Going from "I do everything" to "I lead everything" requires a fundamental identity change. The programme coaches you through this transition.
+
+SECTION 6: THE OFFER & APPLICATION PROCESS (85:00 - 105:00)
+[Present the offer with full value stack]
+"What I'm about to share is the most comprehensive business transformation programme I've ever designed. It's called the CEO Command Centre. Here's exactly what you get:"
+What You GetValue8 Advanced Modules (42+ Videos, 15+ Hours of Content)₹74,99912 Weekly LIVE Group Strategy Sessions₹59,9994 x 1-on-1 Private Coaching Calls (45-60 min each)₹49,999WhatsApp VIP Inner Circle (Lifetime)₹24,999Complete SOP Library - 50+ Templates (Bonus)₹24,999CEO Decision Journal - Notion Template (Bonus)₹4,999Advanced Sales Script Vault (Bonus)₹9,999Quarterly Business Review Template (Bonus)₹9,99912-Month CEO Mastermind Access (Bonus)₹59,999Priority WhatsApp Support (Bonus)₹14,999Optional: 1-Day In-Person Boardroom (Bonus)₹24,999TOTAL VALUE₹3,59,889
+"The total value of everything in the CEO Command Centre is over ₹3.5 lakhs. But your investment is not ₹3.5 lakhs. It's not even ₹1 lakh."
+"Your investment for the complete CEO Command Centre - all 8 modules, all 12 live sessions, all 4 private coaching calls, all bonuses, the inner circle, the masterminds, everything - is ₹49,999."
+"EMI option: ₹18,333 x 3 monthly payments."
+[Justify the price with ROI]
+"Let me put this in perspective. If your business does ₹10L per year and this programme helps you grow by just 20%, that's ₹2L additional revenue. If you do ₹50L and grow 20%, that's ₹10L additional revenue. If you do ₹2Cr, a 20% improvement is ₹40L. Your investment of ₹49,999 is paid back many times over, typically within the first 60 days."
+
+SECTION 7: QUALIFICATION & APPLICATION (105:00 - 112:00)
+[This is critical for high-ticket - create exclusivity]
+"Now, I need to be transparent. The CEO Command Centre is NOT for everyone. Because of the 1-on-1 coaching calls and the depth of attention I give each participant, I can only accept 20 members per cohort. And I have strict criteria for who I accept."
+[State the qualification criteria]
+You qualify if:
+• You have an existing business with minimum ₹10L annual revenue
+• You're willing to invest 5-8 hours per week for 90 days
+• You're coachable - willing to implement even when it's uncomfortable
+• You're not looking for a magic pill - you want a proven system
+You do NOT qualify if:
+• You're still in the "just thinking about starting" phase
+• You're looking for free advice or a cheap shortcut
+• You're not willing to make changes to how you operate
+• You expect results without putting in the work
+"If you qualify, here's what to do next: Click the button below and fill out the CEO Command Centre Application Form. It takes about 5 minutes. My team will review your application within 48 hours. If you're a fit, we'll schedule a complimentary 30-minute Strategy Call where we'll discuss your business, identify your biggest opportunities, and confirm if the programme is right for you. There's no obligation on the call. If it's not a fit, I'll tell you honestly and point you to a better resource."
+
+SECTION 8: FINAL CLOSE - THE FORK IN THE ROAD (112:00 - 120:00)
+[End with a powerful emotional close]
+"Let me leave you with one final thought. Every business owner I've ever worked with has had a moment - a fork in the road - where they decided to either keep doing what they'd always done or make a fundamental shift."
+"The ones who kept doing the same thing? They're still where they were. Maybe a little bigger, maybe a little more tired, but fundamentally the same. The ones who made the shift? They built something that serves them instead of consuming them."
+"Today could be that fork for you. You've spent 2 hours with me. You've seen the framework. You've heard the stories. You know this works. The only question is: are you going to act on it?"
+"I can't make that decision for you. But I can tell you this: 90 days from now, you'll either be 90 days closer to the business and life you want, or you'll be right here, watching another webinar, hoping something changes."
+"Click the button. Fill out the application. Let's build your CEO Command Centre together. I'll see you on the Strategy Call."
+
+
+
+
+PART 5: PRODUCT ECOSYSTEM & FUNNEL STRATEGY
+
+COMPLETE FUNNEL ARCHITECTURE
+Stage 1: Awareness → Low Ticket Conversion
+Traffic Source: Facebook/Instagram Ads + YouTube + Organic Reels/Shorts
+Hook Lines for Ads:
+• "Why most coaches fail even after buying 10 courses"
+• "Your business doesn't need motivation, it needs diagnosis"
+• "Before scaling, fix THIS or you'll burn money"
+• "The ₹99 test that reveals why your business is stuck"
+• "Stop guessing. Start diagnosing. ₹99."
+Funnel: Ad → 45-Min Evergreen Webinar → ₹99 Purchase via Razorpay/Instamojo → Thank You Page (with Mid-Ticket Upsell) → WhatsApp Automation Onboarding
+Stage 2: Low Ticket → Mid Ticket Ascension
+Trigger: Day 3 of Business X-Ray completion
+Mechanism: Automated WhatsApp sequence shares a case study video + limited-time offer for Business Acceleration Engine. Thank You page of Low Ticket also presents the upsell immediately.
+Expected Conversion: 8-15% of low-ticket buyers ascend to mid-ticket.
+Stage 3: Mid Ticket → High Ticket Ascension
+Trigger: Week 6 of Business Acceleration Engine
+Mechanism: Live session includes a CEO Command Centre preview. Students with 80%+ completion receive a personalised WhatsApp invitation to apply. A 120-minute webinar link is shared for those who want the full overview.
+Expected Conversion: 5-10% of mid-ticket buyers ascend to high-ticket.
+Stage 4: High Ticket → Retainer/Mastermind (Future Revenue)
+Post-graduation, CEO Command Centre members are invited to the Annual CEO Retainer at ₹9,999/month. This creates a recurring revenue stream and long-term client relationships. Quarterly in-person boardroom days create a high-value community that members don't want to leave.
+
+PAYMENT & DELIVERY INFRASTRUCTURE
+ComponentTool/PlatformPurposePayment GatewayRazorpay / Instamojo / PhonePeCollect payments + auto-receiptsThank You PageWordPress / Carrd / LeadpagesConfirmation + upsell offerWhatsApp AutomationWATI / AiSensy / InteraktOnboarding, drip messages, remindersVideo HostingVimeo / Graphy / TeachableSecure course deliveryLive SessionsZoom / Google MeetWeekly group coachingDiagnosis FormGoogle Forms / TypeformBusiness assessment data collectionEmail SequencingMailchimp / ConvertKitNurture sequences + webinar remindersWebinar PlatformWebinarKit / EverWebinarEvergreen automated webinars
+
+PART 6: DIVERSIFIED REVENUE OPPORTUNITIES
+Beyond the core 3-tier product suite, here are additional revenue streams that leverage the same audience, content, and expertise.
+
+REVENUE STREAM DIVERSIFICATION
+OpportunityModelRevenue PotentialAnnual CEO Retainer₹9,999/month recurring₹12L/year per memberCorporate Workshops1-2 day in-person for companies₹1-3L per workshopFranchise/LicensingLicense the program to other coaches₹2-5L per license + royaltyAffiliate PartnershipsCRM, accounting, VA services₹5K-20K per referralBook/E-BookBusiness Diagnosis methodologyBrand authority + ₹99-499 per copySpeaking EngagementsConference keynotes₹50K-2L per eventWhite-Label Diagnosis ToolSaaS version of the diagnosis formRecurring SaaS revenueIndustry-Specific VersionsCourse for doctors/CAs/restaurants₹9,999-49,999 per niche course
+PROJECTED REVENUE MODEL (FIRST 12 MONTHS)
+ProductUnits/YearPriceRevenueBusiness X-Ray (₹99)2,000₹99₹1,98,000Business Acceleration Engine (₹9,999)200₹9,999₹19,99,800CEO Command Centre (₹49,999)40₹49,999₹19,99,960CEO Retainer (₹9,999/mo)10 members x 6 months₹9,999/mo₹5,99,940Affiliate/PartnershipsOngoingVariable₹2,00,000TOTAL PROJECTED YEAR 1₹49,97,700 (~₹50L)
+Note: These are conservative projections. With strong ad spend (₹2-3L/month) and organic content strategy, the low-ticket volume can reach 5,000+ units, significantly increasing the mid-ticket and high-ticket ascension numbers.
+
+END OF DOCUMENT
+Business Diagnosis & Clarity Program - Complete Course Architecture v1.0
+Business Diagnosis & Clarity Program
+
+Page  | Confidential
+

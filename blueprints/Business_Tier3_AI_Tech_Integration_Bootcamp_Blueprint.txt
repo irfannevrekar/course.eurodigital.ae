@@ -1,0 +1,178 @@
+UDYOG GURU
+Build. Scale. Lead.
+
+AI + TECH BUSINESS
+INTEGRATION BOOTCAMP
+Tier 3 - Bespoke Done-With-You Implementation
+Document in English, 1-on-1 Strategy Call Script in Hinglish
+TIER 3 - BUSINESS DIAGNOSIS & CLARITY SUITE
+The capstone of the value ladder. Where Tier 1 diagnoses and Tier 2 installs the core systems, Tier 3 integrates Euro Digital's complete AI + software + hosting ecosystem into the business - custom-scoped to the exact layers the diagnosis revealed as weak, and engineered for 10x-50x growth. This is consulting plus practical, done-with-you implementation, not a fixed course.Pricing. Tier 3 has no fixed price. Every engagement is custom-built and quoted in USD after the Tech-Fit Audit - the combined read of the client's Business X-Ray diagnosis, their Business Acceleration score, and a 1-on-1 discussion that pinpoints which of the seven business layers are weak. The investment reflects only the services that fit that specific business.Version 1.0 |  June 2026
+
+
+Contents
+Part 1 - Program Philosophy & The Integration-First Model
+Part 2 - The Client Journey (End-to-End Engagement Workflow)
+Part 3 - The 2-Platform Technology Ecosystem & 7-Layer Map
+Part 4 - The Tech-Fit Audit (How Custom Scope Is Built)
+Part 5 - Growth-Multiplier Mapping & Proposal Logic
+Part 6 - The Custom Implementation Proposal (Template)
+Part 7 - The 1-on-1 Strategy & Scoping Call (Full Script)
+Part 8 - WhatsApp & Email Automation Sequences
+Part 9 - Delivery, Governance & Expansion
+Part 10 - Operational Playbook for the Consulting/Delivery Team
+The Value Ladder. Tier 1 Business X-Ray(tm) ($1 India * $10 Worldwide) diagnoses. Tier 2 Business Acceleration Engine(tm) ($99 India · $299 Worldwide) installs the five core systems. Tier 3 AI + Tech Business Integration Bootcamp (custom, quoted after the Tech-Fit Audit) integrates technology and scales - the subject of this blueprint.
+
+Part 1 - Program Philosophy & The Integration-First Model
+Diagnosis reveals the wound. Systems stop the bleeding. Integration builds the engine. Tier 3 exists for the business that has already been diagnosed (Tier 1) and has installed its core systems (Tier 2), and is now ready for the highest-leverage move of all: integrating technology - AI, software and infrastructure - directly into the operation so that growth becomes engineered rather than hoped for.
+Where the earlier tiers are standardised by design, Tier 3 is deliberately bespoke. No two businesses carry the same weak layers, operate in the same industry, or face the same constraint. A fixed curriculum would betray the entire diagnostic philosophy. So Tier 3 is built the way a master tailor works - measured first, cut second.
+The Three Principles
+1. Integration follows the diagnosis. We deploy technology only against layers the X-Ray and Acceleration score proved weak. No tool is sold for its own sake.
+2. Done-WITH-you, not done-for-you. We build it alongside the owner and their team so capability stays in the business after we leave. The client owns the engine.
+3. Scope is earned, never assumed. The investment is quoted only after the Tech-Fit Audit. The business pays for what fits - nothing more.
+Why There Is No Fixed Price or Fixed Timeline
+Tier 3 is a consulting-and-implementation engagement, not a course. Its scope, duration and investment are determined entirely by what the diagnosis reveals and what the business chooses to integrate. A single AI chatbot install is a different engagement from a full ERP + CRM + AI-agent + marketing-automation rollout. The Tech-Fit Audit (Part 4) is what converts the diagnosis into a precise, custom proposal.
+What Is FixedWhat Is CustomThe method (Audit ? Proposal ? Build ? Optimise)The services selected from the ecosystemThe done-with-you delivery modelThe timeline (weeks to months, per scope)The 7-layer diagnostic spineThe investment (quoted after the Audit)The 10x-50x growth ambitionThe industry-specific configuration
+
+Part 2 - The Client Journey (End-to-End Engagement Workflow)
+Tier 3 begins where Tier 2 ends. The qualified client is invited from a diagnosis and a track record of execution, not from a cold pitch. Each stage de-risks the next.
+StageWhat HappensMechanism / ToolsPurpose1QualificationReview X-Ray + Acceleration score; confirm readinessEnsure the business is ready to integrate, not still firefighting2Tech-Fit Audit (1-on-1)Deep-dive call to pinpoint weak layers + industry + growth targetConvert diagnosis into a precise technology scope3Custom ProposalService map + timeline + growth model + custom USD quoteShow exactly what will be built, why, and the projected return4Agreement & KickoffScope sign-off; access; project plan; success metricsLock scope and set the delivery rhythm5Done-With-You BuildPhased deployment of AI/software/hosting with the teamInstall the engine while transferring capability6Optimise & MeasureBI dashboards, tuning, KPI reviewsProve the multiplier; refine for compounding gains7Expansion / RetainerNext-layer integration or ongoing managed servicesCompound growth; long-term partnership
+The Critical Distinction
+Tier 2 installs the five core business systems the owner runs themselves. Tier 3 integrates technology that runs the systems for them - AI agents that follow up, chatbots that qualify, automations that execute, dashboards that watch the numbers - so the owner's time is freed and growth is no longer capped by human hours.
+
+Part 3 - The 2-Platform Technology Ecosystem & 7-Layer Map
+Tier 3 draws on Euro Digital's complete technology ecosystem across two flagship platforms, plus the hosting, email and security capabilities that underpin them:
+PlatformCapability Areaeurodigital.aeIT infrastructure, software licensing (M365, Tally, QuickBooks, Dynamics 365, Odoo), digital marketing (SEO, PPC, SMO, email, SMS, WhatsApp), web & app development, hardware, networking, CCTV, IoTeurodigi.aiAI business automation (AI agents), AI chatbots (WhatsApp/IG/FB/website), AI voice agents, AI influencer videos & avatars, AI marketing strategy, AI analytics & BI dashboards, industry-specific AI, AI compliance & securityHosting · Email · SecurityCloud / VPS / dedicated hosting, domains, business & enterprise email, Google Workspace, SSL, SiteLock, CodeGuard backup, DDoS protection, disaster recovery
+Master Service-to-Layer Map (with Growth Multiplier)
+For every weak layer the diagnosis flags, there is a matched technology lever. This is the menu the Tech-Fit Audit selects from - never the whole menu, only what fits.
+LayerPrimary GapMatched Technology LeverGrowthL1 ModelNo digital / brand presenceWebsite + e-commerce, brand identity, AI influencer videos & avatars5-15xL2 RevenueSingle / unpredictable incomeE-commerce, subscription platform, AI sales chatbot, ERP dashboards5-30xL3 LeadsNo system for demandSEO/PPC, landing pages + WhatsApp, AI chatbots, AI calling agents, GHL automation10-50xL4 SalesNo process / follow-upCRM (Dynamics/Odoo), AI follow-up agents, AI sales calls, booking bots5-40xL5 TeamOwner-dependent opsAI task agents, M365 + Teams, support chatbots, attendance/fleet tracking5-30xL6 TimeManual, repetitive workERP, full workflow automation, AI calling, IoT, backup & DR10-50xL7 FinanceNo numbers / securityAccounting (Tally/QuickBooks), AI analytics & BI, cybersecurity, SSL/backup3-20xMindsetNo credibility / AI brandProfessional email, company profile, AI avatar & influencer presence2-20x
+The signature lever - AI Influencer Video. A professional AI-generated spokesperson presents the client's business in branded, industry-specific video - no cameras, actors or studios. It cuts production cost by ~90% while businesses using video grow revenue markedly faster. Combined with AI chatbots and voice agents, it creates a 24/7 AI-powered brand presence.
+
+Part 4 - The Tech-Fit Audit (How Custom Scope Is Built)
+The Tech-Fit Audit is Tier 3's diagnostic engine. It is the structured 1-on-1 process that converts everything already known about the business into a precise technology scope. It draws on three inputs and produces one output: a custom proposal.
+The Three Inputs
+InputWhat It Tells Us1. Business X-Ray diagnosis (Tier 1)Which of the 7 layers scored lowest - the structural weak points and the primary/secondary bottleneck2. Business Acceleration score (Tier 2)Which core systems are now installed and working, and where execution still lags after the 60-day program3. The 1-on-1 discussionIndustry, growth target, budget reality, team capacity, and the owner's own read of the biggest constraint
+The Audit Sequence
+1. Confirm the weak layers. Reconcile the X-Ray's lowest layers with the Acceleration score and the owner's lived experience. Name the 2-3 layers technology will target first.
+2. Map layers to levers. From the Part 3 map, shortlist only the services that fit those layers, the industry, and the team's capacity to adopt them.
+3. Model the growth. Attach a realistic multiplier range to each selected lever and sequence them by leverage and dependency.
+4. Scope the build. Define phases, timeline and the done-with-you split (what we build, what the team learns to run).
+5. Quote. Produce the custom USD investment - services + implementation + any ongoing credits (e.g. AI calling minutes, hosting, subscriptions).
+
+Scoping discipline. If a lever does not map to a proven weak layer, it does not enter the proposal - however impressive the technology. The diagnosis governs the scope; the scope governs the price. This is what keeps Tier 3 honest and the ROI defensible.
+
+Part 5 - Growth-Multiplier Mapping & Proposal Logic
+From Weak Layer to Proposed Stack
+This is the internal logic the consultant uses to assemble each proposal. It mirrors the Tier 1 layer-to-fix mapping, extended into technology levers and their growth ranges.
+Weak LayerProposed Technology StackPlatformGrowthL1 ModelWebsite/e-commerce + brand identity + AI brand videoae + ai5-15xL2 RevenueE-commerce + subscription + AI sales chatbot + ERPae + ai5-30xL3 LeadsSEO/PPC + landing/WhatsApp + AI chatbot + AI callingae + ai10-50xL4 SalesCRM + AI follow-up + AI sales calls + booking botae + ai5-40xL5 TeamAI task agents + M365/Teams + support chatbotae + ai5-30xL6 TimeERP + full workflow automation + AI calling + DRae + ai10-50xL7 FinanceAccounting + AI analytics/BI + cybersecurityae + ai3-20xSequencing the Build (Leverage Hierarchy)
+Just as the masterclass teaches owners to fix one layer at a time, Tier 3 deploys technology in leverage order - never everything at once.
+6. Phase 1 - attack the primary bottleneck layer with its highest-multiplier lever first.
+7. Phase 2 - the secondary bottleneck, plus any dependency the Phase 1 lever needs (e.g. CRM before AI follow-up).
+8. Phase 3 - supporting levers (analytics, security, brand) that compound and protect the gains.
+9. Ongoing - optimisation, credit top-ups (AI minutes, hosting), and the next-layer expansion.
+The ROI Conversation
+Frame investment against the cost of the bottleneck, not the price of the tools. If a Layer 3 lead gap is costing a business a defined number of lost enquiries a month, the relevant comparison is that lost revenue versus the integration investment - not the sticker price of a chatbot. The proposal always leads with the gap's cost, then the fix, then the multiplier.
+
+Part 6 - The Custom Implementation Proposal (Template)
+This is the artefact the client receives after the Tech-Fit Audit. Fields in [brackets] are populated per client. The tone is that of a senior solutions architect: precise, evidence-led, and tied at every step to the diagnosis.
+
+AI + TECH BUSINESS INTEGRATION - CUSTOM PROPOSAL
+Prepared for: [Business Name] · [Industry] · [Owner] · Date: [date]
+1. Diagnosis Recap
+Your X-Ray flagged [primary layer] and [secondary layer] as the weakest. Your Acceleration score shows [systems installed / lagging]. In our 1-on-1, you named [owner's stated constraint] and a 12-month target of [growth goal].
+2. The Integration Plan (Phased)
+PhaseWhat We Build (Done-With-You)Targets LayerGrowthPhase 1[Highest-leverage lever for primary bottleneck][L#][range]Phase 2[Secondary lever + any dependency][L#][range]Phase 3[Supporting levers: analytics / security / brand][L#][range]
+3. Timeline
+[Custom timeline - weeks/months by phase. Not fixed; scoped to the build.]
+4. Projected Growth Model
+Current state: [baseline metric]. With the integrated stack: projected [multiplier] over [period], based on the matched levers above. Conservative / expected / stretch scenarios included.
+5. Investment (Custom)
+Your investment is custom to this scope: [USD figure / phased figures], one-time setup plus any ongoing credits (AI calling minutes, hosting, subscriptions) listed separately. Quoted only for the services matched to your weak layers - nothing more.6. What You Own After
+A documented, running technology engine - and a team trained to operate it. Done-with-you means the capability stays with you.
+
+
+Part 7 - The 1-on-1 Strategy & Scoping Call (Full Script) [Hinglish]
+How to read this part. Everything in quotation marks is what the consultant SAYS - natural spoken Hinglish, delivered conversationally. Everything in blue italics is a direction or coaching note in English. Bracketed [items] are placeholders to fill live (client name, layer scores, industry, target). This is the Tech-Fit Audit call - consultative, never a hard pitch.
+Format: 1-on-1 video call, 45-60 minutes. Goal: Confirm the weak layers, understand the business deeply, and co-create the scope - so the written proposal feels inevitable, not sold. Pre-requisite: Client has completed Tier 1 (X-Ray) and ideally Tier 2; consultant has both scores in hand.
+Run-of-Show
+TimeSegmentObjective0:00-0:05Warm open & frameSet the call as a working session, not a pitch0:05-0:20Diagnosis recapReconcile X-Ray + Acceleration score with their reality0:20-0:35The integration opportunityShow how technology fixes the weak layers0:35-0:50Co-scope the buildSelect levers together; sequence by leverage0:50-1:00Next step & proposalAgree scope; explain the custom proposal follows
+Warm Open & Frame (0:00-0:05)
+[Calm, peer-to-peer. This is a senior advisor, not a salesman. Set the frame immediately.]
+"[Client name], milkar achha laga. Aaj ka session ek pitch nahi hai - yeh ek working session hai. Aapne X-Ray kar liya, aapne systems install kiye. Aaj hum milkar decide karenge ki technology aapke business mein kahaan, aur kis order mein, sabse zyaada farak laayegi. Main sawaal poochunga, aap honestly batayenge - aur uske baad main aapke liye ek custom plan banaaunga."
+
+Diagnosis Recap (0:05-0:20)
+[Pull up their actual scores. Reconcile data with lived experience - this builds trust fast.]
+"Aapki X-Ray report dekhte hain. Aapke sabse kamzor layers nikle [primary layer] aur [secondary layer]. Acceleration program ke baad, [jo systems lag gaye] strong hain, par [jo lag raha] abhi bhi gap hai. Mujhe ek cheez batao - aapke according, aaj sabse zyaada kis cheez ki wajah se growth ruk rahi hai?"
+[Let them talk. Listen for the gap between what the data says and what they feel. That gap is where the proposal lives.]
+"Theek. Toh data keh raha hai [layer], aur aap mehsoos kar rahe ho [their words]. Aksar dono ek hi cheez ki taraf ishaara karte hain - bas alag bhasha mein. Chaliye dekhte hain technology yahaan kya kar sakti hai."
+
+The Integration Opportunity (0:20-0:35)
+[Now connect their weak layer to a specific lever. Use their industry. Make it concrete, not generic.]
+"Maan lijiye aapka sabse bada gap Layer 3 hai - leads. Aap [industry] mein ho. Aapke jaise business ke liye hum ek AI chatbot lagaate hain jo WhatsApp, Instagram aur website par 24 ghante leads ko qualify karta hai - aur ek AI calling agent jo follow-up khud karta hai. Aap soch ke dekho - abhi kitni enquiries raat ko, ya busy hours mein, bina jawaab ke chali jaati hain? Woh saari ab capture hongi."
+[Tie it to money. Ask them to estimate the cost of the current gap - they sell themselves.]
+"Ek minute - aapke hisaab se har mahine kitni leads aise hi nikal jaati hain? ... Bas wahi number aapko bata raha hai ki yeh integration kitni jaldi apne aap ko paisa wapas de degi."
+
+Co-Scope the Build (0:35-0:50)
+[Build the plan WITH them. Select levers together and sequence by leverage. Never pile on - discipline signals expertise.]
+"Main aapko saari services nahi bechunga - yeh meri zimmedaari hai ki sirf wahi propose karoon jo aapke kamzor layers ko theek kare. Toh pehle phase mein hum [primary lever] lagaayenge, kyunki wahi sabse zyaada farak laayega. Doosre phase mein [secondary lever]. Baaki cheezein - analytics, security, brand video - baad mein, jab base mazboot ho jaaye."
+[Confirm the done-with-you model so capability transfer is clear.]
+"Aur yeh done-with-you hai - hum aapke saath banaayenge, aapki team ko sikhaayenge. Jab hum hatenge, engine aapka hoga, aapke control mein. Yeh kisi ko outsource karke bhool jaane waali baat nahi hai."
+
+Next Step & Proposal (0:50-1:00)
+[Close on clarity. The price is custom and comes in writing after the call - never blurted on the call. Explain why.]
+"Toh hum sehmat hain ki focus [layers] par hoga, is order mein. Ab main isko ek likhit custom proposal mein dunga - har phase, timeline, expected growth, aur investment. Investment custom hai kyunki yeh sirf un services ka hai jo aapke business ko fit karti hain - ek fixed package nahi. Main [timeframe] mein bhej deta hoon, phir ek short call mein finalize karte hain."
+[End warm and unhurried. No pressure tactics - the diagnosis has earned this.]
+"Aapne aaj bahut clarity ke saath baat ki - isse mera kaam aasaan ho gaya. Yeh proposal aapke business ke liye banega, kisi template se nahi. Baat karte hain jald hi."
+
+Consultant reminder. Never quote a number live unless asked directly; the value is in the matched scope, and a rushed figure cheapens it. Let the written proposal carry the investment, framed against the cost of the bottleneck. Discipline in what you DON'T propose is the strongest signal of expertise.
+
+Part 8 - WhatsApp & Email Automation Sequences
+Tier 3 automation supports a high-value, considered decision. Messages are fewer, more personal, and service-led - never the rapid cadence of a low-ticket funnel. They follow the same combined style; full ready-to-send copy is in the companion WhatsApp Drip Campaign document.
+A. Invitation (Tier 2 graduate ? Tech-Fit Audit)
+• Msg 1: "You've diagnosed and you've installed the systems. The next move is integration - letting AI and software run those systems for you. Book your Tech-Fit Audit (free, 1-on-1): [link]."
+B. Audit Booked (confirmation + prep)
+• Msg 2: "Your Tech-Fit Audit is set for [date/time]. Come with your biggest growth goal for the next 12 months and your #1 frustration. We'll map the technology to your weak layers together."
+C. Post-Audit (proposal delivery)
+• Msg 3: "Great working session today. Your custom integration proposal - phased plan, timeline, growth model and investment - will reach you by [date]. It's built only around the layers we agreed to fix."
+D. Proposal Follow-Up
+• Msg 4 (+2 days): "Did the proposal make sense? Happy to walk through any phase or the growth model. Reply CALL and we'll find 15 minutes."
+E. Onboarding (after agreement)
+• Msg 5: "Welcome aboard! Kickoff is [date]. Here's your project plan, access checklist and the Phase 1 milestones. Let's build your growth engine."
+
+
+Part 9 - Delivery, Governance & Expansion
+As the top tier, Tier 3's reputation is built in delivery, not the sale. Governance keeps the engagement on scope, on time, and provably effective.
+Delivery Governance
+• Phase gates. Each phase has a defined deliverable and a sign-off before the next begins - no scope creep, no surprise bills.
+• Weekly rhythm. A standing check-in per active phase: progress, blockers, and the metric the phase is meant to move.
+• Capability transfer. Every build includes documentation and a team walkthrough - done-with-you means they can run it without us.
+• BI dashboards. Live KPI dashboards (eurodigi.ai analytics) make the growth multiplier visible and the ROI undeniable.
+
+The Expansion Path
+TriggerNext StepAnglePhase set delivered, KPIs upNext-layer integration"Phase 1 moved [metric]. The next-weakest layer is ready to integrate."Ongoing ops needManaged-services retainer"Keep the engine tuned and the credits topped - we run it with you."New goal / new marketFresh Tech-Fit mini-audit"New target, new scope - let's map the technology to it."
+Governance guardrail. Expansion is offered only when the prior phase has demonstrably moved its target metric. We earn the next engagement with results, never with pressure. A proven multiplier is the only pitch Tier 3 needs.
+
+Part 10 - Operational Playbook for the Consulting/Delivery Team
+Per-Engagement Checklist
+1. Qualify: confirm X-Ray + Acceleration score on file; verify the business is past firefighting.
+2. Run the Tech-Fit Audit (Part 7 script); capture weak layers, industry, target, budget reality.
+3. Build the proposal using the Part 5 logic; map only fitting levers; sequence by leverage.
+4. Quote the custom USD investment; separate one-time build from ongoing credits.
+5. On sign-off: kickoff, access checklist, project plan, success metrics per phase.
+6. Deliver phase-by-phase with sign-off gates; document and train at each step.
+7. Stand up BI dashboards; review the target metric weekly.
+8. On proven results, offer the next-layer expansion or a managed retainer.
+
+Quality Standards
+• Never propose a lever that doesn't map to a proven weak layer - discipline is the product.
+• Never quote before the Tech-Fit Audit; the scope governs the price, not the reverse.
+• Always done-with-you: capability must remain in the client's business.
+• Tie every phase to a measurable metric; if it can't be measured, it can't be claimed.
+• Honour data security & compliance on every AI deployment (encrypted handling, auditable logs).
+
+
+END OF TIER 3 BLUEPRINT (COMBINED EDITION)
+The Suite: Tier 1 Business X-Ray(tm) ($1/$10) * Tier 2 Business Acceleration Engine(tm) ($99/$299) · Tier 3 AI + Tech Business Integration Bootcamp (custom price)
+AI + Tech Business Integration Bootcamp  ·  Tier 3 Blueprint
+
+Udyog Guru  ·  Confidential  ·  Page 1
+

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Euro Digital Technologies | Business Management System</title>
+  <title>Euro Digital Technologies | Business Diagnosis & Systems Scaling Suite</title>
   <meta name="description"
     content="India's premier 3-tier business diagnosis ecosystem. Move from overworked operator to systems-driven CEO in 90 days. Get structured frameworks, live mentorship, and custom dashboards.">
 
@@ -15,2726 +15,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
     rel="stylesheet">
 
-  <style>
-    /* Premium Modern CSS Reset & Variable Tokens */
-    :root {
-      --bg-primary: #FFFFFF;
-      /* Pure White Background */
-      --bg-secondary: #F8FAFC;
-      /* Crisp Light Slate - Card backgrounds */
-      --bg-tertiary: #F1F5F9;
-      /* Subtle slate dividers */
-      --bg-white: #FFFFFF;
-      --text-primary: #0F172A;
-      /* Deep Slate Charcoal - High premium contrast */
-      --text-secondary: #475569;
-      /* Muted Slate Grey */
-      --text-tertiary: #64748B;
-      /* Delicate Muted */
-
-      /* Intense Eurodigital Brand Accent Colors (#0088CC & #88C03D) */
-      --accent-orange: #0088CC;
-      /* Intense Rich Electric Cyan Blue */
-      --accent-orange-hover: #0066A2;
-      --accent-orange-light: #E6F4FC;
-
-      --accent-green: #88C03D;
-      /* Eurodigital Lime Green */
-      --accent-green-hover: #74A632;
-      --accent-green-light: #F3F9EA;
-
-      --accent-blue: #1D3A5F;
-      /* Slate Navy */
-      --accent-blue-light: #F1F5F9;
-
-      --border-color: #E2E8F0;
-      --border-focus: #CBD5E1;
-
-      /* Custom Shadows */
-      --card-shadow: 0 12px 36px rgba(15, 23, 42, 0.05), 0 2px 8px rgba(15, 23, 42, 0.03);
-      --card-shadow-hover: 0 20px 48px rgba(0, 136, 204, 0.16), 0 2px 12px rgba(15, 23, 42, 0.04);
-      --popover-shadow: 0 24px 64px rgba(15, 23, 42, 0.12);
-
-      /* Fonts */
-      --font-title: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-
-      /* Transitions & Radius */
-      --transition-smooth: color 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-      --transition-fast: color 0.2s ease, transform 0.2s ease, opacity 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
-      --radius-sm: 8px;
-      --radius-md: 16px;
-      --radius-lg: 24px;
-      --radius-pill: 9999px;
-
-      /* Header Height */
-      --header-height: 72px;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    html {
-      scroll-behavior: smooth;
-      text-size-adjust: 100%;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      overflow-x: hidden;
-      max-width: 100%;
-    }
-
-    body {
-      background-color: var(--bg-primary);
-      color: var(--text-primary);
-      font-family: var(--font-body);
-      font-size: 16px;
-      line-height: 1.6;
-      overflow-x: hidden;
-      max-width: 100%;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: var(--font-title);
-      font-weight: 700;
-      line-height: 1.25;
-      color: var(--text-primary);
-    }
-
-    p {
-      color: var(--text-secondary);
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-      transition: var(--transition-fast);
-    }
-
-    img,
-    svg {
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
-
-    ul {
-      list-style: none;
-    }
-
-    button,
-    input,
-    select,
-    textarea {
-      font-family: inherit;
-      font-size: inherit;
-      color: inherit;
-      border: none;
-      background: none;
-      outline: none;
-    }
-
-    /* --- UTILITIES --- */
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      padding: 6px 12px;
-      border-radius: var(--radius-pill);
-      font-size: 13px;
-      font-weight: 600;
-      line-height: 1;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-    }
-
-    .badge-orange {
-      background-color: var(--accent-orange-light);
-      color: var(--accent-orange);
-    }
-
-    .badge-green {
-      background-color: var(--accent-green-light);
-      color: var(--accent-green);
-    }
-
-    .badge-blue {
-      background-color: var(--accent-blue-light);
-      color: var(--accent-blue);
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 14px 28px;
-      border-radius: var(--radius-md);
-      font-family: var(--font-title);
-      font-weight: 600;
-      font-size: 15px;
-      cursor: pointer;
-      transition: var(--transition-smooth);
-      gap: 8px;
-      text-align: center;
-    }
-
-    .btn-orange {
-      background-color: var(--accent-green);
-      color: #FFFFFF;
-      box-shadow: 0 4px 14px rgba(136, 192, 61, 0.28);
-    }
-
-    .btn-orange:hover {
-      background-color: var(--accent-green-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(136, 192, 61, 0.38);
-    }
-
-    .btn-orange:active {
-      transform: translateY(0);
-    }
-
-    .btn-outline {
-      border: 1.5px solid var(--border-color);
-      color: var(--text-primary);
-      background-color: transparent;
-    }
-
-    .btn-outline:hover {
-      background-color: var(--accent-orange-light);
-      border-color: var(--accent-orange);
-      color: var(--accent-orange);
-      transform: translateY(-2px);
-    }
-
-    .btn-blue {
-      background-color: var(--accent-orange);
-      color: var(--bg-white);
-      box-shadow: 0 4px 14px rgba(0, 136, 204, 0.3);
-    }
-
-    .btn-blue:hover {
-      background-color: var(--accent-orange-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
-    }
-
-    .btn-sm {
-      padding: 10px 20px;
-      border-radius: var(--radius-sm);
-      font-size: 14px;
-    }
-
-    /* Grid Overlay background */
-    .grid-bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image:
-        radial-gradient(var(--bg-tertiary) 1.5px, transparent 1.5px),
-        radial-gradient(var(--bg-tertiary) 1.5px, var(--bg-primary) 1.5px);
-      background-size: 40px 40px;
-      background-position: 0 0, 20px 20px;
-      opacity: 0.6;
-      z-index: -1;
-    }
-
-    /* --- HEADER / NAVIGATION --- */
-    .header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: var(--header-height);
-      background-color: rgba(255, 255, 255, 0.92);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border-bottom: 1px solid var(--border-color);
-      z-index: 1000;
-      transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-      transform: translate3d(0, 0, 0);
-      will-change: transform, background-color, box-shadow;
-    }
-
-    .header.scrolled {
-      box-shadow: 0 4px 20px rgba(43, 33, 24, 0.03);
-    }
-
-    .header-nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 100%;
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-      margin-left: 0;
-      gap: 12px;
-    }
-
-    .logo img {
-      height: 50px;
-      width: auto;
-      object-fit: contain;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 32px;
-    }
-
-    .nav-link {
-      font-family: var(--font-title);
-      font-weight: 600;
-      font-size: 14px;
-      color: var(--text-secondary);
-      position: relative;
-      padding: 8px 0;
-    }
-
-    .nav-link:hover {
-      color: var(--text-primary);
-    }
-
-    .nav-link::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0;
-      height: 2.5px;
-      background-color: var(--accent-green);
-      transition: var(--transition-smooth);
-    }
-
-    .nav-link:hover::after {
-      width: 100%;
-    }
-
-    .nav-cta {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-
-    /* Burger Menu Icon */
-    .burger-btn {
-      display: none;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 24px;
-      height: 18px;
-      cursor: pointer;
-      z-index: 1100;
-      padding: 0;
-      border: none;
-      background: none;
-    }
-
-    .burger-btn span {
-      display: block;
-      width: 100%;
-      height: 2px;
-      background-color: var(--text-primary);
-      border-radius: 2px;
-      transition: var(--transition-smooth);
-    }
-
-    /* --- MOBILE DRAWER NAV --- */
-    .mobile-nav-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(25, 27, 29, 0.4);
-      backdrop-filter: blur(8px);
-      z-index: 1050;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.4s ease;
-    }
-
-    .mobile-nav-drawer {
-      position: fixed;
-      top: 0;
-      right: -320px;
-      width: 300px;
-      height: 100%;
-      background-color: var(--bg-primary);
-      z-index: 1060;
-      box-shadow: -10px 0 40px rgba(0, 0, 0, 0.15);
-      padding: 40px 24px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .mobile-nav-active .mobile-nav-overlay {
-      opacity: 1;
-      pointer-events: all;
-    }
-
-    .mobile-nav-active .mobile-nav-drawer {
-      right: 0;
-    }
-
-    .mobile-nav-active .burger-btn span:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
-    }
-
-    .mobile-nav-active .burger-btn span:nth-child(2) {
-      opacity: 0;
-    }
-
-    .mobile-nav-active .burger-btn span:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .mobile-nav-links {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      margin-top: 48px;
-    }
-
-    .mobile-nav-link {
-      font-family: var(--font-title);
-      font-weight: 700;
-      font-size: 20px;
-      color: var(--text-primary);
-      padding: 8px 0;
-      border-bottom: 1.5px solid var(--border-color);
-    }
-
-    .mobile-nav-footer {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    /* --- TOP VIDEO INTRO SECTION --- */
-    .top-video-section {
-      position: relative;
-      padding-top: calc(var(--header-height) + 16px);
-      padding-bottom: 12px;
-      overflow: hidden;
-    }
-
-    .top-video-container {
-      width: 100%;
-      max-width: min(1000px, calc((100vh - var(--header-height) - 48px) * 16 / 9));
-      margin: 0 auto;
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      box-shadow: var(--card-shadow);
-      border: 1.5px solid var(--border-color);
-      background-color: var(--text-primary);
-      aspect-ratio: 16 / 9;
-    }
-
-    .top-video-player {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-
-    /* --- HERO SECTION --- */
-    .hero {
-      position: relative;
-      padding-top: 20px;
-      padding-bottom: 40px;
-      overflow: hidden;
-    }
-
-    .hero-wrapper {
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 48px;
-      align-items: center;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-    }
-
-    .trust-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background-color: var(--bg-secondary);
-      border: 1px solid var(--border-color);
-      padding: 6px 12px;
-      border-radius: var(--radius-pill);
-      margin-bottom: 24px;
-    }
-
-    .trust-pill svg {
-      width: 16px;
-      height: 16px;
-      fill: #FFB020;
-    }
-
-    .trust-pill span {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--text-secondary);
-    }
-
-    .hero h1 {
-      font-size: 46px;
-      font-weight: 800;
-      line-height: 1.15;
-      letter-spacing: -0.03em;
-      margin-bottom: 12px;
-      text-transform: uppercase;
-    }
-
-    .hero h1 span.highlight-blue {
-      color: var(--accent-orange);
-    }
-
-    .hero h1 span.highlight-green {
-      color: var(--accent-green);
-    }
-
-    .hero p.lead {
-      font-size: 16px;
-      margin-bottom: 20px;
-      color: var(--text-secondary);
-    }
-
-    .hero-ctas {
-      display: flex;
-      gap: 16px;
-      margin-bottom: 24px;
-    }
-
-    .hero-audience {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
-    }
-
-    .hero-audience-title {
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--text-tertiary);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .audience-tag {
-      font-size: 13px;
-      font-weight: 600;
-      background-color: var(--bg-secondary);
-      padding: 4px 10px;
-      border-radius: var(--radius-sm);
-      color: var(--text-primary);
-    }
-
-    /* Custom CSS Visual Scanner Mockup */
-    .hero-visual {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .scanner-box {
-      width: 100%;
-      max-width: 440px;
-      background-color: var(--bg-secondary);
-      border: 1.5px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 16px;
-      position: relative;
-      box-shadow: var(--card-shadow);
-      overflow: hidden;
-    }
-
-    .scanner-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px dashed var(--border-color);
-      padding-bottom: 10px;
-      margin-bottom: 10px;
-    }
-
-    .scanner-title {
-      font-family: var(--font-title);
-      font-size: 16px;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .scanner-status {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--accent-green);
-    }
-
-    .scanner-status-dot {
-      width: 6px;
-      height: 6px;
-      background-color: var(--accent-green);
-      border-radius: 50%;
-      animation: pulse 1.5s infinite;
-    }
-
-    .scanner-lines-container {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      position: relative;
-    }
-
-    .scanner-layer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: var(--bg-white);
-      border: 1px solid var(--border-color);
-      padding: 8px 12px;
-      border-radius: var(--radius-sm);
-      font-size: 13px;
-      font-weight: 600;
-      position: relative;
-      transition: var(--transition-fast);
-    }
-
-    .scanner-layer.active {
-      border-color: var(--accent-orange);
-      box-shadow: 0 4px 12px rgba(0, 136, 204, 0.18);
-      background-color: var(--accent-orange-light);
-    }
-
-    .scanner-layer-num {
-      color: var(--text-tertiary);
-      font-size: 11px;
-    }
-
-    .scanner-layer.active .scanner-layer-num {
-      color: var(--accent-orange);
-    }
-
-    .scanner-line {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: calc(100% - 3px);
-      pointer-events: none;
-      z-index: 10;
-      animation: scan 4s ease-in-out infinite;
-      will-change: transform;
-    }
-
-    .scanner-line::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 3px;
-      background: linear-gradient(90deg, transparent, var(--accent-orange), transparent);
-      box-shadow: 0 0 10px var(--accent-orange);
-    }
-
-
-
-    /* --- SECTION GENERAL --- */
-    .section {
-      padding: 100px 0;
-      position: relative;
-      overflow: hidden;
-      max-width: 100%;
-    }
-
-    #scan-framework {
-      padding-top: 40px;
-      padding-bottom: 56px;
-    }
-
-    #scan-framework .section-header {
-      margin-bottom: 28px;
-    }
-
-    #quiz-section {
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
-
-    #quiz-section .section-header {
-      margin-bottom: 24px;
-    }
-
-    .section-bg-secondary {
-      background-color: var(--bg-secondary);
-    }
-
-    .section-header {
-      max-width: 680px;
-      margin: 0 auto 56px auto;
-      text-align: center;
-    }
-
-    .section-header .section-tag {
-      margin-bottom: 12px;
-    }
-
-    .section-header h2 {
-      font-size: 40px;
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      margin-bottom: 16px;
-      text-transform: uppercase;
-    }
-
-    .section-header p {
-      font-size: 17px;
-      color: var(--text-secondary);
-    }
-
-    /* --- INTERACTIVE 7-LAYER SCAN SECTION --- */
-    .layers-container {
-      display: grid;
-      grid-template-columns: 1fr 1.3fr;
-      gap: 40px;
-      align-items: start;
-    }
-
-    .layers-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .layers-tab-btn {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      background-color: var(--bg-white);
-      border: 1.5px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 18px 24px;
-      cursor: pointer;
-      text-align: left;
-      transition: var(--transition-smooth);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .layers-tab-btn::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 4px;
-      height: 100%;
-      background-color: var(--accent-orange);
-      transform: scaleY(0);
-      transition: var(--transition-smooth);
-    }
-
-    .layers-tab-btn:hover {
-      border-color: var(--border-focus);
-      background-color: var(--bg-primary);
-    }
-
-    .layers-tab-btn.active {
-      border-color: var(--accent-orange);
-      box-shadow: var(--card-shadow);
-      background-color: var(--bg-primary);
-    }
-
-    .layers-tab-btn.active::before {
-      transform: scaleY(1);
-    }
-
-    .layers-tab-num {
-      font-family: var(--font-title);
-      font-size: 14px;
-      font-weight: 800;
-      color: var(--text-tertiary);
-      background-color: var(--bg-secondary);
-      width: 28px;
-      height: 28px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      flex-shrink: 0;
-      transition: var(--transition-fast);
-    }
-
-    .layers-tab-btn.active .layers-tab-num {
-      background-color: var(--accent-orange-light);
-      color: var(--accent-orange);
-    }
-
-    .layers-tab-title {
-      font-family: var(--font-title);
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--text-primary);
-    }
-
-    .layers-display-card {
-      background-color: var(--bg-white);
-      border: 1.5px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 40px;
-      box-shadow: var(--card-shadow);
-      position: sticky;
-      top: 100px;
-      min-height: 480px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      will-change: opacity, transform;
-    }
-
-    .display-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1.5px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 24px;
-    }
-
-    .display-title-group h3 {
-      font-size: 26px;
-      font-weight: 800;
-      margin-top: 4px;
-    }
-
-    .display-icon {
-      width: 56px;
-      height: 56px;
-      background-color: var(--accent-orange-light);
-      color: var(--accent-orange);
-      border-radius: var(--radius-md);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .display-icon svg {
-      width: 28px;
-      height: 28px;
-      stroke: currentColor;
-      fill: none;
-    }
-
-    .display-content-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
-      margin-bottom: 32px;
-    }
-
-    .display-info-block {
-      background-color: var(--bg-secondary);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 20px;
-    }
-
-    .display-info-block-title {
-      font-family: var(--font-title);
-      font-size: 13px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 12px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .display-info-block-title.danger {
-      color: #D32F2F;
-    }
-
-    .display-info-block-title.success {
-      color: var(--accent-green);
-    }
-
-    .display-info-block p {
-      font-size: 14.5px;
-      color: var(--text-primary);
-    }
-
-    .display-footer-tip {
-      background-color: var(--accent-blue-light);
-      border: 1.5px dashed var(--accent-blue);
-      border-radius: var(--radius-md);
-      padding: 16px 20px;
-      font-size: 14px;
-      color: var(--accent-blue);
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-    }
-
-    .display-footer-tip svg {
-      width: 20px;
-      height: 20px;
-      flex-shrink: 0;
-      fill: currentColor;
-    }
-
-    /* --- THE 3-TIER ECOSYSTEM CARDS --- */
-    .courses-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(14, auto);
-      gap: 16px 32px;
-      align-items: stretch;
-    }
-
-    .course-card {
-      background-color: var(--bg-white);
-      border: 1.5px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 32px;
-      box-shadow: var(--card-shadow);
-      display: grid;
-      grid-row: span 14;
-      grid-template-rows: subgrid;
-      position: relative;
-      transition: var(--transition-smooth);
-      transform: translate3d(0, 0, 0);
-      will-change: transform, box-shadow;
-    }
-
-    .course-card:hover {
-      transform: translateY(-8px);
-      box-shadow: var(--card-shadow-hover);
-    }
-
-    .course-card.featured {
-      border: 2px solid var(--accent-green);
-    }
-
-    .card-popular-tag {
-      position: absolute;
-      top: -14px;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: var(--accent-green);
-      color: var(--bg-white);
-      padding: 4px 14px;
-      border-radius: var(--radius-pill);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      white-space: nowrap;
-      box-shadow: 0 4px 10px rgba(43, 92, 67, 0.25);
-      z-index: 10;
-    }
-
-    .course-logo-wrapper {
-      grid-row: span 1;
-      height: 180px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 0;
-      width: 100%;
-      overflow: hidden;
-    }
-
-    .course-card-logo {
-      max-height: 100%;
-      max-width: 100%;
-      object-fit: contain;
-    }
-
-    .course-category {
-      grid-row: span 1;
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 0;
-      display: flex;
-      align-items: center;
-    }
-
-    .course-card.tier-1 .course-category {
-      color: var(--accent-orange);
-    }
-
-    .course-card.tier-2 .course-category {
-      color: var(--accent-green);
-    }
-
-    .course-card.tier-3 .course-category {
-      color: var(--accent-blue);
-    }
-
-    .course-title {
-      grid-row: span 1;
-      font-size: 24px;
-      font-weight: 800;
-      margin-bottom: 0;
-      line-height: 1.2;
-      display: flex;
-      align-items: center;
-    }
-
-    .course-desc {
-      grid-row: span 1;
-      font-size: 14.5px;
-      color: var(--text-secondary);
-      margin-bottom: 0;
-    }
-
-    .course-meta-tags {
-      grid-row: span 1;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      gap: 8px;
-      margin-bottom: 0;
-    }
-
-    .meta-tag {
-      background-color: var(--bg-secondary);
-      font-size: 12px;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: var(--radius-sm);
-      color: var(--text-primary);
-    }
-
-    .course-features {
-      grid-row: span 4;
-      display: grid;
-      grid-template-rows: subgrid;
-      border-top: 1px solid var(--border-color);
-      padding-top: 16px;
-      margin-bottom: 0;
-      gap: 16px 0;
-    }
-
-    .feature-item {
-      grid-row: span 1;
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      font-size: 14.5px;
-      color: var(--text-primary);
-    }
-
-    .feature-item svg {
-      width: 18px;
-      height: 18px;
-      flex-shrink: 0;
-      margin-top: 2px;
-    }
-
-    .course-card.tier-1 .feature-item svg {
-      color: var(--accent-orange);
-    }
-
-    .course-card.tier-2 .feature-item svg {
-      color: var(--accent-green);
-    }
-
-    .course-card.tier-3 .feature-item svg {
-      color: var(--accent-blue);
-    }
-
-    .course-footer {
-      grid-row: span 4;
-      display: grid;
-      grid-template-rows: subgrid;
-      border-top: 1px solid var(--border-color);
-      padding-top: 16px;
-      gap: 12px 0;
-    }
-
-    .course-pricing {
-      grid-row: span 1;
-      margin-bottom: 0;
-      display: flex;
-      align-items: flex-end;
-      gap: 10px;
-    }
-
-    .price-original {
-      font-size: 16px;
-      color: var(--text-tertiary);
-      text-decoration: line-through;
-      margin-bottom: 4px;
-    }
-
-    .price-current {
-      font-family: var(--font-title);
-      font-size: 36px;
-      font-weight: 800;
-      line-height: 1;
-      color: var(--text-primary);
-    }
-
-    .price-label {
-      font-size: 12px;
-      color: var(--text-tertiary);
-      font-weight: 600;
-      margin-bottom: 4px;
-    }
-
-    .course-emi {
-      grid-row: span 1;
-      font-size: 13px;
-      color: var(--text-secondary);
-      margin-top: 0;
-      margin-bottom: 0;
-      font-weight: 500;
-    }
-
-    .course-cta-btn {
-      grid-row: span 1;
-      width: 100%;
-      padding: 14px 20px;
-      border-radius: var(--radius-md);
-      font-family: var(--font-title);
-      font-weight: 700;
-      font-size: 15px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      transition: var(--transition-smooth);
-      margin-top: 0;
-    }
-
-    .course-card.tier-1 .course-cta-btn {
-      background-color: var(--accent-orange);
-      color: var(--bg-white);
-    }
-
-    .course-card.tier-1 .course-cta-btn:hover {
-      background-color: var(--accent-orange-hover);
-      transform: translateY(-2px);
-    }
-
-    .course-card.tier-2 .course-cta-btn {
-      background-color: var(--accent-green);
-      color: var(--bg-white);
-    }
-
-    .course-card.tier-2 .course-cta-btn:hover {
-      background-color: var(--accent-green-hover);
-      transform: translateY(-2px);
-    }
-
-    .course-card.tier-3 .course-cta-btn {
-      background-color: var(--accent-blue);
-      color: var(--bg-white);
-    }
-
-    .course-card.tier-3 .course-cta-btn:hover {
-      opacity: 0.95;
-      transform: translateY(-2px);
-    }
-
-    .course-detail-trigger {
-      grid-row: span 1;
-      display: block;
-      width: 100%;
-      text-align: center;
-      margin-top: 0;
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--text-secondary);
-      cursor: pointer;
-      text-decoration: underline;
-      transition: var(--transition-fast);
-    }
-
-    .course-detail-trigger:hover {
-      color: var(--text-primary);
-    }
-
-    .course-footer-bottom {
-      grid-row: span 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-    }
-
-    .brochure-download-section {
-      margin-top: 8px;
-      padding-top: 8px;
-      border-top: 1px dashed var(--border-color);
-      text-align: center;
-      width: 100%;
-    }
-
-    .brochure-title {
-      display: block;
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--text-secondary);
-      margin-bottom: 4px;
-    }
-
-    .brochure-links {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      font-size: 13px;
-      font-weight: 700;
-    }
-
-    .brochure-link {
-      color: var(--accent-orange);
-      text-decoration: none;
-      transition: var(--transition-fast);
-    }
-
-    .brochure-link:hover {
-      color: var(--accent-orange-hover);
-      text-decoration: underline;
-    }
-
-    .brochure-sep {
-      color: var(--text-tertiary);
-      font-size: 12px;
-      font-weight: 400;
-    }
-
-    /* --- COURSE CARD VIDEO PREVIEWS --- */
-    .course-video-container {
-      grid-row: span 1;
-      position: relative;
-      margin: -32px -32px 0 -32px;
-      aspect-ratio: 16 / 9;
-      overflow: hidden;
-      border-top-left-radius: 22px;
-      border-top-right-radius: 22px;
-      border-bottom: 1.5px solid var(--border-color);
-      background-color: #000;
-      cursor: pointer;
-    }
-
-    .course-video-container.empty {
-      background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
-      cursor: default;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-    }
-
-    .course-video-container.image-only {
-      cursor: default;
-    }
-
-    .course-video-preview {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      transition: transform 0.5s ease;
-    }
-
-    .course-video-container:not(.empty):hover .course-video-preview {
-      transform: scale(1.05);
-    }
-
-    .video-play-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(25, 27, 29, 0.25);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0.9;
-      transition: opacity 0.3s ease;
-    }
-
-    .course-video-container:not(.empty):hover .video-play-overlay {
-      opacity: 1;
-    }
-
-    .play-btn-circle {
-      width: 48px;
-      height: 48px;
-      background: rgba(255, 255, 255, 0.25);
-      backdrop-filter: blur(8px);
-      border: 1.5px solid rgba(255, 255, 255, 0.4);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      transform: scale(0.9);
-      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
-
-    .play-btn-circle svg {
-      width: 18px;
-      height: 18px;
-      fill: currentColor;
-      margin-left: 2px;
-    }
-
-    .course-video-container:not(.empty):hover .play-btn-circle {
-      transform: scale(1);
-    }
-
-    /* --- VIDEO PLAYBACK MODAL --- */
-    .video-modal-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(25, 27, 29, 0.75);
-      backdrop-filter: blur(16px);
-      z-index: 3000;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.4s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-    }
-
-    .video-modal-overlay.active {
-      opacity: 1;
-      pointer-events: all;
-    }
-
-    .video-modal-container {
-      width: 100%;
-      max-width: 960px;
-      aspect-ratio: 16 / 9;
-      background-color: #000;
-      border: 1.5px solid rgba(255, 255, 255, 0.1);
-      border-radius: var(--radius-lg);
-      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
-      position: relative;
-      transform: translateY(30px) scale(0.98);
-      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-      overflow: hidden;
-    }
-
-    .video-modal-overlay.active .video-modal-container {
-      transform: translateY(0) scale(1);
-    }
-
-    .video-modal-player {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-    }
-
-    .video-modal-close {
-      position: absolute;
-      top: 16px;
-      right: 16px;
-      width: 40px;
-      height: 40px;
-      background-color: rgba(25, 27, 29, 0.5);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      color: #fff;
-      z-index: 10;
-      transition: var(--transition-fast);
-    }
-
-    .video-modal-close:hover {
-      background-color: #fff;
-      color: var(--text-primary);
-      border-color: #fff;
-      transform: scale(1.05);
-    }
-
-    .video-modal-close svg {
-      width: 20px;
-      height: 20px;
-      fill: none;
-      stroke: currentColor;
-      stroke-width: 2;
-    }
-
-    /* --- DYNAMIC DETAILED MODAL OVERLAY --- */
-    .modal-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(25, 27, 29, 0.4);
-      backdrop-filter: blur(12px);
-      z-index: 2000;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.4s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-    }
-
-    .modal-overlay.active {
-      opacity: 1;
-      pointer-events: all;
-    }
-
-    .modal-container {
-      background-color: var(--bg-primary);
-      border: 1.5px solid var(--border-color);
-      width: 100%;
-      max-width: 900px;
-      max-height: 85vh;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--popover-shadow);
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      transform: translateY(30px) scale(0.98);
-      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-      overflow: hidden;
-      will-change: transform;
-    }
-
-    .modal-overlay.active .modal-container {
-      transform: translateY(0) scale(1);
-    }
-
-    .modal-close-btn {
-      position: absolute;
-      top: 24px;
-      right: 24px;
-      width: 36px;
-      height: 36px;
-      background-color: var(--bg-secondary);
-      border: 1px solid var(--border-color);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      z-index: 10;
-      transition: var(--transition-fast);
-    }
-
-    .modal-close-btn:hover {
-      background-color: var(--text-primary);
-      color: var(--bg-primary);
-      border-color: var(--text-primary);
-    }
-
-    .modal-header {
-      padding: 32px 40px 24px 40px;
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    .modal-title-desc {
-      font-size: 14px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 4px;
-    }
-
-    .modal-title {
-      font-size: 28px;
-      font-weight: 800;
-      margin-bottom: 8px;
-    }
-
-    .modal-meta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      font-size: 14px;
-      color: var(--text-secondary);
-      font-weight: 500;
-    }
-
-    .modal-tabs {
-      display: flex;
-      background-color: var(--bg-secondary);
-      border-bottom: 1px solid var(--border-color);
-      padding: 0 40px;
-    }
-
-    .modal-tab-btn {
-      padding: 16px 24px;
-      font-family: var(--font-title);
-      font-weight: 700;
-      font-size: 14px;
-      color: var(--text-secondary);
-      cursor: pointer;
-      border-bottom: 3px solid transparent;
-      transition: var(--transition-fast);
-    }
-
-    .modal-tab-btn.active {
-      color: var(--text-primary);
-      border-bottom-color: var(--accent-orange);
-    }
-
-    .modal-body {
-      padding: 32px 40px;
-      overflow-y: auto;
-      flex-grow: 1;
-    }
-
-    .modal-tab-content {
-      display: none;
-    }
-
-    .modal-tab-content.active {
-      display: block;
-    }
-
-    .modal-timeline {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
-
-    .modal-timeline-item {
-      display: grid;
-      grid-template-columns: 140px 1fr;
-      gap: 24px;
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-    }
-
-    .modal-timeline-item:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-
-    .timeline-label {
-      font-family: var(--font-title);
-      font-size: 16px;
-      font-weight: 800;
-      color: var(--text-primary);
-      display: flex;
-      align-items: flex-start;
-      gap: 8px;
-    }
-
-    .timeline-label-bullet {
-      width: 8px;
-      height: 8px;
-      background-color: var(--accent-orange);
-      border-radius: 50%;
-      margin-top: 8px;
-    }
-
-    .timeline-content h4 {
-      font-size: 18px;
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
-
-    .timeline-content-desc {
-      font-size: 14.5px;
-      color: var(--text-secondary);
-      margin-bottom: 12px;
-    }
-
-    .timeline-sub-list {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .timeline-sub-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 8px;
-      font-size: 13.5px;
-      color: var(--text-primary);
-      font-weight: 500;
-    }
-
-    .timeline-sub-item svg {
-      width: 16px;
-      height: 16px;
-      color: var(--accent-green);
-      flex-shrink: 0;
-      margin-top: 2px;
-    }
-
-    .bonuses-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-
-    .bonus-card {
-      background-color: var(--bg-secondary);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 20px;
-      position: relative;
-    }
-
-    .bonus-badge-value {
-      position: absolute;
-      top: 16px;
-      right: 20px;
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--accent-green);
-      background-color: var(--accent-green-light);
-      padding: 4px 8px;
-      border-radius: var(--radius-sm);
-    }
-
-    .bonus-title {
-      font-family: var(--font-title);
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 8px;
-      padding-right: 80px;
-    }
-
-    .bonus-desc {
-      font-size: 13.5px;
-      color: var(--text-secondary);
-    }
-
-    .modal-footer {
-      padding: 24px 40px;
-      border-top: 1px solid var(--border-color);
-      background-color: var(--bg-secondary);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .modal-footer-price {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .modal-footer-price-val {
-      font-family: var(--font-title);
-      font-size: 24px;
-      font-weight: 800;
-      color: var(--text-primary);
-    }
-
-    .modal-footer-price-label {
-      font-size: 12px;
-      color: var(--text-secondary);
-    }
-
-    /* --- INTERACTIVE DIAGNOSTIC MINI-QUIZ --- */
-    .quiz-container {
-      background-color: var(--bg-white);
-      border: 1.5px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 24px 32px;
-      max-width: 1000px;
-      margin: 0 auto;
-      box-shadow: var(--card-shadow);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .quiz-progress-bar {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 4px;
-      background-color: var(--accent-orange);
-      width: 0%;
-      transition: var(--transition-smooth);
-    }
-
-    .quiz-step {
-      display: none;
-    }
-
-    .quiz-step.active {
-      display: block;
-      animation: fadeIn 0.4s ease-in-out;
-    }
-
-    .quiz-step h3 {
-      font-size: 24px;
-      font-weight: 800;
-      margin-bottom: 12px;
-      text-align: center;
-    }
-
-    .quiz-step-desc {
-      text-align: center;
-      color: var(--text-secondary);
-      margin-bottom: 16px;
-      font-size: 14.5px;
-    }
-
-    .quiz-options {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .quiz-option {
-      border: 1.5px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 12px 20px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      transition: var(--transition-smooth);
-      background-color: var(--bg-primary);
-    }
-
-    .quiz-option:hover {
-      border-color: var(--border-focus);
-      background-color: var(--bg-secondary);
-    }
-
-    .quiz-option.selected {
-      border-color: var(--accent-orange);
-      background-color: var(--accent-orange-light);
-    }
-
-    .quiz-option-text {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--text-primary);
-    }
-
-    .quiz-option-indicator {
-      width: 20px;
-      height: 20px;
-      border: 2px solid var(--border-color);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      transition: var(--transition-fast);
-    }
-
-    .quiz-option.selected .quiz-option-indicator {
-      border-color: var(--accent-orange);
-      background-color: var(--accent-orange);
-    }
-
-    .quiz-option-indicator::after {
-      content: '';
-      width: 8px;
-      height: 8px;
-      background-color: var(--bg-white);
-      border-radius: 50%;
-      transform: scale(0);
-      transition: var(--transition-fast);
-    }
-
-    .quiz-option.selected .quiz-option-indicator::after {
-      transform: scale(1);
-    }
-
-    .quiz-navigation {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-      border-top: 1px solid var(--border-color);
-      padding-top: 16px;
-    }
-
-    /* Result styling */
-    .quiz-result-header {
-      text-align: center;
-      margin-bottom: 32px;
-    }
-
-    .quiz-result-scorecard {
-      background-color: var(--bg-secondary);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 24px;
-      margin-bottom: 32px;
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 24px;
-      align-items: center;
-    }
-
-    .result-score-block {
-      text-align: center;
-      border-left: 1px solid var(--border-color);
-      padding-left: 24px;
-    }
-
-    .result-score-num {
-      font-family: var(--font-title);
-      font-size: 48px;
-      font-weight: 800;
-      color: var(--accent-orange);
-      line-height: 1;
-    }
-
-    .result-score-label {
-      font-size: 13px;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-      margin-top: 4px;
-    }
-
-    .quiz-recommendation-card {
-      border: 1.5px solid var(--accent-green);
-      background-color: var(--accent-green-light);
-      border-radius: var(--radius-md);
-      padding: 28px;
-      margin-bottom: 32px;
-    }
-
-    .quiz-recommendation-card h4 {
-      color: var(--accent-green);
-      font-size: 18px;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .quiz-recommendation-card h4 svg {
-      width: 20px;
-      height: 20px;
-      fill: currentColor;
-    }
-
-    /* --- THE 5 INVISIBLE BARRIERS & TRANSFORMATION PATH --- */
-    .barriers-grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 20px;
-      margin-bottom: 64px;
-    }
-
-    .barrier-card {
-      background-color: var(--bg-white);
-      border: 1.5px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 24px;
-      box-shadow: var(--card-shadow);
-      transition: var(--transition-smooth);
-    }
-
-    .barrier-card:hover {
-      transform: translateY(-4px);
-      border-color: var(--accent-orange);
-    }
-
-    .barrier-num {
-      font-family: var(--font-title);
-      font-size: 32px;
-      font-weight: 800;
-      color: var(--accent-orange-light);
-      line-height: 1;
-      margin-bottom: 12px;
-      transition: var(--transition-fast);
-    }
-
-    .barrier-card:hover .barrier-num {
-      color: var(--accent-orange);
-    }
-
-    .barrier-title {
-      font-family: var(--font-title);
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
-
-    .barrier-desc {
-      font-size: 13.5px;
-      color: var(--text-secondary);
-    }
-
-    /* Transformation Path / Case Studies CSS Grid */
-    .cases-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    @media (max-width: 991px) {
-      .cases-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-    }
-
-    .case-card {
-      background-color: var(--bg-white);
-      border: 1.5px solid var(--border-color);
-      border-radius: 16px;
-      padding: 28px;
-      box-shadow: var(--card-shadow);
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      position: relative;
-      transition: var(--transition-smooth);
-    }
-
-    .case-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
-      border-color: var(--border-focus);
-    }
-
-    .case-header-row {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-
-    .case-avatar {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: var(--font-title);
-      font-size: 16px;
-      font-weight: 800;
-      flex-shrink: 0;
-      border: 1.5px solid transparent;
-    }
-
-    .case-card.case-tier-1 .case-avatar {
-      background-color: var(--accent-orange-light);
-      color: var(--accent-orange);
-      border-color: rgba(0, 136, 204, 0.25);
-    }
-
-    .case-card.case-tier-2 .case-avatar {
-      background-color: var(--accent-green-light);
-      color: var(--accent-green);
-      border-color: rgba(43, 92, 67, 0.2);
-    }
-
-    .case-card.case-tier-3 .case-avatar {
-      background-color: var(--accent-blue-light);
-      color: var(--accent-blue);
-      border-color: rgba(13, 148, 136, 0.2);
-    }
-
-    .case-meta {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-      min-width: 0;
-    }
-
-    .case-meta h4 {
-      font-size: 15px;
-      font-weight: 700;
-      color: var(--text-primary);
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .case-meta span {
-      font-size: 12px;
-      color: var(--text-secondary);
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .case-rating {
-      display: flex;
-      gap: 2px;
-      color: #f59e0b;
-      font-size: 13px;
-    }
-
-    .case-metric {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 6px 12px;
-      border-radius: var(--radius-pill);
-      border: 1px solid transparent;
-      width: fit-content;
-    }
-
-    .case-card.case-tier-1 .case-metric {
-      background-color: var(--accent-orange-light);
-      color: var(--accent-orange);
-      border-color: rgba(0, 136, 204, 0.2);
-    }
-
-    .case-card.case-tier-2 .case-metric {
-      background-color: var(--accent-green-light);
-      color: var(--accent-green);
-      border-color: rgba(43, 92, 67, 0.1);
-    }
-
-    .case-card.case-tier-3 .case-metric {
-      background-color: var(--accent-blue-light);
-      color: var(--accent-blue);
-      border-color: rgba(13, 148, 136, 0.1);
-    }
-
-    .case-metric svg {
-      width: 14px;
-      height: 14px;
-      stroke: currentColor;
-    }
-
-    .case-quote {
-      font-size: 14px;
-      color: var(--text-secondary);
-      font-style: italic;
-      line-height: 1.6;
-    }
-
-    /* --- FAQs SECTION --- */
-    .faq-wrapper {
-      max-width: 800px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .faq-item {
-      background-color: var(--bg-white);
-      border: 1.5px solid var(--border-color);
-      border-radius: var(--radius-md);
-      overflow: hidden;
-      transition: var(--transition-smooth);
-    }
-
-    .faq-item:hover {
-      border-color: var(--border-focus);
-    }
-
-    .faq-header {
-      padding: 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      cursor: pointer;
-      user-select: none;
-    }
-
-    .faq-header h3 {
-      font-size: 16.5px;
-      font-weight: 700;
-      padding-right: 24px;
-    }
-
-    .faq-icon-box {
-      width: 24px;
-      height: 24px;
-      background-color: var(--bg-secondary);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      transition: var(--transition-smooth);
-    }
-
-    .faq-icon-box svg {
-      width: 12px;
-      height: 12px;
-      stroke: var(--text-primary);
-      stroke-width: 2.5px;
-      fill: none;
-      transition: var(--transition-smooth);
-    }
-
-    .faq-body {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .faq-body-content {
-      padding: 0 24px 24px 24px;
-      font-size: 14.5px;
-      color: var(--text-secondary);
-      border-top: 1px solid transparent;
-    }
-
-    .faq-item.active {
-      border-color: var(--accent-orange);
-      box-shadow: var(--card-shadow);
-    }
-
-    .faq-item.active .faq-icon-box {
-      background-color: var(--accent-orange-light);
-    }
-
-    .faq-item.active .faq-icon-box svg {
-      transform: rotate(180deg);
-      stroke: var(--accent-orange);
-    }
-
-    .faq-item.active .faq-body {
-      max-height: 1500px;
-    }
-
-    .faq-item.active .faq-body-content {
-      border-top-color: var(--border-color);
-    }
-
-    /* --- FOOTER --- */
-    .footer {
-      background-color: #0A0B0D;
-      /* Luxurious matte black */
-      color: var(--bg-white);
-      padding: 80px 0 40px 0;
-      font-size: 14px;
-      position: relative;
-    }
-
-    .footer p {
-      color: #A3AFBF;
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr 1fr;
-      gap: 48px;
-      margin-bottom: 60px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      /* Subtle dark border */
-      padding-bottom: 60px;
-    }
-
-    .footer-brand h3 {
-      color: var(--bg-white);
-      font-size: 24px;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .footer-brand h3 span {
-      color: var(--accent-orange);
-    }
-
-    .footer-logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
-
-    .footer-logo img {
-      height: 54px;
-      width: auto;
-      object-fit: contain;
-      will-change: transform;
-    }
-
-    .footer-brand p {
-      margin-bottom: 24px;
-      max-width: 320px;
-    }
-
-    .footer-links h4 {
-      color: var(--bg-white);
-      font-size: 15px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 24px;
-    }
-
-    .footer-links ul {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .footer-link {
-      color: #A3AFBF;
-      transition: var(--transition-fast);
-    }
-
-    .footer-link:hover {
-      color: var(--bg-white);
-      transform: translateX(2px);
-    }
-
-    .footer-contact-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 16px;
-      color: #A3AFBF;
-    }
-
-    .footer-contact-item svg {
-      width: 18px;
-      height: 18px;
-      fill: currentColor;
-    }
-
-    .footer-bottom {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .footer-bottom-text {
-      color: #A3AFBF;
-    }
-
-    .footer-badges {
-      display: flex;
-      gap: 16px;
-      align-items: center;
-    }
-
-    .footer-badge {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      background-color: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      padding: 6px 12px;
-      border-radius: var(--radius-sm);
-      font-size: 12px;
-      color: #A3AFBF;
-    }
-
-    .footer-badge svg {
-      width: 16px;
-      height: 16px;
-      fill: currentColor;
-    }
-
-    /* Floating mobile CTA bar with premium smooth GPU-accelerated transition slide-up */
-    .mobile-floating-cta {
-      display: none;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background-color: rgba(253, 251, 247, 0.95);
-      backdrop-filter: blur(12px);
-      border-top: 1px solid var(--border-color);
-      padding: 12px 24px;
-      z-index: 999;
-      box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.05);
-      transform: translateY(100%);
-      opacity: 0;
-      pointer-events: none;
-      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
-    }
-
-    .mobile-floating-cta.active {
-      transform: translateY(0);
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    .mobile-floating-cta-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    .mobile-floating-cta-price {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .mobile-floating-cta-price span:first-child {
-      font-size: 11px;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-      font-weight: 700;
-    }
-
-    .mobile-floating-cta-price span:last-child {
-      font-size: 18px;
-      font-weight: 800;
-      color: var(--accent-orange);
-    }
-
-    /* --- ANIMATIONS --- */
-    @keyframes pulse {
-      0% {
-        opacity: 0.4;
-      }
-
-      50% {
-        opacity: 1;
-      }
-
-      100% {
-        opacity: 0.4;
-      }
-    }
-
-    @keyframes scan {
-      0% {
-        transform: translateY(0);
-      }
-
-      50% {
-        transform: translateY(100%);
-      }
-
-      100% {
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* --- MEDIA QUERIES --- */
-    @media (max-width: 1024px) {
-      .hero h1 {
-        font-size: 38px;
-      }
-
-      .courses-grid {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        gap: 32px;
-      }
-
-      .course-card {
-        display: flex !important;
-        flex-direction: column !important;
-      }
-
-      .course-video-container {
-        margin: -32px -32px 24px -32px !important;
-      }
-
-      .course-logo-wrapper {
-        margin-bottom: 16px !important;
-      }
-
-      .course-category {
-        margin-bottom: 8px !important;
-      }
-
-      .course-title {
-        margin-bottom: 8px !important;
-      }
-
-      .course-desc {
-        margin-bottom: 12px !important;
-      }
-
-      .course-meta-tags {
-        margin-bottom: 16px !important;
-      }
-
-      .course-features {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 8px !important;
-        margin-bottom: 20px !important;
-      }
-
-      .course-footer {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 12px !important;
-        margin-top: auto !important;
-      }
-
-      .barriers-grid {
-        grid-template-columns: repeat(3, 1fr);
-      }
-
-      .layers-container {
-        grid-template-columns: 1fr;
-      }
-
-      .layers-display-card {
-        position: static;
-        min-height: auto;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .hero-wrapper {
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
-
-      .hero {
-        padding-top: 20px;
-        padding-bottom: 48px;
-      }
-
-      .hero h1 {
-        font-size: 30px;
-      }
-
-      .hero h1 br {
-        display: none;
-      }
-
-      .hero h1 span.highlight-orange {
-        display: block;
-      }
-
-      .courses-grid {
-        display: flex !important;
-        flex-direction: column !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        gap: 24px !important;
-        box-sizing: border-box !important;
-      }
-
-      .course-card {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding: 32px 20px !important;
-        box-sizing: border-box !important;
-      }
-
-      .course-category,
-      .course-title,
-      .course-desc,
-      .course-meta-tags,
-      .course-features,
-      .course-footer {
-        min-height: auto !important;
-      }
-
-      .course-video-container {
-        margin: -32px -20px 24px -20px !important;
-      }
-
-      .section {
-        padding: 64px 0;
-      }
-
-      .section-header h2 {
-        font-size: 32px;
-      }
-
-      .nav-links {
-        display: none;
-      }
-
-      .nav-cta {
-        display: none;
-      }
-
-      .burger-btn {
-        display: flex;
-      }
-
-      .display-content-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .layers-display-card {
-        position: static;
-        min-height: auto;
-        padding: 24px 20px;
-        margin: 8px 0 16px 0;
-        border-radius: var(--radius-md);
-        box-shadow: 0 6px 16px rgba(43, 33, 24, 0.05);
-        animation: slideDown 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-      }
-
-      @keyframes slideDown {
-        from {
-          opacity: 0;
-          transform: translateY(-8px);
-        }
-
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      .quiz-result-scorecard {
-        grid-template-columns: 1fr;
-      }
-
-      .result-score-block {
-        border-left: none;
-        border-top: 1px solid var(--border-color);
-        padding-left: 0;
-        padding-top: 20px;
-      }
-
-      .barriers-grid {
-        display: flex !important;
-        flex-direction: row !important;
-        overflow-x: auto !important;
-        scroll-snap-type: x mandatory !important;
-        gap: 16px !important;
-        padding-bottom: 20px !important;
-        width: calc(100% + 48px) !important;
-        margin-left: -24px !important;
-        padding-left: 24px !important;
-        padding-right: 24px !important;
-        box-sizing: border-box !important;
-        -webkit-overflow-scrolling: touch;
-        scroll-behavior: smooth;
-        scrollbar-width: none;
-      }
-
-      .barriers-grid::-webkit-scrollbar {
-        display: none;
-      }
-
-      .barrier-card {
-        flex: 0 0 280px !important;
-        scroll-snap-align: start !important;
-        max-width: 85vw !important;
-        box-sizing: border-box !important;
-      }
-
-      .cases-grid {
-        display: flex !important;
-        flex-direction: row !important;
-        overflow-x: auto !important;
-        scroll-snap-type: x mandatory !important;
-        gap: 16px !important;
-        padding-bottom: 20px !important;
-        width: calc(100% + 48px) !important;
-        margin-left: -24px !important;
-        padding-left: 24px !important;
-        padding-right: 24px !important;
-        box-sizing: border-box !important;
-        -webkit-overflow-scrolling: touch;
-        scroll-behavior: smooth;
-        scrollbar-width: none;
-      }
-
-      .cases-grid::-webkit-scrollbar {
-        display: none;
-      }
-
-      .case-card {
-        flex: 0 0 290px !important;
-        scroll-snap-align: start !important;
-        max-width: 85vw !important;
-        box-sizing: border-box !important;
-      }
-
-      .bonuses-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
-
-      .mobile-floating-cta {
-        display: block;
-      }
-
-      body {
-        padding-bottom: 72px;
-        /* Prevent footer CTA overlap */
-      }
-    }
-
-    @media (max-width: 480px) {
-      .hero h1 {
-        font-size: 26px;
-      }
-
-      .hero-ctas {
-        flex-direction: column;
-      }
-
-      .btn {
-        width: 100%;
-      }
-
-      .quiz-container {
-        padding: 24px;
-      }
-
-      .modal-container {
-        max-height: 95vh;
-      }
-
-      .modal-header,
-      .modal-body,
-      .modal-footer {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-
-      .modal-tabs {
-        padding: 0 20px;
-      }
-
-      .modal-timeline-item {
-        grid-template-columns: 1fr;
-        gap: 12px;
-      }
-
-      .modal-close-btn {
-        top: 16px;
-        right: 16px;
-      }
-    }
-
-    /* --- LEGAL TEXT COMPLIANCE STYLING --- */
-    .legal-text-content {
-      font-family: var(--font-body);
-      max-height: 450px;
-      overflow-y: auto;
-      padding-right: 12px;
-    }
-
-    .legal-text-content::-webkit-scrollbar {
-      width: 6px;
-    }
-
-    .legal-text-content::-webkit-scrollbar-track {
-      background: var(--bg-secondary);
-      border-radius: var(--radius-pill);
-    }
-
-    .legal-text-content::-webkit-scrollbar-thumb {
-      background: var(--border-color);
-      border-radius: var(--radius-pill);
-    }
-
-    .legal-text-content h3 {
-      font-family: var(--font-title);
-      font-size: 17px;
-      font-weight: 700;
-      margin-top: 24px;
-      margin-bottom: 10px;
-      color: var(--text-primary);
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 6px;
-    }
-
-    .legal-text-content h3:first-of-type {
-      margin-top: 0;
-    }
-
-    .legal-text-content p {
-      margin-bottom: 14px;
-      color: var(--text-secondary);
-      font-size: 14px;
-      line-height: 1.6;
-    }
-
-    .legal-text-content ul {
-      margin-bottom: 14px;
-      padding-left: 20px;
-      list-style-type: disc;
-    }
-
-    .legal-text-content li {
-      margin-bottom: 8px;
-      color: var(--text-secondary);
-      font-size: 14px;
-    }
-
-    .legal-text-highlight {
-      background-color: var(--accent-orange-light);
-      border-left: 3.5px solid var(--accent-orange);
-      padding: 14px 18px;
-      margin: 18px 0;
-      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-      font-size: 13.5px;
-      color: var(--text-primary);
-      line-height: 1.5;
-    }
-
-    .legal-text-highlight strong {
-      color: var(--accent-orange);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -2750,17 +31,81 @@
       </a>
 
       <nav class="nav-links" aria-label="Desktop Navigation">
-        <a href="#scan-framework" class="nav-link">MRI Scan</a>
-        <a href="#quiz-section" class="nav-link">Clarity Test</a>
-        <a href="#program-suite" class="nav-link">Courses</a>
-        <a href="#invisible-barriers" class="nav-link">The 5 Barriers</a>
-        <a href="#faqs" class="nav-link">FAQs</a>
+        <a href="index.html" class="nav-link">Home</a>
+        <div class="nav-dropdown">
+          <div class="dropdown-trigger" tabindex="0">
+            Courses
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+          <div class="dropdown-menu dropdown-menu-wide">
+            <div class="dropdown-category-col">
+              <a href="business-management-system.html" class="dropdown-category-title">
+                Business Management System
+                <span style="font-size: 11px;">→</span>
+              </a>
+              <a href="business-x-ray.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">Business X-Ray™</span>
+                  <span class="dropdown-item-badge badge-orange">Tier 01</span>
+                </div>
+                <span class="dropdown-item-desc">7-Layer Business Diagnosis & Masterclass</span>
+              </a>
+              <a href="business-acceleration-engine.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">Business Acceleration Engine™</span>
+                  <span class="dropdown-item-badge badge-green">Tier 02</span>
+                </div>
+                <span class="dropdown-item-desc">60-Day Systems & Scale Installation</span>
+              </a>
+              <a href="ai-tech-integration-bootcamp.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">AI + Tech Business Integration</span>
+                  <span class="dropdown-item-badge badge-blue">Tier 03</span>
+                </div>
+                <span class="dropdown-item-desc">Bespoke 1-on-1 DWY Implementation</span>
+              </a>
+            </div>
+
+            <div class="dropdown-category-col">
+              <a href="human-resource-management-system.html" class="dropdown-category-title hr-category">
+                Human Resource Management System
+                <span style="font-size: 11px;">→</span>
+              </a>
+              <a href="workforce-x-ray.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">Workforce X-Ray™</span>
+                  <span class="dropdown-item-badge badge-teal">Tier 01</span>
+                </div>
+                <span class="dropdown-item-desc">HR Diagnostic Heatmap & 2-Hr Workshop</span>
+              </a>
+              <a href="workforce-acceleration-engine.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">Workforce Acceleration Engine™</span>
+                  <span class="dropdown-item-badge badge-indigo">Tier 02</span>
+                </div>
+                <span class="dropdown-item-desc">60-Day HR Systems Installation</span>
+              </a>
+              <a href="ai-tech-workforce-integration-bootcamp.html" class="dropdown-item">
+                <div class="dropdown-item-header">
+                  <span class="dropdown-item-title">AI + Tech Workforce Integration</span>
+                  <span class="dropdown-item-badge badge-cyan">Tier 03</span>
+                </div>
+                <span class="dropdown-item-desc">Bespoke HR Tech & AI Agent Integration</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="mri-scan.html" class="nav-link">MRI Scan</a>
+        <a href="business-clarity-test.html" class="nav-link">Clarity Test</a>
       </nav>
 
       <div class="nav-cta">
-        <a href="#program-suite" class="btn btn-outline btn-sm">Explore Tiers</a>
-        <a id="nav-cta-tier1" href="https://wa.me/971555113655?text=Business%20X-Ray%20Program" target="_blank"
-          rel="noopener" class="btn btn-orange btn-sm">Start Diagnosis $29</a>
+        <a href="https://wa.me/971555113655?text=Business%20X-Ray%20Program" target="_blank" rel="noopener"
+          class="btn btn-orange btn-sm">Start Business Diagnosis</a>
+        <a href="https://wa.me/971555113655?text=Workforce%20X-Ray%20Program" target="_blank" rel="noopener"
+          class="btn btn-teal btn-sm">Start Workforce Diagnosis</a>
       </div>
 
       <button class="burger-btn" id="burgerBtn" aria-label="Toggle Mobile Menu" aria-expanded="false"
@@ -2776,16 +121,46 @@
   <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
   <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
     <div class="mobile-nav-links">
-      <a href="#scan-framework" class="mobile-nav-link" onclick="toggleMobileNav()">MRI Scan</a>
-      <a href="#quiz-section" class="mobile-nav-link" onclick="toggleMobileNav()">Clarity Test</a>
-      <a href="#program-suite" class="mobile-nav-link" onclick="toggleMobileNav()">Courses</a>
-      <a href="#invisible-barriers" class="mobile-nav-link" onclick="toggleMobileNav()">The 5 Barriers</a>
-      <a href="#faqs" class="mobile-nav-link" onclick="toggleMobileNav()">FAQs</a>
+      <a href="index.html" class="mobile-nav-link" onclick="toggleMobileNav()">Home</a>
+      <div class="mobile-dropdown-container" id="mobileCoursesContainer">
+        <div class="mobile-dropdown-header mobile-nav-link" onclick="toggleMobileCoursesAccordion()">
+          <span>Courses</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+        <div class="mobile-dropdown-list">
+          <a href="business-management-system.html" class="mobile-sublink" onclick="toggleMobileNav()"
+            style="font-size: 12px; font-weight: 800; color: var(--accent-orange); text-transform: uppercase; margin-top: 4px;">
+            ✦ Business Management System Suite
+          </a>
+          <a href="business-x-ray.html" class="mobile-sublink" onclick="toggleMobileNav()">→ Business X-Ray™ (Tier
+            1)</a>
+          <a href="business-acceleration-engine.html" class="mobile-sublink" onclick="toggleMobileNav()">→ Acceleration
+            Engine (Tier 2)</a>
+          <a href="ai-tech-integration-bootcamp.html" class="mobile-sublink" onclick="toggleMobileNav()">→ AI Tech
+            Bootcamp (Tier 3)</a>
+
+          <a href="human-resource-management-system.html" class="mobile-sublink" onclick="toggleMobileNav()"
+            style="font-size: 12px; font-weight: 800; color: var(--accent-lime-dark); text-transform: uppercase; margin-top: 10px;">
+            ✦ HR Management System Suite
+          </a>
+          <a href="workforce-x-ray.html" class="mobile-sublink" onclick="toggleMobileNav()">→ Workforce X-Ray™ (Tier
+            1)</a>
+          <a href="workforce-acceleration-engine.html" class="mobile-sublink" onclick="toggleMobileNav()">→ Workforce
+            Engine (Tier 2)</a>
+          <a href="ai-tech-workforce-integration-bootcamp.html" class="mobile-sublink" onclick="toggleMobileNav()">→ AI
+            Workforce Bootcamp (Tier 3)</a>
+        </div>
+      </div>
+      <a href="mri-scan.html" class="mobile-nav-link" onclick="toggleMobileNav()">MRI Scan</a>
+      <a href="business-clarity-test.html" class="mobile-nav-link" onclick="toggleMobileNav()">Clarity Test</a>
     </div>
     <div class="mobile-nav-footer">
-      <a href="#program-suite" class="btn btn-outline" onclick="toggleMobileNav()">Explore Courses</a>
-      <a id="mobile-nav-cta-tier1" href="https://wa.me/971555113655?text=Business%20X-Ray%20Program" target="_blank"
-        rel="noopener" class="btn btn-orange" onclick="toggleMobileNav()">Start Diagnosis $29</a>
+      <a href="https://wa.me/971555113655?text=Business%20X-Ray%20Program" target="_blank" rel="noopener"
+        class="btn btn-orange" onclick="toggleMobileNav()">Start Business Diagnosis</a>
+      <a href="https://wa.me/971555113655?text=Workforce%20X-Ray%20Program" target="_blank" rel="noopener"
+        class="btn btn-teal" style="margin-top: 8px;" onclick="toggleMobileNav()">Start Workforce Diagnosis</a>
     </div>
   </div>
 
@@ -2794,7 +169,7 @@
     <div class="container">
       <div class="top-video-container">
         <video controls playsinline class="top-video-player">
-          <source src="assets/videos/Course Intro video.mp4" type="video/mp4">
+          <source src="assets/videos/Euro_Digital_Courses_Intro_video.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
@@ -2803,291 +178,31 @@
 
   <!-- HERO SECTION -->
   <section class="hero">
-    <div class="container hero-wrapper">
+    <div class="container hero-wrapper hero-centered">
       <div class="hero-content">
-        <h1>Your Business Doesn't Need Motivation.<br> <span class="highlight-blue">It Needs A</span> <span
-            class="highlight-green">Diagnosis.</span></h1>
+        <h1><span class="mobile-line-1">Your Business Doesn't</span><span class="mobile-space"> </span><span
+            class="mobile-line-2">Need Motivation.</span><br class="desktop-br"> <span class="mobile-line-3"><span
+              class="highlight-cyan">It Needs A</span> <span class="highlight-lime">Diagnosis.</span></span></h1>
         <p class="lead">Uncover hidden bottlenecks, build automated systems, and scale from overworked operator to
           systems-driven CEO in 90 days with India's premier 3-Tier Business Diagnosis Ecosystem.</p>
 
         <div class="hero-ctas">
-          <a href="#quiz-section" class="btn btn-orange">
-            Take Business MRI Quiz
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-              stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-          </a>
-          <a href="#program-suite" class="btn btn-outline">Explore 3-Tier Suite</a>
-        </div>
-
-        <div class="hero-audience">
-          <span class="hero-audience-title">Engineered for:</span>
-          <span class="audience-tag">Business Owners</span>
-          <span class="audience-tag">Coaches</span>
-          <span class="audience-tag">Consultants</span>
-          <span class="audience-tag">Agency Owners</span>
-        </div>
-      </div>
-
-      <!-- Simulated Graphic Visual -->
-      <div class="hero-visual">
-        <div class="scanner-box">
-          <div class="scanner-header">
-            <span class="scanner-title">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-orange)"
-                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="9" y1="3" x2="9" y2="21"></line>
-                <line x1="15" y1="3" x2="15" y2="21"></line>
-                <line x1="3" y1="9" x2="21" y2="9"></line>
-                <line x1="3" y1="15" x2="21" y2="15"></line>
-              </svg>
-              EURO DIGITAL BUSINESS MRI
-            </span>
-            <div class="scanner-status">
-              <span class="scanner-status-dot"></span>
-              Live Diagnostics
-            </div>
-          </div>
-          <div class="scanner-lines-container" id="scannerContainer">
-            <div class="scanner-line"></div>
-            <div class="scanner-layer active" data-layer="1">
-              <span>Business Model Integrity</span>
-              <span class="scanner-layer-num">LAYER 01</span>
-            </div>
-            <div class="scanner-layer" data-layer="2">
-              <span>Diversified Revenue Streams</span>
-              <span class="scanner-layer-num">LAYER 02</span>
-            </div>
-            <div class="scanner-layer" data-layer="3">
-              <span>Predictable Lead Gen Machine</span>
-              <span class="scanner-layer-num">LAYER 03</span>
-            </div>
-            <div class="scanner-layer" data-layer="4">
-              <span>Consultative Sales Playbook</span>
-              <span class="scanner-layer-num">LAYER 04</span>
-            </div>
-            <div class="scanner-layer" data-layer="5">
-              <span>Autonomous Team & Delegation</span>
-              <span class="scanner-layer-num">LAYER 05</span>
-            </div>
-            <div class="scanner-layer" data-layer="6">
-              <span>Execution Discipline & Metrics</span>
-              <span class="scanner-layer-num">LAYER 06</span>
-            </div>
-            <div class="scanner-layer" data-layer="7">
-              <span>Core Bottleneck Matrix</span>
-              <span class="scanner-layer-num">LAYER 07</span>
-            </div>
-          </div>
+          <a href="business-management-system.html" class="btn btn-orange">Explore Business Management System</a>
+          <a href="human-resource-management-system.html" class="btn btn-teal">Explore HR Management System</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- INTERACTIVE 7-LAYER ANALYSIS FRAMEWORK -->
-  <section class="section section-bg-secondary" id="scan-framework">
-    <div class="container">
-      <div class="section-header">
-        <span class="badge badge-orange section-tag">Framework</span>
-        <h2>The 7-Layer Business Scan</h2>
-        <p>Before prescribing a cure, you must diagnose the system. Explore our proprietary 7-layer scan to understand
-          how we dissect and rebuild your business architecture.</p>
-      </div>
-
-      <div class="layers-container">
-        <!-- Interactive Left List -->
-        <div class="layers-list" id="layersList">
-          <button class="layers-tab-btn active" data-index="1">
-            <span class="layers-tab-num">01</span>
-            <span class="layers-tab-title">Business Model Clarity</span>
-          </button>
-          <button class="layers-tab-btn" data-index="2">
-            <span class="layers-tab-num">02</span>
-            <span class="layers-tab-title">Revenue Streams Stack</span>
-          </button>
-          <button class="layers-tab-btn" data-index="3">
-            <span class="layers-tab-num">03</span>
-            <span class="layers-tab-title">Lead Generation System</span>
-          </button>
-          <button class="layers-tab-btn" data-index="4">
-            <span class="layers-tab-num">04</span>
-            <span class="layers-tab-title">Sales Conversion Process</span>
-          </button>
-          <button class="layers-tab-btn" data-index="5">
-            <span class="layers-tab-num">05</span>
-            <span class="layers-tab-title">Team & Delegation Architecture</span>
-          </button>
-          <button class="layers-tab-btn" data-index="6">
-            <span class="layers-tab-num">06</span>
-            <span class="layers-tab-title">CEO Time & Execution Discipline</span>
-          </button>
-          <button class="layers-tab-btn" data-index="7">
-            <span class="layers-tab-num">07</span>
-            <span class="layers-tab-title">Bottleneck Identification</span>
-          </button>
-        </div>
-
-        <!-- Interactive Dynamic Display Card -->
-        <div class="layers-display-card" id="layersDisplayCard">
-          <div class="display-header">
-            <div class="display-title-group">
-              <span class="badge badge-orange" id="displayBadge">Layer 01 Scan</span>
-              <h3 id="displayTitle">Business Model Clarity</h3>
-            </div>
-            <div class="display-icon">
-              <svg id="displayIcon" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="10"></circle>
-                <path d="M12 16v-4"></path>
-                <path d="M12 8h.01"></path>
-              </svg>
-            </div>
-          </div>
-
-          <div class="display-content-grid">
-            <div class="display-info-block">
-              <div class="display-info-block-title danger">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <line x1="15" y1="9" x2="9" y2="15"></line>
-                  <line x1="9" y1="9" x2="15" y2="15"></line>
-                </svg>
-                The Critical Misdiagnosis
-              </div>
-              <p id="displayPain">Solving marketing problems when you actually have a pricing and positioning crisis.
-                Selling the wrong thing to the wrong audience at low margins.</p>
-            </div>
-
-            <div class="display-info-block">
-              <div class="display-info-block-title success">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <polyline points="16 12 12 8 8 12"></polyline>
-                  <line x1="12" y1="16" x2="12" y2="8"></line>
-                </svg>
-                The Structural Cure
-              </div>
-              <p id="displayCure">Re-engineering your core offer stack into a high-value 3-tier ecosystem. We optimize
-                pricing psychology for the Indian MSME/Coaching market to instantly multiply margins.</p>
-            </div>
-          </div>
-
-          <div class="display-footer-tip">
-            <svg viewBox="0 0 24 24">
-              <path
-                d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6A4.997 4.997 0 0 1 7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.06-2.15 3.9z" />
-            </svg>
-            <span id="displayTip">Tip: If you're doing croreshala-level work but average customer value is under
-              ₹10,000, your business model needs immediate architectural redesign.</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- INTERACTIVE DIAGNOSTIC MINI-QUIZ SECTION -->
-  <section class="section" id="quiz-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="badge badge-green section-tag">Audit</span>
-        <h2>The 3-Minute Business clarity Test</h2>
-        <p>Unsure which system is bleeding the most revenue? Answer 3 quick structural questions to get an instant
-          personalized diagnosis and recommended roadmap.</p>
-      </div>
-
-      <div class="quiz-container" id="quizBox">
-        <div class="quiz-progress-bar" id="quizProgress"></div>
-
-        <!-- Step 1 -->
-        <div class="quiz-step active" data-step="1">
-          <h3>Question 1: What is your primary business bottleneck right now?</h3>
-          <p class="quiz-step-desc">Be completely honest—where are you spending most of your fire-fighting energy?</p>
-          <div class="quiz-options">
-            <div class="quiz-option" data-value="low-ticket" data-score="1">
-              <span class="quiz-option-text">"I have no structure or clarity. Leads are random, and I'm guessing what to
-                do next."</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-            <div class="quiz-option" data-value="mid-ticket" data-score="2">
-              <span class="quiz-option-text">"I generate leads but conversion is manual, slow, or inconsistent. I lack
-                predictable sales systems."</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-            <div class="quiz-option" data-value="high-ticket" data-score="3">
-              <span class="quiz-option-text">"I am trapped in daily operations. My team is completely dependent on me,
-                and I work 12+ hour days."</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 2 -->
-        <div class="quiz-step" data-step="2">
-          <h3>Question 2: If you take a 3-week complete holiday today, what happens?</h3>
-          <p class="quiz-step-desc">This is the ultimate test of operational systems vs. founder hustle.</p>
-          <div class="quiz-options">
-            <div class="quiz-option" data-value="low-ticket" data-score="1">
-              <span class="quiz-option-text">"Total operational and revenue collapse within 48 hours."</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-            <div class="quiz-option" data-value="mid-ticket" data-score="2">
-              <span class="quiz-option-text">"The business survives, but chaos/fires will break out and clients will
-                complain."</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-            <div class="quiz-option" data-value="high-ticket" data-score="3">
-              <span class="quiz-option-text">"Everything runs predictably. The team manages outcomes, and revenue keeps
-                flowing."</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 3 -->
-        <div class="quiz-step" data-step="3">
-          <h3>Question 3: What is your current annual business revenue range?</h3>
-          <p class="quiz-step-desc">Selecting your bracket helps pinpoint the exact operational phase you are currently
-            in.</p>
-          <div class="quiz-options">
-            <div class="quiz-option" data-value="low-ticket" data-score="1">
-              <span class="quiz-option-text">"Under ₹10 Lakhs (Startup / Self-employed scale)"</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-            <div class="quiz-option" data-value="mid-ticket" data-score="2">
-              <span class="quiz-option-text">"₹10 Lakhs - ₹50 Lakhs (Growing business needing systems)"</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-            <div class="quiz-option" data-value="high-ticket" data-score="3">
-              <span class="quiz-option-text">"₹50 Lakhs - ₹5 Crores (Established scale needing executive shift)"</span>
-              <div class="quiz-option-indicator"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Quiz Navigation -->
-        <div class="quiz-navigation">
-          <button class="btn btn-outline btn-sm" id="quizPrevBtn" style="visibility: hidden;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-              stroke-linecap="round" stroke-linejoin="round">
-              <line x1="19" y1="12" x2="5" y2="12"></line>
-              <polyline points="12 19 5 12 12 5"></polyline>
-            </svg>
-            Back
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- THE 3-TIER SYSTEM CATALOG -->
   <section class="section section-bg-secondary" id="program-suite">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header" style="max-width: 900px;">
         <span class="badge badge-orange section-tag">Program Catalog</span>
-        <h2>The 3-Tier<br>Business Management System</h2>
-        <p>Our complete structured value ladder. Start with diagnosis to get immediate clarity, proceed to system
+        <h2 style="font-size: clamp(20px, 3.5vw, 34px);">The 3-Tier Business Management System</h2>
+        <p style="max-width: 680px; margin-left: auto; margin-right: auto;">Our complete structured value ladder. Start
+          with diagnosis to get immediate clarity, proceed to system
           installation, or undergo elite CEO identity transformation.</p>
       </div>
 
@@ -3096,7 +211,8 @@
         <!-- Course 1: Low Ticket -->
         <div class="course-card tier-1">
           <div class="course-video-container" onclick="openVideoModal('assets/videos/Business_X-Ray.mp4')">
-            <video class="course-video-preview" src="assets/videos/Business_X-Ray.mp4" autoplay loop muted playsinline></video>
+            <video class="course-video-preview" src="assets/videos/Business_X-Ray.mp4" autoplay loop muted
+              playsinline></video>
             <div class="video-play-overlay">
               <div class="play-btn-circle">
                 <svg viewBox="0 0 24 24">
@@ -3109,7 +225,7 @@
             <img src="assets/images/Business_XRay_Logo.png" alt="Business X-Ray Logo" class="course-card-logo">
           </div>
           <span class="course-category">Tier 01 | Business Diagnosis & Clarity Suite</span>
-          <h3 class="course-title">Business X-Ray™</h3>
+          <h3 class="course-title"><a href="business-x-ray.html" style="color:inherit;">Business X-Ray™</a></h3>
           <p class="course-desc">The 7-Layer Business Diagnosis Program. Pinpoint your exact operational & mindset
             bottlenecks, receive a personalized report, and join a live 2-hour masterclass.</p>
           <div class="course-meta-tags">
@@ -3155,7 +271,7 @@
           <div class="course-footer">
             <div class="course-pricing">
               <div class="price-original">$180 Value</div>
-              <div class="price-current" id="card-price-tier1">$29</div>
+              <div class="price-current" id="card-price-tier1">$10</div>
               <div class="price-label" id="card-label-tier1">One-Time</div>
             </div>
             <div class="course-emi"
@@ -3169,21 +285,25 @@
               </svg>
             </a>
             <div class="course-footer-bottom">
-              <div class="course-detail-trigger" onclick="openModal('low')">View Full Syllabus & 4 Bonuses</div>
+              <a href="business-x-ray.html" class="course-detail-trigger">View Full Syllabus & 4 Bonuses →</a>
               <div class="brochure-download-section">
                 <span class="brochure-title">Download Course Brochure</span>
                 <div class="brochure-links">
                   <a href="assets/docs/Euro_Digital_Business_X-Ray_Brochure_English.pdf"
-                    download="Euro_Digital_Business_X-Ray_Brochure_English.pdf" class="brochure-link">English</a>
+                    download="assets/docs/Euro_Digital_Business_X-Ray_Brochure_English.pdf"
+                    class="brochure-link">English</a>
                   <span class="brochure-sep">|</span>
                   <a href="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Arabic.pdf"
-                    download="Euro_Digital_Business_X-Ray_Brochure_Arabic.pdf" class="brochure-link">Arabic</a>
+                    download="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Arabic.pdf"
+                    class="brochure-link">Arabic</a>
                   <span class="brochure-sep">|</span>
                   <a href="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Hinglish.pdf"
-                    download="Euro_Digital_Business_X-Ray_Brochure_Hinglish.pdf" class="brochure-link">Hinglish</a>
+                    download="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Hinglish.pdf"
+                    class="brochure-link">Hinglish</a>
                   <span class="brochure-sep">|</span>
                   <a href="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Hindi.pdf"
-                    download="Euro_Digital_Business_X-Ray_Brochure_Hindi.pdf" class="brochure-link">Hindi</a>
+                    download="assets/docs/Euro_Digital_Business_X-Ray_Brochure_Hindi.pdf"
+                    class="brochure-link">Hindi</a>
                 </div>
               </div>
             </div>
@@ -3193,7 +313,8 @@
         <!-- Course 2: Mid Ticket -->
         <div class="course-card tier-2 featured">
           <div class="card-popular-tag">Most Popular Choice</div>
-          <div class="course-video-container" onclick="openVideoModal('assets/videos/Business_Acceleration_Engine.mp4')">
+          <div class="course-video-container"
+            onclick="openVideoModal('assets/videos/Business_Acceleration_Engine.mp4')">
             <video class="course-video-preview" src="assets/videos/Business_Acceleration_Engine.mp4" autoplay loop muted
               playsinline></video>
             <div class="video-play-overlay">
@@ -3208,8 +329,9 @@
             <img src="assets/images/Business_Acceleration_Engine_logo.png" alt="Business Acceleration Engine Logo"
               class="course-card-logo">
           </div>
-          <span class="course-category">Tier 02 | Done-With-You Scaling</span>
-          <h3 class="course-title">Business Acceleration Engine™</h3>
+          <span class="course-category">Tier 02 | Done-With-You Systems & Scale Installation</span>
+          <h3 class="course-title"><a href="business-acceleration-engine.html" style="color:inherit;">Business
+              Acceleration Engine™</a></h3>
           <p class="course-desc">The 60-Day Systems & Scale Installation Program. Build robust machines for lead
             generation, sales, delivery, and team delegation.</p>
           <div class="course-meta-tags">
@@ -3266,21 +388,30 @@
               </svg>
             </a>
             <div class="course-footer-bottom">
-              <div class="course-detail-trigger" onclick="openModal('mid')">View Full Syllabus & 6 Bonuses</div>
+              <a href="business-acceleration-engine.html" class="course-detail-trigger">View Full Syllabus & 6 Bonuses
+                →</a>
               <div class="brochure-download-section">
                 <span class="brochure-title">Download Course Brochure</span>
                 <div class="brochure-links">
-                  <a href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_English.pdf"
-                    download="Euro_Digital_Business_Acceleration_Engine_Brochure_English.pdf" class="brochure-link">English</a>
+                  <a id="bae-brochure-english"
+                    href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_English.pdf"
+                    download="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_English.pdf"
+                    class="brochure-link">English</a>
                   <span class="brochure-sep">|</span>
-                  <a href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Arabic.pdf"
-                    download="Euro_Digital_Business_Acceleration_Engine_Brochure_Arabic.pdf" class="brochure-link">Arabic</a>
+                  <a id="bae-brochure-arabic"
+                    href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Arabic.pdf"
+                    download="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Arabic.pdf"
+                    class="brochure-link">Arabic</a>
                   <span class="brochure-sep">|</span>
-                  <a href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hinglish.pdf"
-                    download="Euro_Digital_Business_Acceleration_Engine_Brochure_Hinglish.pdf" class="brochure-link">Hinglish</a>
+                  <a id="bae-brochure-hinglish"
+                    href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hinglish.pdf"
+                    download="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hinglish.pdf"
+                    class="brochure-link">Hinglish</a>
                   <span class="brochure-sep">|</span>
-                  <a href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hindi.pdf"
-                    download="Euro_Digital_Business_Acceleration_Engine_Brochure_Hindi.pdf" class="brochure-link">Hindi</a>
+                  <a id="bae-brochure-hindi"
+                    href="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hindi.pdf"
+                    download="assets/docs/Euro_Digital_Business_Acceleration_Engine_Brochure_Hindi.pdf"
+                    class="brochure-link">Hindi</a>
                 </div>
               </div>
             </div>
@@ -3290,15 +421,16 @@
         <!-- Course 3: High Ticket -->
         <div class="course-card tier-3">
           <div class="course-video-container image-only">
-            <img class="course-video-preview" src="assets/images/CEO_Command%20_Centre.png"
+            <img class="course-video-preview" src="assets/images/ED_AI+Tech_Business_Integration_Bootcamp.png"
               alt="AI + Tech Business Integration Bootcamp Preview">
           </div>
           <div class="course-logo-wrapper">
-            <img src="assets/images/CEO_Command_Centre_Logo.png" alt="AI + Tech Business Integration Bootcamp Logo"
-              class="course-card-logo">
+            <img src="assets/images/AI_Tech_Business_Bootcamp_Logo.png"
+              alt="AI + Tech Business Integration Bootcamp Logo" class="course-card-logo">
           </div>
-          <span class="course-category">Tier 03 | Bespoke Done-With-You Implementation</span>
-          <h3 class="course-title">AI + Tech Business Integration Bootcamp</h3>
+          <span class="course-category">Tier 03 | Bespoke AI & Technology Integration Suite</span>
+          <h3 class="course-title"><a href="ai-tech-integration-bootcamp.html" style="color:inherit;">AI + Tech Business
+              Integration Bootcamp</a></h3>
           <p class="course-desc">Integrate Euro Digital's complete AI + software + hosting ecosystem into your business
             - custom-scoped to the exact layers your diagnosis revealed as weak, and engineered for 10x-50x growth.</p>
           <div class="course-meta-tags">
@@ -3347,7 +479,7 @@
               <div class="price-label" style="margin-bottom: 0;">Quoted post-Audit in USD</div>
             </div>
             <div class="course-emi">Based on Selected Technology Levers</div>
-            <a href="https://wa.me/971555113655?text=AI%20%2B%20Tech%20Business%20Integration%20Bootcamp"
+            <a href="https://wa.me/971555113655?text=Hello%20Euro%20Digital%20Technologies%2C%20I%20am%20interested%20in%20booking%20a%201-on-1%20Tech-Fit%20Audit%20for%20the%20AI%20%2B%20Tech%20Business%20Integration%20Bootcamp."
               target="_blank" rel="noopener" class="course-cta-btn">
               Book Tech-Fit Audit
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -3355,12 +487,308 @@
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
-            <div class="course-detail-trigger" onclick="openModal('high')">View Full Syllabus & 3 Bonuses</div>
+            <a href="ai-tech-integration-bootcamp.html" class="course-detail-trigger">View Full Syllabus & 3 Bonuses
+              →</a>
           </div>
         </div>
 
       </div>
     </div>
+
+  </section>
+
+  <!-- THE 3-TIER HUMAN RESOURCE MANAGEMENT SYSTEM CATALOG -->
+  <section class="section section-bg-secondary" id="hr-program-suite">
+    <div class="container">
+      <div class="section-header section-header-wide">
+        <span class="badge badge-teal section-tag">HR Program Catalog</span>
+        <h2 class="single-line-title">The 3-Tier Human Resource Management System</h2>
+        <p style="max-width: 680px; margin-left: auto; margin-right: auto;">Our complete structured workforce
+          transformation suite based on the Diagnostic-First Model. Move from annual employee survey rituals to
+          precision diagnosis, 60-day done-with-you system installation, and bespoke AI technology scaling.</p>
+      </div>
+
+      <div class="courses-grid">
+
+        <!-- HR Course 1: Low Ticket -->
+        <div class="course-card tier-1">
+          <div class="course-video-container"
+            onclick="openVideoModal('assets/videos/Euro_Digital_ workforce_X-Ray_video.mp4')">
+            <video class="course-video-preview" src="assets/videos/Euro_Digital_ workforce_X-Ray_video.mp4" autoplay
+              loop muted playsinline></video>
+            <div class="video-play-overlay">
+              <div class="play-btn-circle">
+                <svg viewBox="0 0 24 24">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="course-logo-wrapper">
+            <img src="assets/images/Workforce_X-Ray_Logo.png" alt="Workforce X-Ray Logo" class="course-card-logo">
+          </div>
+          <span class="course-category">Tier 01 | 5-Dimension HR Diagnosis & Clarity Suite</span>
+          <h3 class="course-title"><a href="workforce-x-ray.html" style="color:inherit;">Workforce X-Ray™</a></h3>
+          <p class="course-desc">The 5-Dimension Employee & Workforce Diagnosis. 60-question examination across 5
+            workplace health dimensions + HR Leader Mindset assessment, producing dual personal & aggregate reports.</p>
+          <div class="course-meta-tags">
+            <span class="meta-tag">60-Point Audit</span>
+            <span class="meta-tag">2-Hr Live Masterclass</span>
+          </div>
+
+          <div class="course-features">
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>5-Dimension Workplace MRI:</strong> Scored examination across Performance, Wellbeing,
+                Productivity, Growth Gap & Culture.</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>Dual-Report Architecture:</strong> Confidential personal report for each employee +
+                aggregate Organisational Report for HR Head.</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>HR Leader Mindset Layer:</strong> Scored out of 40 to evaluate HR function maturity &
+                eliminate activity substitution.</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>2-Hour Live Masterclass:</strong> Live session for HR Head & COO/CEO to decode heatmaps &
+                build a 90-day priority roadmap.</span>
+            </div>
+          </div>
+
+          <div class="course-footer">
+            <div class="course-pricing" style="width: 100%;">
+              <button type="button" class="btn-see-pricing" onclick="openPricingModal('workforce-x-ray')">
+                See Pricing
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="course-emi"
+              style="visibility: hidden; margin-top: 0; margin-bottom: 0; height: 0; overflow: hidden;">&nbsp;</div>
+            <a href="https://wa.me/971555113655?text=Workforce%20X-Ray%20Program" target="_blank" rel="noopener"
+              class="course-cta-btn">
+              Start HR Diagnosis
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <div class="course-footer-bottom">
+              <a href="workforce-x-ray.html" class="course-detail-trigger">View Full HR Blueprint & Details →</a>
+              <div class="brochure-download-section">
+                <span class="brochure-title">Download Course Brochure</span>
+                <div class="brochure-links">
+                  <a href="assets/docs/Euro_Digital_Workforce_X-Ray_Brochure_English.pdf"
+                    download="assets/docs/Euro_Digital_Workforce_X-Ray_Brochure_English.pdf"
+                    class="brochure-link">English</a>
+                  <span class="brochure-sep">|</span>
+                  <a href="assets/docs/Euro_Digital_Workforce_X-Ray_Brochure_Arabic.pdf"
+                    download="assets/docs/Euro_Digital_Workforce_X-Ray_Brochure_Arabic.pdf"
+                    class="brochure-link">Arabic</a>
+                  <span class="brochure-sep">|</span>
+                  <a href="assets/docs/Euro_Digital_Workforce_X-Ray_Brochure_Hinglish.pdf"
+                    download="assets/docs/Euro_Digital_Workforce_X-Ray_Brochure_Hinglish.pdf"
+                    class="brochure-link">Hinglish</a>
+                  <span class="brochure-sep">|</span>
+                  <a href="assets/docs/Euro_Digital_Workforce_X-Ray_Brochure_Hindi.pdf"
+                    download="assets/docs/Euro_Digital_Workforce_X-Ray_Brochure_Hindi.pdf"
+                    class="brochure-link">Hindi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HR Course 2: Mid Ticket -->
+        <div class="course-card tier-2 featured">
+          <div class="card-popular-tag">Done-With-You</div>
+          <div class="course-video-container"
+            onclick="openVideoModal('assets/videos/Euro_Digital_Workforce_Acceleration_Engine_video.mp4')">
+            <video class="course-video-preview" src="assets/videos/Euro_Digital_Workforce_Acceleration_Engine_video.mp4"
+              autoplay loop muted playsinline></video>
+            <div class="video-play-overlay">
+              <div class="play-btn-circle">
+                <svg viewBox="0 0 24 24">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="course-logo-wrapper">
+            <img src="assets/images/Workforce_Acceleration_Engine_Logo.png" alt="Workforce Acceleration Engine Logo"
+              class="course-card-logo">
+          </div>
+          <span class="course-category">Tier 02 | 60-Day Done-With-You HR Systems Installation</span>
+          <h3 class="course-title"><a href="workforce-acceleration-engine.html" style="color:inherit;">Workforce
+              Acceleration Engine™</a></h3>
+          <p class="course-desc">The X-Ray Debrief™. 60-day done-with-you installation program building 5 core workforce
+            systems alongside your HR head & function heads, featuring an Executive Mandate charter & Day-60 Rescore.
+          </p>
+          <div class="course-meta-tags">
+            <span class="meta-tag">60 Days</span>
+            <span class="meta-tag">8 Live Sessions</span>
+          </div>
+
+          <div class="course-features">
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>5 Core Workforce Systems:</strong> Role Clarity, Wellbeing Ops, Focus Culture, Career
+                Pathways & Manager Cohort.</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>Executive Mandate Charter:</strong> Signed 60-day charter granting HR head clear decision
+                authority to install systems.</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>8 Live Build Sessions:</strong> Including 2 RED restricted-room sessions for confidential
+                wellbeing & manager data.</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>Day-60 Health Rescore:</strong> Shortened 25-question pulse proving aggregate score movement
+                for CEO readout.</span>
+            </div>
+          </div>
+
+          <div class="course-footer">
+            <div class="course-pricing" style="width: 100%;">
+              <button type="button" class="btn-see-pricing btn-see-pricing-indigo"
+                onclick="openPricingModal('workforce-acceleration-engine')">
+                See Pricing
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="course-emi"
+              style="visibility: hidden; margin-top: 0; margin-bottom: 0; height: 0; overflow: hidden;">&nbsp;</div>
+            <a href="https://wa.me/971555113655?text=Workforce%20Acceleration%20Engine%20Program" target="_blank"
+              rel="noopener" class="course-cta-btn">
+              Install HR Engine
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <div class="course-footer-bottom">
+              <a href="workforce-acceleration-engine.html" class="course-detail-trigger">View 8-Session HR Installation
+                Plan →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- HR Course 3: High Ticket -->
+        <div class="course-card tier-3">
+          <div class="course-video-container image-only">
+            <img class="course-video-preview" src="assets/images/ED_AI+Tech_Workforce_Integration_Bootcamp.png"
+              alt="AI + Tech Workforce Integration Preview">
+          </div>
+          <div class="course-logo-wrapper">
+            <img src="assets/images/AI_Tech_Workforce_Bootcamp_Logo.png" alt="AI + Tech Workforce Integration Logo"
+              class="course-card-logo">
+          </div>
+          <span class="course-category">Tier 03 | Bespoke HR Tech & AI Integration Suite</span>
+          <h3 class="course-title"><a href="ai-tech-workforce-integration-bootcamp.html" style="color:inherit;">AI +
+              Tech Workforce Integration Bootcamp</a></h3>
+          <p class="course-desc">The capstone of the value ladder. Integrate Euro Digital's 2-platform AI (eurodigi.ai)
+            + HR software/hosting (eurodigital.ae) ecosystem, custom-scoped post Tech-Fit Audit.</p>
+          <div class="course-meta-tags">
+            <span class="meta-tag">Tech-Fit Audit</span>
+            <span class="meta-tag">Bespoke DWY Implementation</span>
+          </div>
+
+          <div class="course-features">
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>2-Platform Technology Ecosystem:</strong> eurodigital.ae (HRIS/Hosting/GDPR) & eurodigi.ai
+                (AI Agents & Voice Bots).</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>90-Min Paid Tech-Fit Audit:</strong> Deep-dive consultation mapping 6 diagnostic questions
+                to 5-dimension tech levers.</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>3x ROI Multiplier Rule:</strong> Scoped builds targeting 30-60% query deflection & 5-25
+                hrs/wk time reclaimed per HR FTE.</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span><strong>3 Included Bonuses:</strong> HR Tech Selection Playbook, AI Ethics Framework & 4 Quarterly
+                Advisory sessions.</span>
+            </div>
+          </div>
+
+          <div class="course-footer">
+            <div class="course-pricing" style="flex-direction: column; align-items: flex-start; gap: 4px;">
+              <div class="price-current">Custom Scope</div>
+              <div class="price-label" style="margin-bottom: 0;">Quoted post Tech-Fit Audit in USD</div>
+            </div>
+            <div class="course-emi">Based on Selected Technology Levers</div>
+            <a href="https://wa.me/971555113655?text=Hello%20Euro%20Digital%20Technologies%2C%20I%20am%20interested%20in%20booking%20a%201-on-1%20Tech-Fit%20Audit%20for%20the%20AI%20%2B%20Tech%20Workforce%20Integration%20Bootcamp."
+              target="_blank" rel="noopener" class="course-cta-btn">
+              Book Tech-Fit Audit
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <div class="course-footer-bottom">
+              <a href="ai-tech-workforce-integration-bootcamp.html" class="course-detail-trigger">View Full Technology
+                Integration Details →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
   </section>
 
   <!-- THE 5 INVISIBLE BARRIERS SECTION -->
@@ -3487,202 +915,6 @@
     </div>
   </section>
 
-  <!-- FAQS SECTION -->
-  <section class="section section-bg-secondary" id="faqs">
-    <div class="container">
-      <div class="section-header">
-        <span class="badge badge-blue section-tag">Support</span>
-        <h2>Frequently Asked Questions</h2>
-        <p>Everything you need to know about our product suite, deliverables, and double-guarantee protocols.</p>
-      </div>
-
-      <div class="faq-wrapper">
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h3>I've bought coaching and courses before and didn't finish. How is this different?</h3>
-            <div class="faq-icon-box">
-              <svg viewBox="0 0 24 24">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
-          </div>
-          <div class="faq-body">
-            <div class="faq-body-content">
-              Unlike generic, passive 40-hour video libraries that you watch alone, our programs are built strictly
-              around <strong>execution and accountability</strong>:
-              <ul style="margin-top: 10px; padding-left: 20px; list-style-type: disc;">
-                <li style="margin-bottom: 8px;"><strong>Business X-Ray™ (<span
-                      class="tier1-price-text">$10</span>):</strong> A structured 62-point diagnostic
-                  program where you complete a 7-layer operational and mindset assessment, receive a personalized
-                  coach-reviewed Business & Mindset Fix Report, and attend a 2-hour live Diagnostic Masterclass to build
-                  your 60-day priority roadmap.</li>
-                <li style="margin-bottom: 8px;"><strong>Business Acceleration Engine™ (<span
-                      class="tier2-price-text">$299</span>):</strong> A 60-day
-                  "Done-With-You" execution system featuring 7 modules (28 videos, 8+ hours) paired with 8 weekly live
-                  Zoom group sessions, homework reviews, and a matched accountability partner to guarantee
-                  implementation.</li>
-                <li style="margin-bottom: 8px;"><strong>AI + Tech Business Integration Bootcamp (Custom
-                    Pricing):</strong> A bespoke done-with-you implementation program mapping Euro Digital's AI
-                  (eurodigi.ai) and software (eurodigital.ae) ecosystems to your weak operational layers, featuring a
-                  1-on-1 Tech-Fit Audit and phased setups.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h3>Will these systems work for my specific industry?</h3>
-            <div class="faq-icon-box">
-              <svg viewBox="0 0 24 24">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
-          </div>
-          <div class="faq-body">
-            <div class="faq-body-content">
-              Yes. The core architecture of a scalable business is universal. Our frameworks are specifically engineered
-              for five main target segments: <strong>Business Owners, Coaches, Consultants, Course Creators, and Agency
-                Owners</strong>. Whether you run a B2B agency in Bangalore, a consulting practice in Pune, or a
-              manufacturing unit in Hyderabad, every business functions on the same 5 core systems. The program's
-              diagnostic templates and forms customize all worksheets, calculators, and output systems directly to your
-              specific business model.
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h3>Why is the Business X-Ray priced at just <span class="tier1-price-text">$10</span>? What's the catch?
-            </h3>
-            <div class="faq-icon-box">
-              <svg viewBox="0 0 24 24">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
-          </div>
-          <div class="faq-body">
-            <div class="faq-body-content">
-              There is no catch. Our strategic architecture follows a transparent value ladder: Ad/Organic Content → Low
-              Ticket (<span class="tier1-price-text">$10</span> Business X-Ray) → Mid Ticket (<span
-                class="tier2-price-text">$299</span> Business Acceleration Engine) → High Ticket (custom AI + Tech
-              Business Integration Bootcamp). We price the diagnostic program at <span
-                class="tier1-price-text">$10</span> as a <strong>friction-free handshake
-                offer</strong>. We
-              believe that once you complete the 7-Layer diagnosis and experience the absolute clarity it brings, you
-              will want us to help you install the structural cure. Even if you choose not to upgrade, the editable
-              Health Scorecard and completed 60-day roadmap are yours permanently.
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h3>What if I cannot attend the live group mentoring sessions?</h3>
-            <div class="faq-icon-box">
-              <svg viewBox="0 0 24 24">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
-          </div>
-          <div class="faq-body">
-            <div class="faq-body-content">
-              Don't worry. Every single one of our live group coaching sessions (8 Zoom sessions for the Mid-Ticket and
-              12 sessions for the High-Ticket) is recorded in high definition and uploaded to your secure student portal
-              within 24 hours. Furthermore, you can submit your sales scripts, team charts, or dashboards via WhatsApp
-              in advance. The coach will personally audit your homework and provide hot-seat feedback during the live
-              session even if you are completely offline.
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h3>Is there a refund or double guarantee?</h3>
-            <div class="faq-icon-box">
-              <svg viewBox="0 0 24 24">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
-          </div>
-          <div class="faq-body">
-            <div class="faq-body-content">
-              Yes, we back the <strong>Business Acceleration Engine™</strong> with a strict implementation-based refund
-              guarantee. Complete all 7 modules, attend at least 6 of the 8 weekly live strategy sessions, and submit
-              your homework sheets. If you do not predictably install at least 2 of the 5 core systems within 60 days of
-              starting, email our support team for an immediate, hassle-free 100% refund. We take all the structural
-              risk; you take the focused action.
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h3>What are the exact 5 core systems that are installed in the Business Acceleration Engine?</h3>
-            <div class="faq-icon-box">
-              <svg viewBox="0 0 24 24">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
-          </div>
-          <div class="faq-body">
-            <div class="faq-body-content">
-              The 60-day program focuses on building and installing a predictable business machine:
-              <ol style="margin-top: 10px; padding-left: 20px; list-style-type: decimal;">
-                <li style="margin-bottom: 6px;"><strong>Lead Generation Machine:</strong> Set up a 3-channel consistent
-                  acquisition funnel (Organic content frameworks, Paid advertising funnels, and Strategic partnerships)
-                  integrated with WhatsApp drip automation sequences.</li>
-                <li style="margin-bottom: 6px;"><strong>Sales Conversion System:</strong> Install documented
-                  consultative closing scripts, objection handling playbooks, and CRM follow-up pipelines to quadruple
-                  conversion rates predictably.</li>
-                <li style="margin-bottom: 6px;"><strong>Delivery Excellence Framework:</strong> Set up 48-hour client
-                  onboarding systems, service delivery SOP templates, and client feedback engines that generate
-                  high-authority testimonials on autopilot.</li>
-                <li style="margin-bottom: 6px;"><strong>Team & Delegation Architecture:</strong> Implement the 3-Level
-                  Delegation Matrix (Task, Process, and Outcome Delegation) alongside hiring screens and daily
-                  communication rhythms to step out of active firefighting.</li>
-                <li style="margin-bottom: 6px;"><strong>Financial Command Dashboard:</strong> Deploy our CEO Money
-                  Dashboard to track monthly cash flow, CAC (Cost of Acquisition), average client lifetime value, and
-                  net profits in just 15 minutes a week.</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h3>What are the criteria to qualify for the AI + Tech Business Integration Bootcamp?</h3>
-            <div class="faq-icon-box">
-              <svg viewBox="0 0 24 24">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
-          </div>
-          <div class="faq-body">
-            <div class="faq-body-content">
-              Because of the intensive done-with-you implementation and custom scoping, the <strong>AI + Tech Business
-                Integration Bootcamp</strong> requires that you have completed either the Business X-Ray™ or Business
-              Acceleration Engine™ first.
-              <p style="margin-top: 10px; margin-bottom: 6px;"><strong>You qualify only if:</strong></p>
-              <ul style="padding-left: 20px; list-style-type: disc;">
-                <li style="margin-bottom: 6px;">You have a completed Business X-Ray™ diagnosis or Business Acceleration
-                  Engine™ score on file.</li>
-                <li style="margin-bottom: 6px;">Your business is past the daily firefighting stage and ready to
-                  integrate automated software & AI systems.</li>
-                <li style="margin-bottom: 6px;">You are willing to collaborate with our consulting team for phased
-                  technology deployment.</li>
-                <li style="margin-bottom: 6px;">You complete the 1-on-1 Tech-Fit Audit strategy call to finalize your
-                  integration scope.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
@@ -3691,10 +923,19 @@
           <div class="footer-logo">
             <img src="assets/images/Euro_Digital_Technologies_Footer_Logo.png" alt="Euro Digital Technologies Logo">
           </div>
-          <p><strong style="font-size: 16px; display: block; margin-bottom: 6px; color: var(--bg-white);">IRFAN
-              NEVREKAR</strong>
-            Mussafah Shabiya MBZ-12,<br>Building No. C-201, Office No. M-03,<br>Abu Dhabi, UAE
+          <p><strong style="font-size: 16px; display: block; margin-bottom: 6px; color: var(--bg-white);">Euro Digital
+              Technologies LLC</strong>
+            Mussafah Shabiya MBZ-12,<br>
+            Building No. C-201, Office No. M-03,<br>
+            Abu Dhabi, UAE
           </p>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>bdm@eurodigital.ae</span>
+          </div>
           <div class="footer-contact-item">
             <svg viewBox="0 0 24 24">
               <path
@@ -3702,32 +943,29 @@
             </svg>
             <span>+971 55 511 3655</span>
           </div>
-          <div class="footer-contact-item">
-            <svg viewBox="0 0 24 24">
-              <path
-                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-            </svg>
-            <span>bdm@eurodigital.ae</span>
-          </div>
         </div>
 
         <div class="footer-links">
-          <h4>Program Tiers</h4>
+          <h4>Business Management System</h4>
           <ul>
-            <li><a href="#program-suite" class="footer-link">Business X-Ray™ (<span
-                  class="tier1-price-text">$29</span>)</a></li>
-            <li><a href="#program-suite" class="footer-link">Acceleration Engine™ (<span
-                  class="tier2-price-text">$299</span>)</a></li>
-            <li><a href="#program-suite" class="footer-link">Integration Bootcamp (Custom Pricing)</a></li>
+            <li><a href="business-management-system.html" class="footer-link"
+                style="color: var(--accent-orange); font-weight: 700;">✦ All BMS Courses</a></li>
+            <li><a href="business-x-ray.html" class="footer-link">Business X-Ray™</a></li>
+            <li><a href="business-acceleration-engine.html" class="footer-link">Business Acceleration Engine™</a></li>
+            <li><a href="ai-tech-integration-bootcamp.html" class="footer-link">AI + Tech Business Integration
+                Bootcamp</a></li>
           </ul>
         </div>
 
         <div class="footer-links">
-          <h4>Frameworks</h4>
+          <h4>Human Resource Management System</h4>
           <ul>
-            <li><a href="#scan-framework" class="footer-link">7-Layer MRI Scan</a></li>
-            <li><a href="#quiz-section" class="footer-link">3-Min Diagnostic Quiz</a></li>
-            <li><a href="#invisible-barriers" class="footer-link">The 5 Invisible Barriers</a></li>
+            <li><a href="human-resource-management-system.html" class="footer-link"
+                style="color: var(--accent-lime-dark); font-weight: 700;">✦ All HRMS Courses</a></li>
+            <li><a href="workforce-x-ray.html" class="footer-link">Workforce X-Ray™</a></li>
+            <li><a href="workforce-acceleration-engine.html" class="footer-link">Workforce Acceleration Engine™</a></li>
+            <li><a href="ai-tech-workforce-integration-bootcamp.html" class="footer-link">AI + Tech Workforce
+                Integration Bootcamp</a></li>
           </ul>
         </div>
 
@@ -3756,7 +994,7 @@
     <div class="mobile-floating-cta-inner">
       <div class="mobile-floating-cta-price">
         <span>Business X-Ray™ Ticket</span>
-        <span id="floating-price-tier1">$29 Only</span>
+        <span id="floating-price-tier1">$10 Only</span>
       </div>
       <a href="https://wa.me/971555113655?text=Business%20X-Ray%20Program" target="_blank" rel="noopener"
         class="btn btn-orange btn-sm">Secure Seat</a>
@@ -3826,7 +1064,7 @@
           <span class="modal-footer-price-label">Program Price</span>
           <span class="modal-footer-price-val" id="modalFooterPrice">₹9,999</span>
         </div>
-        <a href="#quiz-section" class="btn btn-orange" id="modalCTAButton">Secure Access Now</a>
+        <a href="business-clarity-test.html" class="btn btn-orange" id="modalCTAButton">Secure Access Now</a>
       </div>
     </div>
   </div>
@@ -3866,897 +1104,115 @@
     </div>
   </div>
 
+  <!-- PRICING BUNDLE OVERLAY MODAL -->
+  <div class="modal-overlay" id="pricingModal">
+    <div class="modal-container" style="max-width: 820px; max-height: 90vh;">
+      <button class="modal-close-btn" onclick="closePricingModal()" aria-label="Close pricing dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-header"
+        style="border-bottom: 1.5px solid var(--border-color); padding-bottom: 16px; margin-bottom: 16px;">
+        <div class="modal-title-desc" style="color: var(--accent-lime-dark);">Workforce X-Ray™ Pricing</div>
+        <h2 class="modal-title" style="font-size: 24px; font-weight: 800; color: var(--text-primary);">India — Bundle
+          Pricing (USD)</h2>
+        <div class="modal-meta-row" style="margin-top: 6px;">
+          <span>Tiered organizational diagnostic packages</span>
+          <span>•</span>
+          <span style="color: var(--accent-lime-dark); font-weight: 700;">Early Bird Pricing Active</span>
+        </div>
+      </div>
+
+      <div class="modal-body" style="padding-top: 0; padding-bottom: 0;">
+        <div class="pricing-table-wrapper" style="margin: 0; border-radius: 12px;">
+          <table class="bundle-pricing-table">
+            <thead>
+              <tr>
+                <th>Tier</th>
+                <th class="text-center">Employees Assess.</th>
+                <th class="text-center">HR seats trained</th>
+                <th class="text-center">Base</th>
+                <th class="text-right">Early Bird</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="pricing-tier-name">Individual</td>
+                <td class="text-center">Up to 50</td>
+                <td class="text-center">1 HR</td>
+                <td class="text-center pricing-base-val">$260</td>
+                <td class="text-right"><span class="pricing-early-bird">$160</span></td>
+              </tr>
+              <tr>
+                <td class="pricing-tier-name">Starter</td>
+                <td class="text-center">50 - 100</td>
+                <td class="text-center">5 HR</td>
+                <td class="text-center pricing-base-val">$2,090</td>
+                <td class="text-right"><span class="pricing-early-bird">$1,560</span></td>
+              </tr>
+              <tr>
+                <td class="pricing-tier-name">Growth</td>
+                <td class="text-center">101–250</td>
+                <td class="text-center">10 HR</td>
+                <td class="text-center pricing-base-val">$3,660</td>
+                <td class="text-right"><span class="pricing-early-bird">$2,610</span></td>
+              </tr>
+              <tr>
+                <td class="pricing-tier-name">Mid-Market</td>
+                <td class="text-center">251–500</td>
+                <td class="text-center">15 HR</td>
+                <td class="text-center pricing-base-val">$5,230</td>
+                <td class="text-right"><span class="pricing-early-bird">$4,180</span></td>
+              </tr>
+              <tr>
+                <td class="pricing-tier-name">Enterprise</td>
+                <td class="text-center">501–1,000</td>
+                <td class="text-center">20 HR</td>
+                <td class="text-center pricing-base-val">$8,380</td>
+                <td class="text-right"><span class="pricing-early-bird">$6,280</span></td>
+              </tr>
+              <tr>
+                <td class="pricing-tier-name">Large Enterprise</td>
+                <td class="text-center">1,001–2,500</td>
+                <td class="text-center">30 HR</td>
+                <td class="text-center pricing-base-val">$15,710</td>
+                <td class="text-right"><span class="pricing-early-bird">$12,570</span></td>
+              </tr>
+              <tr>
+                <td class="pricing-tier-name">Custom (Group)</td>
+                <td class="text-center">2,500+</td>
+                <td class="text-center">50+ HR</td>
+                <td class="text-center pricing-base-val">From $26,200</td>
+                <td class="text-right"><span class="pricing-early-bird">Bespoke</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size: 13px; color: var(--text-secondary); margin-top: 12px; margin-bottom: 0; line-height: 1.5;">
+          All prices are one-time, per engagement. Early Bird rates apply to registrations confirmed before the
+          enrolment deadline.
+        </p>
+      </div>
+
+      <div class="modal-footer"
+        style="justify-content: space-between; align-items: center; border-top: 1.5px solid var(--border-color); padding-top: 16px; margin-top: 16px;">
+        <div style="font-size: 13px; color: var(--text-tertiary);">
+          All bundles include personalized reports &amp; masterclass.
+        </div>
+        <a href="https://wa.me/971555113655?text=Workforce%20X-Ray%20Program" target="_blank" rel="noopener"
+          class="btn btn-teal">
+          Get Quote / Enroll Now
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- --- JAVASCRIPT LOGIC --- -->
-  <script>
-    // --- STATIC PRICING CONFIGURATION ---
-    (function () {
-      window.tier1Price = '$29';
-      window.tier2Price = '$299';
-      window.tier2Emi = 'EMI Available: $150 x 2 Months';
-
-      function updatePricingDOM() {
-        const price1 = '$29';
-        const price2 = '$299';
-
-        window.tier1Price = price1;
-        window.tier2Price = price2;
-        window.tier2Emi = 'EMI Available: $150 x 2 Months';
-
-        // Tier 1 Elements
-        const navCta = document.getElementById('nav-cta-tier1');
-        if (navCta) navCta.innerText = `Start Diagnosis ${price1}`;
-        const mobileNavCta = document.getElementById('mobile-nav-cta-tier1');
-        if (mobileNavCta) mobileNavCta.innerText = `Start Diagnosis ${price1}`;
-
-        const cardPrice = document.getElementById('card-price-tier1');
-        if (cardPrice) cardPrice.innerText = price1;
-
-        const floatingPrice = document.getElementById('floating-price-tier1');
-        if (floatingPrice) floatingPrice.innerText = `${price1} Only`;
-
-        document.querySelectorAll('.tier1-price-text').forEach(el => {
-          el.innerText = price1;
-        });
-
-        if (typeof modalData !== 'undefined' && modalData.low) {
-          modalData.low.price = `${price1} Only`;
-        }
-
-        // Tier 2 Elements
-        const cardPrice2 = document.getElementById('card-price-tier2');
-        if (cardPrice2) cardPrice2.innerText = price2;
-
-        document.querySelectorAll('.tier2-price-text').forEach(el => {
-          el.innerText = price2;
-        });
-
-        if (typeof modalData !== 'undefined' && modalData.mid) {
-          modalData.mid.price = `${price2} Only`;
-        }
-      }
-
-      window.addEventListener('DOMContentLoaded', updatePricingDOM);
-    })();
-
-    // --- 7-LAYER INTERACTIVE FRAMEWORK DATA ---
-    const layerData = {
-      1: {
-        badge: "Layer 01 Scan",
-        title: "Business Model Integrity",
-        pain: "Solving marketing problems when you actually have a pricing and positioning crisis. Selling the wrong thing to the wrong audience at low margins.",
-        cure: "Re-engineering your core offer stack into a high-value 3-tier ecosystem. We optimize pricing psychology for the Indian MSME/Coaching market to instantly multiply margins.",
-        tip: "Tip: If you're doing croreshala-level work but average customer value is under ₹10,000, your business model needs immediate architectural redesign.",
-        icon: `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>`
-      },
-      2: {
-        badge: "Layer 02 Scan",
-        title: "Diversified Revenue Streams",
-        pain: "Relying on a single transaction type. If that channel slows down, your business enters a cash flow panic immediately.",
-        cure: "Integrating recurring retainers, high-ticket masterminds, group templates, and corporatized licensing options to monetize the same volume 3x better.",
-        tip: "Tip: Aim for at least 3 distinct cash channels: Low-ticket auto-funding, DWY group systems, and VIP high-ticket implementation.",
-        icon: `<svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>`
-      },
-      3: {
-        badge: "Layer 03 Scan",
-        title: "Predictable Lead Gen Machine",
-        pain: "Surviving solely on inconsistent word-of-mouth or throwing budget randomly at Facebook ads with zero qualification filters.",
-        cure: "Installing the 3-Channel Lead System (Organic + Paid + Partnership) with automated WhatsApp triggers and filters to disqualify tyre-kickers early.",
-        tip: "Tip: A lead is not a lead until qualified. Let automation screen prospects so you only speak to high-intent buyers.",
-        icon: `<svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>`
-      },
-      4: {
-        badge: "Layer 04 Scan",
-        title: "Consultative Sales Process",
-        pain: "Closing deals purely by vibe. Having no CRM pipeline tracking, no script, and failing to run follow-ups consistently.",
-        cure: "Deploying high-ticket consultative script templates, objections playbooks, and automated multi-channel nurturing loops.",
-        tip: "Tip: 80% of sales in the Indian market happen during the 4th to 7th automated touchpoint. The fortune is entirely in the automated loop.",
-        icon: `<svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>`
-      },
-      5: {
-        badge: "Layer 05 Scan",
-        title: "Team & Delegation Architecture",
-        pain: "Micromanaging task lists because 'no one is competent'. Your business cannot scale because you are the operational bottleneck.",
-        cure: "Transitioning through the 3-Level Delegation Matrix: from task assignments to outcomes. Installing weekly operational rhythm dashboards.",
-        tip: "Tip: If you take a 14-day holiday and your business crashes, you are an employee of your own company, not a CEO.",
-        icon: `<svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`
-      },
-      6: {
-        badge: "Layer 06 Scan",
-        title: "CEO Time & Execution Discipline",
-        pain: "Spending the first 4 hours of your workday fire-fighting emails or chats, leaving zero high-energy hours for scaling strategies.",
-        cure: "Installing the CEO Weekly Time Calendar, OKR reviews, and keeping 15-minute weekly dashboards for key numbers.",
-        tip: "Tip: Protect your first 3 hours of every morning. Dedicated revenue-generating design is what creates croreshala scaling.",
-        icon: `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>`
-      },
-      7: {
-        badge: "Layer 07 Scan",
-        title: "Bottleneck Identification",
-        pain: "Attempting to fix all 7 layers at the exact same time. This is like a doctor prescribing 7 extreme medications without knowing the illness.",
-        cure: "Locating the single high-impact constraint using the priority ease vs. impact matrix, and focusing 100% of execution on that for 60 days.",
-        tip: "Tip: System constraint theory dictates that a chain is only as strong as its weakest link. Focus entirely on that constraint first.",
-        icon: `<svg viewBox="0 0 24 24"><polygon points="12 2 19 21 12 17 5 21 12 2"></polygon></svg>`
-      }
-    };
-
-    // --- CURRICULUM & BONUSES DETAILED DATA ---
-    const modalData = {
-      low: {
-        category: "Tier 01 | Business Diagnosis & Clarity Suite",
-        title: "Business X-Ray™",
-        meta: "Diagnostic Form + Personalised Report • 2-Hour Live Masterclass",
-        price: "$29 Only",
-        ctaUrl: "https://wa.me/971555113655?text=Business%20X-Ray%20Program",
-        ctaText: "Get Instant Diagnosis",
-        curriculum: [
-          {
-            label: "Phase 1",
-            title: "The 7-Layer Diagnostic Form",
-            desc: "Complete the comprehensive 62-point examination across 7 operational layers and 1 mindset layer. Brutally honest, 100% confidential inputs.",
-            sub: [
-              "Access: Instant WhatsApp & portal delivery upon payment",
-              "Execution: Set aside 25-35 quiet minutes to answer honestly",
-              "Scope: Business identity, model clarity, revenue, leads, sales, delegation, time, finance & mindset"
-            ]
-          },
-          {
-            label: "Phase 2",
-            title: "The Personalised X-Ray Report",
-            desc: "Receive your custom, coach-reviewed diagnostic reports identifying your exact operational and psychological bottlenecks.",
-            sub: [
-              "Business Fix Report: Analysis of your primary & secondary operational bottlenecks",
-              "Mindset Fix Report: Diagnosis of low-scoring patterns (e.g., Scarcity, Lone Wolf) with prescribed shifts",
-              "60-Day Priority Roadmap: A focused, day-by-day execution action plan tailored to your results"
-            ]
-          },
-          {
-            label: "Phase 3",
-            title: "The 2-Hour Live Masterclass",
-            desc: "Attend the live cohort masterclass synchronised to real, aggregated results to build your final roadmap and decode results.",
-            sub: [
-              "Hour 1: The Business MRI - Decode the Misdiagnosis Trap, audit Layers 1-3 live, & map remaining layers",
-              "Hour 2: Your 60-Day Roadmap - Locate your leverage constraints & build your weekly self-review/accountability plan"
-            ]
-          }
-        ],
-        bonuses: [
-          { title: "Business Health Scorecard Template", value: "Value $25", desc: "Editable Google Sheet tracker to monitor monthly operational metrics." },
-          { title: "One-Page Business Clarity Canvas", value: "Value $20", desc: "Strategic snapshot PDF template utilized by top scaling consultants." },
-          { title: "50 Proven Content Hook Lines", value: "Value $15", desc: "Attention-grabbing hook swipes for high-converting social media/ad structures." },
-          { title: "Private WhatsApp Community Access", value: "Value $120", desc: "Network with other ambitious scaling business owners for 30 days." }
-        ]
-      },
-      mid: {
-        category: "Tier 02 | Business Diagnosis & Clarity Suite",
-        title: "Business Acceleration Engine™",
-        meta: "Format: Done-With-You Build • Duration: 60 Days",
-        price: "$299 Only",
-        ctaUrl: "https://wa.me/971555113655?text=Business%20Acceleration%20Engine%20Program",
-        ctaText: "Install Scaling Engine",
-        curriculum: [
-          {
-            label: "System 1",
-            title: "The Business Blueprint (Sessions 1-2)",
-            desc: "Define your irresistible offer, ideal customer, and value-based pricing. Repairs Layers 1 and 2.",
-            sub: [
-              "Session 1: Kickoff & Blueprint Foundation - 60-day target set; offer & pricing drafted (Day 1)",
-              "Session 2: The Business Blueprint - Finalised offer-stack, ideal customer, pricing (Day 7)",
-              "Deliverables: One-page Business Blueprint (transformation sentence, ideal customer profile, value price)"
-            ]
-          },
-          {
-            label: "System 2",
-            title: "The Lead Generation Machine (Sessions 3-4)",
-            desc: "Choose one primary channel, build the offer-to-market message, and stand up lead capture + tracker. Repairs Layer 3.",
-            sub: [
-              "Session 3: Lead Gen Machine I - Primary channel chosen & offer-to-market live (Day 14)",
-              "Session 4: Lead Gen Machine II - Lead capture & tracking sheet running (Day 21)",
-              "Deliverables: A running lead source with a measured cost-per-lead tracking spreadsheet"
-            ]
-          },
-          {
-            label: "System 3",
-            title: "The Sales Conversion System (Session 5)",
-            desc: "Install a repeatable sales conversation, a multi-touch follow-up cadence, and a basic CRM pipeline. Repairs Layer 4.",
-            sub: [
-              "Session 5: Sales Conversion System - Sales script + follow-up cadence + CRM setup (Day 30)",
-              "Deliverables: Sales-call script, objection handling bank, 7-touch follow-up cadence, CRM pipeline"
-            ]
-          },
-          {
-            label: "System 4",
-            title: "The Team & Delegation System (Session 6)",
-            desc: "Write the three highest-leverage SOPs and execute one real delegation using the task-process-outcome ladder. Repairs Layer 5.",
-            sub: [
-              "Session 6: Team & Delegation System - Top-3 SOPs written & first task delegated (Day 40)",
-              "Deliverables: SOP templates, delegation ladder worksheet, and first-hire scorecard"
-            ]
-          },
-          {
-            label: "System 5 & Graduation",
-            title: "The CEO Operating System & Graduation (Sessions 7-8)",
-            desc: "Build a five-number financial dashboard and a weekly CEO calendar/rhythm. Re-measure layers at Day 60.",
-            sub: [
-              "Session 7: CEO Operating System - Financial dashboard & weekly CEO calendar live (Day 50)",
-              "Session 8: Consolidation & Graduation - Acceleration Scorecard + 90-day execution plan (Day 60)",
-              "Deliverables: 5-number financial dashboard, weekly CEO calendar, Acceleration Scorecard delta"
-            ]
-          }
-        ],
-        bonuses: [
-          { title: "Sales Script Vault", value: "Value $75", desc: "12 proven high-ticket closing scripts for B2B, consulting, and service models." },
-          { title: "WhatsApp Automation Template Pack", value: "Value $60", desc: "Ready-to-deploy welcome sequences, reminders, and sales triggers." },
-          { title: "Client Onboarding Toolkit", value: "Value $45", desc: "Delightful templates, emails, and forms to automate first 48-hours onboarding." },
-          { title: "60-Day Accountability Partner Matching", value: "Value $75", desc: "Get paired with a scaling peer to keep execution speeds running hot." },
-          { title: "CEO Money Dashboard Sheet Template", value: "Value $45", desc: "Plug-and-play Google Sheet tracker to manage vital weekly business numbers." },
-          { title: "Lifetime Community & Program Updates", value: "Value $150", desc: "Stay updated on automated systems changes and share wins in active community." }
-        ]
-      },
-      high: {
-        category: "Tier 03 | Bespoke Done-With-You Implementation",
-        title: "AI + Tech Business Integration Bootcamp",
-        meta: "Format: 1-on-1 Strategy & Scoping Audit • Duration: Scoped to Build",
-        price: "Custom Quote",
-        ctaUrl: "https://wa.me/971555113655?text=AI%20%2B%20Tech%20Business%20Integration%20Bootcamp",
-        ctaText: "Book Tech-Fit Audit",
-        curriculum: [
-          {
-            label: "Phase 1",
-            title: "The Tech-Fit Audit & Custom Proposal (1-on-1 Strategy Session)",
-            desc: "Pinpoint weak operational layers, reconcile X-Ray scores, co-scope the build, and draft a multi-page integration plan.",
-            sub: [
-              "Review: Business X-Ray diagnosis & Acceleration scores to find bottleneck layers",
-              "Co-Scope: Shortlist only the necessary technology levers for your specific industry",
-              "Deliverable: Custom Proposal mapping timeline, growth multiplier, and phased USD investment"
-            ]
-          },
-          {
-            label: "Phase 2",
-            title: "Done-With-You Build & Deployment",
-            desc: "Deploy selected software and AI automation systems alongside your team so capability is fully transferred.",
-            sub: [
-              "eurodigital.ae Levers: CRM (Dynamics/Odoo), ERP, web/e-commerce, email setup, and security assets",
-              "eurodigi.ai Levers: AI sales/support chatbots (WhatsApp/website), AI voice agents, and AI brand videos",
-              "Training: Phased gate reviews, team walkthroughs, and step-by-step systems documentation"
-            ]
-          },
-          {
-            label: "Phase 3",
-            title: "Optimise, Measure & Expand",
-            desc: "De-risk ongoing operations with custom KPI dashboards, performance tuning, and weekly metrics analysis.",
-            sub: [
-              "Analytics: Connect core platforms to a live Business Intelligence (BI) dashboard",
-              "Governance: Weekly progress checkpoints and ROI tracking for each integrated layer",
-              "Retainer / Expansion: Transition to managed services or proceed to the next-layer integration"
-            ]
-          }
-        ],
-        bonuses: [
-          { title: "Tech-Fit Audit & Custom Proposal", value: "Value: Scoped", desc: "A comprehensive 1-on-1 strategy session to co-scope and design your written integration proposal." },
-          { title: "eurodigital.ae Infrastructure Setup", value: "Value $250", desc: "Domain registration, professional business email, SSL certificate, and automated backup configuration." },
-          { title: "eurodigi.ai Custom BI Analytics Dashboard", value: "Value $500", desc: "A live business intelligence dashboard mapping your core operational KPIs to measure technology ROI." }
-        ]
-      }
-    };
-
-    // --- QUIZ DYNAMIC SYSTEM ---
-    const quizAnswers = {
-      1: null,
-      2: null,
-      3: null
-    };
-
-    // --- DOM REFERENCES ---
-    const burgerBtn = document.getElementById('burgerBtn');
-    const mobileNavOverlay = document.getElementById('mobileNavOverlay');
-    const mobileNavDrawer = document.getElementById('mobileNavDrawer');
-    const mainHeader = document.getElementById('mainHeader');
-    const floatingCTA = document.getElementById('floatingCTA');
-
-    const layersList = document.getElementById('layersList');
-    const displayBadge = document.getElementById('displayBadge');
-    const displayTitle = document.getElementById('displayTitle');
-    const displayIcon = document.getElementById('displayIcon');
-    const displayPain = document.getElementById('displayPain');
-    const displayCure = document.getElementById('displayCure');
-    const displayTip = document.getElementById('displayTip');
-
-    // --- HIGH-PERFORMANCE THROTTLED SCROLL CONTROLLER ---
-    // Uses requestAnimationFrame and passive event options to execute scroll checks
-    // at a locked refresh rate with zero main-thread render delays.
-    let scrollTicking = false;
-    window.addEventListener('scroll', () => {
-      if (!scrollTicking) {
-        window.requestAnimationFrame(() => {
-          const scrollY = window.scrollY || window.pageYOffset;
-
-          // 1. Toggle smooth Header shrinking
-          if (scrollY > 40) {
-            mainHeader.classList.add('scrolled');
-          } else {
-            mainHeader.classList.remove('scrolled');
-          }
-
-          // 2. Smoothly slide up/down the Mobile Floating CTA
-          if (scrollY > 600) {
-            floatingCTA.classList.add('active');
-          } else {
-            floatingCTA.classList.remove('active');
-          }
-
-          scrollTicking = false;
-        });
-        scrollTicking = true;
-      }
-    }, { passive: true });
-
-    // --- MOBILE DRAWER NAVIGATION TRIGGER ---
-    function toggleMobileNav() {
-      const isActive = document.body.classList.toggle('mobile-nav-active');
-      burgerBtn.setAttribute('aria-expanded', isActive);
-      mobileNavDrawer.setAttribute('aria-hidden', !isActive);
-    }
-
-    burgerBtn.addEventListener('click', toggleMobileNav);
-    mobileNavOverlay.addEventListener('click', toggleMobileNav);
-
-    // Smooth Scroll Helper
-    function smoothScroll(targetId) {
-      const target = document.querySelector(targetId);
-      if (target) {
-        const offsetPosition = target.getBoundingClientRect().top + window.pageYOffset - 80;
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-      }
-    }
-
-    // --- HIGH-PERFORMANCE VIDEO LAZY-PLAY CONTROLLER ---
-    // Pauses looping videos when they are scrolled out of the viewport to save CPU/GPU resources
-    if ('IntersectionObserver' in window) {
-      const videoObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          const video = entry.target;
-          if (entry.isIntersecting) {
-            video.play().catch(() => { });
-          } else {
-            video.pause();
-          }
-        });
-      }, { threshold: 0.1 });
-
-      document.querySelectorAll('.course-video-preview, .top-video-player').forEach(video => {
-        videoObserver.observe(video);
-      });
-    }
-
-    // --- DYNAMIC HERO SCANNER LINE INTERACTION ---
-    // Background scanner routine running at regular intervals to shift visual highlight.
-    // Highly optimized to reuse NodeList index mapping rather than repeated document querying.
-    const scannerLayers = document.querySelectorAll('.scanner-layer');
-    let currentActiveLayer = 1;
-    setInterval(() => {
-      scannerLayers.forEach(l => l.classList.remove('active'));
-      currentActiveLayer++;
-      if (currentActiveLayer > scannerLayers.length) currentActiveLayer = 1;
-      const nextLayer = scannerLayers[currentActiveLayer - 1];
-      if (nextLayer) nextLayer.classList.add('active');
-    }, 1500);
-
-    // --- INTERACTIVE 7-LAYER SYSTEM TABS & MOBILE ACCORDION ---
-    const displayCard = document.getElementById('layersDisplayCard');
-    const layersContainer = document.querySelector('.layers-container');
-
-    function positionDisplayCard() {
-      const activeBtn = document.querySelector('.layers-tab-btn.active');
-      if (window.innerWidth <= 768) {
-        if (activeBtn && displayCard) {
-          activeBtn.after(displayCard);
-        }
-      } else {
-        if (displayCard && layersContainer) {
-          layersContainer.appendChild(displayCard);
-        }
-      }
-    }
-
-    layersList.addEventListener('click', (e) => {
-      const btn = e.target.closest('.layers-tab-btn');
-      if (!btn) return;
-
-      // Update Tab CSS
-      document.querySelectorAll('.layers-tab-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      // Load and Fade In Details
-      const idx = btn.dataset.index;
-      const data = layerData[idx];
-
-      displayCard.style.opacity = '0';
-
-      // Move card inline immediately on mobile to act as an accordion drawer
-      if (window.innerWidth <= 768) {
-        btn.after(displayCard);
-      }
-
-      setTimeout(() => {
-        displayBadge.innerText = data.badge;
-        displayTitle.innerText = data.title;
-        displayPain.innerText = data.pain;
-        displayCure.innerText = data.cure;
-        displayTip.innerText = data.tip;
-        displayIcon.innerHTML = data.icon;
-
-        displayCard.style.opacity = '1';
-      }, 150);
-    });
-
-    // Handle initial load and window resize positioning with a high-performance debounce function
-    let resizeTimer;
-    window.addEventListener('resize', () => {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(positionDisplayCard, 100);
-    });
-    positionDisplayCard();
-
-    // Fade helper CSS
-    const styleHelper = document.createElement('style');
-    styleHelper.innerHTML = `#layersDisplayCard { transition: opacity 0.3s ease, transform 0.3s ease; }`;
-    document.head.appendChild(styleHelper);
-
-    // --- DYNAMIC INTERACTIVE QUIZ LOGIC WITH AUTO-ADVANCE ---
-    let currentQuizStep = 1;
-    const quizProgress = document.getElementById('quizProgress');
-    const quizPrevBtn = document.getElementById('quizPrevBtn');
-    const quizBox = document.getElementById('quizBox');
-
-    // Handle Option Clicks with Instant Auto-Advance
-    quizBox.addEventListener('click', (e) => {
-      const option = e.target.closest('.quiz-option');
-      if (!option) return;
-
-      const stepEl = option.closest('.quiz-step');
-      const stepNum = parseInt(stepEl.dataset.step);
-
-      // Highlight selection
-      stepEl.querySelectorAll('.quiz-option').forEach(o => o.classList.remove('selected'));
-      option.classList.add('selected');
-
-      // Record answer value
-      quizAnswers[stepNum] = option.dataset.value;
-
-      // Premium visual pause (280ms) so user can see selection highlight before auto-advancing
-      setTimeout(() => {
-        if (currentQuizStep < 3) {
-          document.querySelector(`.quiz-step[data-step="${currentQuizStep}"]`).classList.remove('active');
-          currentQuizStep++;
-          document.querySelector(`.quiz-step[data-step="${currentQuizStep}"]`).classList.add('active');
-          updateQuizState();
-        } else {
-          renderQuizResult();
-        }
-      }, 280);
-    });
-
-    quizPrevBtn.addEventListener('click', () => {
-      if (currentQuizStep > 1) {
-        document.querySelector(`.quiz-step[data-step="${currentQuizStep}"]`).classList.remove('active');
-        currentQuizStep--;
-        document.querySelector(`.quiz-step[data-step="${currentQuizStep}"]`).classList.add('active');
-        updateQuizState();
-      }
-    });
-
-    function updateQuizState() {
-      // Progress calculation
-      const progress = ((currentQuizStep - 1) / 3) * 100;
-      quizProgress.style.width = `${progress}%`;
-
-      // Control Buttons Visibility
-      quizPrevBtn.style.visibility = currentQuizStep > 1 ? 'visible' : 'hidden';
-    }
-
-    function renderQuizResult() {
-      quizProgress.style.width = '100%';
-
-      // Tabulate Scores to recommend path
-      const counts = { 'low-ticket': 0, 'mid-ticket': 0, 'high-ticket': 0 };
-      Object.values(quizAnswers).forEach(val => {
-        counts[val]++;
-      });
-
-      let recommendation = 'low';
-      let title = "Business X-Ray™";
-      let price = window.tier1Price || "$29";
-      let badgeColor = "badge-orange";
-      let desc = "You need a structured 7-layer diagnostic audit and roadmap to identify your operational and mindset bottlenecks before prescribing heavy tools.";
-      let features = [
-        "Complete the 7-Layer operational & mindset diagnostic form",
-        "Receive your personalised coach-reviewed Fix Reports",
-        "Attend the 2-hour live masterclass to build your 60-day roadmap"
-      ];
-      let btnLabel = `Enroll in X-Ray™ Program (${price})`;
-      let btnUrl = "https://wa.me/971555113655?text=Business%20X-Ray%20Program";
-
-      if (counts['high-ticket'] >= 2) {
-        recommendation = 'high';
-        title = "AI + Tech Business Integration Bootcamp";
-        price = "Custom Quote";
-        badgeColor = "badge-blue";
-        desc = "Your business is ready to transition from manual operations to an integrated system. You need to deploy custom AI agents, chatbots, ERPs, and automated workflows to scale your capacity.";
-        features = [
-          "Complete a 1-on-1 Tech-Fit Audit to map your bottleneck layers",
-          "Integrate eurodigital.ae software & eurodigi.ai AI tools",
-          "Deploy live BI dashboards alongside your newly trained team"
-        ];
-        btnLabel = "Book Tech-Fit Audit";
-        btnUrl = "https://wa.me/971555113655?text=AI%20%2B%20Tech%20Business%20Integration%20Bootcamp";
-      } else if (counts['mid-ticket'] >= 2 || (counts['low-ticket'] === 1 && counts['mid-ticket'] === 1 && counts['high-ticket'] === 1)) {
-        recommendation = 'mid';
-        title = "Business Acceleration Engine™";
-        price = window.tier2Price || "$299";
-        badgeColor = "badge-green";
-        desc = "You have validated your core offers but lack automated sales channels, consistent leads, and standardized onboarding systems.";
-        features = [
-          "Deploy 3-channel consistent marketing lead systems",
-          "Acquire consultative closing scripts and objections playbooks",
-          "Participate in 8 weekly live hot-seat mentorship reviews"
-        ];
-        btnLabel = "Install Scaling Engine";
-        btnUrl = "https://wa.me/971555113655?text=Business%20Acceleration%20Engine%20Program";
-      }
-
-      // Generate HTML structure for final results screen
-      const resultHtml = `
-        <div class="quiz-step active" style="animation: fadeIn 0.5s ease-in-out;">
-          <div class="quiz-result-header">
-            <span class="badge ${badgeColor}" style="margin-bottom:12px;">Diagnostic Completed</span>
-            <h3>Diagnostic Recommendation</h3>
-            <p>Based on your quiz parameters, here is your systems-gap assessment scorecard:</p>
-          </div>
-
-          <div class="quiz-result-scorecard">
-            <div>
-              <h4 style="font-size:18px; margin-bottom:8px; font-weight:700;">Structural Leaks Identified:</h4>
-              <ul style="display:flex; flex-direction:column; gap:8px;">
-                ${features.map(f => `
-                  <li style="display:flex; align-items:flex-start; gap:8px; font-size:14px; color:var(--text-secondary);">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-orange)" stroke-width="3" style="flex-shrink:0; margin-top:2px;"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    <span>${f}</span>
-                  </li>
-                `).join('')}
-              </ul>
-            </div>
-            <div class="result-score-block">
-              <div class="result-score-num">${recommendation === 'low' ? '34%' : recommendation === 'mid' ? '62%' : '84%'}</div>
-              <div class="result-score-label">Systems capacity Score</div>
-            </div>
-          </div>
-
-          <div class="quiz-recommendation-card">
-            <h4>
-              <svg viewBox="0 0 24 24"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z"/></svg>
-              Highly Recommended: ${title}
-            </h4>
-            <p style="font-size:14.5px; color:var(--text-primary); line-height:1.6;">${desc}</p>
-          </div>
-
-          <div style="display:flex; justify-content:center; gap:16px;">
-            <button class="btn btn-outline" onclick="resetQuiz()">Retake Quiz</button>
-            <a href="${btnUrl}" target="_blank" rel="noopener" class="btn btn-orange">${btnLabel}</a>
-          </div>
-        </div>
-      `;
-
-      quizBox.innerHTML = resultHtml;
-      quizPrevBtn.style.display = 'none';
-      quizNextBtn.style.display = 'none';
-    }
-
-    function resetQuiz() {
-      // Re-render Quiz steps to original baseline HTML state
-      location.reload();
-    }
-
-    // --- CURRICULUM DRAWER MODAL CONTROLLER ---
-    const detailModal = document.getElementById('detailModal');
-    let currentModalTier = 'mid';
-    let currentModalTab = 'curriculum';
-
-    function openModal(tier) {
-      currentModalTier = tier;
-      currentModalTab = 'curriculum';
-
-      // Update Tab highlighting
-      document.getElementById('tabCurriculum').classList.add('active');
-      document.getElementById('tabBonuses').classList.remove('active');
-      document.getElementById('modalTabCurriculum').classList.add('active');
-      document.getElementById('modalTabBonuses').classList.remove('active');
-
-      const data = modalData[tier];
-
-      // Populate Modal Headers
-      document.getElementById('modalCategory').innerText = data.category;
-      document.getElementById('modalTitle').innerText = data.title;
-      document.getElementById('modalMeta').innerHTML = `
-        <span>Format: ${data.meta.split(' • ')[0]}</span>
-        <span>•</span>
-        <span>Duration: ${data.meta.split(' • ')[1]}</span>
-      `;
-      document.getElementById('modalFooterPrice').innerText = data.price;
-
-      // Modify CTA
-      const ctaBtn = document.getElementById('modalCTAButton');
-      ctaBtn.href = data.ctaUrl;
-      ctaBtn.innerText = data.ctaText;
-      if (data.ctaUrl.startsWith('#')) {
-        ctaBtn.removeAttribute('target');
-        ctaBtn.removeAttribute('rel');
-        ctaBtn.onclick = (e) => {
-          closeModal();
-          smoothScroll(data.ctaUrl);
-        };
-      } else {
-        ctaBtn.setAttribute('target', '_blank');
-        ctaBtn.setAttribute('rel', 'noopener');
-        ctaBtn.onclick = null;
-      }
-
-      // Render Curriculum Items
-      const timelineContainer = document.getElementById('curriculumTimeline');
-      timelineContainer.innerHTML = '';
-
-      data.curriculum.forEach(item => {
-        const itemHtml = `
-          <div class="modal-timeline-item">
-            <div class="timeline-label">
-              <span class="timeline-label-bullet"></span>
-              ${item.label}
-            </div>
-            <div class="timeline-content">
-              <h4>${item.title}</h4>
-              <p class="timeline-content-desc">${item.desc}</p>
-              <div class="timeline-sub-list">
-                ${item.sub.map(s => `
-                  <div class="timeline-sub-item">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    <span>${s}</span>
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          </div>
-        `;
-        timelineContainer.innerHTML += itemHtml;
-      });
-
-      // Render Bonuses Items
-      const bonusesContainer = document.getElementById('bonusesGrid');
-      bonusesContainer.innerHTML = '';
-
-      data.bonuses.forEach(b => {
-        const bonusHtml = `
-          <div class="bonus-card">
-            <span class="bonus-badge-value">${b.value}</span>
-            <h4 class="bonus-title">${b.title}</h4>
-            <p class="bonus-desc">${b.desc}</p>
-          </div>
-        `;
-        bonusesContainer.innerHTML += bonusHtml;
-      });
-
-      // Enable Modal CSS Classes
-      detailModal.classList.add('active');
-      document.body.style.overflow = 'hidden'; // Stop background scrolling
-    }
-
-    function closeModal() {
-      detailModal.classList.remove('active');
-      document.body.style.overflow = 'auto'; // Enable scrolling
-    }
-
-    // --- VIDEO PLAYER MODAL CONTROLLER ---
-    const videoPlayerModal = document.getElementById('videoPlayerModal');
-    const modalVideoPlayer = document.getElementById('modalVideoPlayer');
-
-    function openVideoModal(videoSrc) {
-      if (!videoPlayerModal || !modalVideoPlayer) return;
-      modalVideoPlayer.src = videoSrc;
-      modalVideoPlayer.load();
-      videoPlayerModal.classList.add('active');
-      document.body.style.overflow = 'hidden'; // Stop background scrolling
-      modalVideoPlayer.play().catch(e => console.log("Autoplay blocked:", e));
-    }
-
-    function closeVideoModal() {
-      if (!videoPlayerModal || !modalVideoPlayer) return;
-      videoPlayerModal.classList.remove('active');
-      document.body.style.overflow = 'auto'; // Enable scrolling
-      modalVideoPlayer.pause();
-      modalVideoPlayer.src = ""; // Clear source to stop buffering/playing
-    }
-
-    // Modal Close via background click
-    videoPlayerModal.addEventListener('click', (e) => {
-      if (e.target === videoPlayerModal) {
-        closeVideoModal();
-      }
-    });
-
-    // Modal Close via background click
-    detailModal.addEventListener('click', (e) => {
-      if (e.target === detailModal) {
-        closeModal();
-      }
-    });
-
-    // Close on Escape Key
-    window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        closeModal();
-        closeVideoModal();
-        if (typeof closeLegalModal === 'function') closeLegalModal();
-      }
-    });
-
-    function switchModalTab(tab) {
-      currentModalTab = tab;
-
-      const tabCurriculum = document.getElementById('tabCurriculum');
-      const tabBonuses = document.getElementById('tabBonuses');
-      const contentCurriculum = document.getElementById('modalTabCurriculum');
-      const contentBonuses = document.getElementById('modalTabBonuses');
-
-      if (tab === 'curriculum') {
-        tabCurriculum.classList.add('active');
-        tabBonuses.classList.remove('active');
-        contentCurriculum.classList.add('active');
-        contentBonuses.classList.remove('active');
-      } else {
-        tabCurriculum.classList.remove('active');
-        tabBonuses.classList.add('active');
-        contentCurriculum.classList.remove('active');
-        contentBonuses.classList.add('active');
-      }
-    }
-
-    // --- COMPLIANT LEGAL MODALS CONTROLLER & CONTENTS ---
-    const legalModal = document.getElementById('legalModal');
-    const legalTitle = document.getElementById('legalModalTitle');
-    const legalContent = document.getElementById('legalModalContent');
-
-    const legalTexts = {
-      privacy: `
-        <h3>1. Introduction</h3>
-        <p>Welcome to <strong>Euro Digital Technologies</strong> ("Euro Digital Technologies", "we", "our", "us"). We provide premium business diagnostics assessments, systems-driven execution courses, and software integration kits. We are deeply committed to safeguarding the privacy and security of our visitors and clients. This document details how we process your personal data in absolute compliance with data protection laws and marketing communication guidelines.</p>
-
-        <div class="legal-text-highlight">
-          <strong>WhatsApp Communication Consent:</strong><br>
-          We strictly follow a zero-spam policy. Phone numbers collected via diagnostic assessments and course forms are used exclusively for course updates and systems notifications, under your explicit consent.
-        </div>
-
-        <h3>2. Information We Collect</h3>
-        <p>In operating our 3-tier business transformation suite, we collect these data points:</p>
-        <ul>
-          <li><strong>Personal Identifiers:</strong> Full Name, Email Address, and WhatsApp-enabled Mobile Number.</li>
-          <li><strong>Diagnostic Quiz Metadata:</strong> Capacity metrics, bottleneck scores, answers to systems capacity diagnostics, and operational roadmap options.</li>
-        </ul>
-
-        <h3>3. How We Process & Use Your Information</h3>
-        <p>We process your data for clear contractual and consent-based purposes:</p>
-        <ul>
-          <li>To generate your custom 7-Layer Business Scan and send the 60-day strategic roadmap.</li>
-          <li>To deliver course ticket details, program confirmations, and onboarding links.</li>
-          <li>To deliver support assistance, operational course alerts, and value-added scaling tips via automated WhatsApp notifications.</li>
-        </ul>
-
-        <h3>4. Third-Party Data Transfer Practices</h3>
-        <p>We strictly do not rent, sell, or monetize customer data with external advertising aggregators. Your information is shared only with primary functional systems operators:</p>
-        <ul>
-          <li><strong>Communication Routing Partners:</strong> For securely transmitting transactional alerts and course delivery schedules to your mobile device.</li>
-          <li><strong>Video Portal Hosters & CRM:</strong> To deploy course access keys and community invites.</li>
-        </ul>
-
-        <h3>5. Consent Management & Unsubscribe (Opt-Out)</h3>
-        <p>You own your contact preferences. If you wish to revoke your consent and opt-out of WhatsApp communications, you can reply <strong>"STOP"</strong> directly to any WhatsApp thread, or email our support desk at <strong>bdm@eurodigital.ae</strong>. We process all unsubscribe, restriction, and complete data deletion requests within 24 hours.</p>
-
-        <h3>6. Security & Data Retention</h3>
-        <p>All communication sessions on this landing page are guarded by standard Secure Sockets Layer (SSL) 256-bit security. Data is stored on secure, access-controlled cloud networks.</p>
-      `,
-      terms: `
-        <h3>1. Services Overview</h3>
-        <p>Euro Digital Technologies operates a 3-tier systems training and transformation suite designed strictly for business owners, agency operators, independent coaches, and startups. Enrolling implies you are using these tools for professional commercial advancement.</p>
-
-        <h3>2. Copyright & Intellectual Property</h3>
-        <p>All curriculum contents, video modules, 7-layer scan framework algorithms, spreadsheet models, consultative sales scripts, and organizational SOP sheets provided are sole property of Euro Digital Technologies. You receive a single-user, non-transferable license. Redistribution or sharing assets with third parties constitutes infringement.</p>
-
-        <h3>3. Payment & Subscription Terms</h3>
-        <p>Tickets to the diagnostic Business X-Ray™ (<span class="tier1-price-text">$29</span>) are one-time payments. Mid-tier programs offer structured installment (EMI) plans. Bespoke integrations are quoted via a custom proposal with phased milestones. You agree to fulfill all agreed payments once program activation or implementation begins.</p>
-      `,
-      refund: `
-        <h3>1. Action-Based 100% Guarantee</h3>
-        <p>We believe in outcome-driven frameworks. Therefore, our refund program is strictly execution-based. We do not provide refunds for simple change-of-mind.</p>
-
-        <h3>2. Terms of Execution for Refund</h3>
-        <p>To secure a complete refund for the 60-day <strong>Business Acceleration Engine™</strong> (<span class="tier2-price-text">$299</span>), you must submit proof of setup:</p>
-        <ul>
-          <li>Watch all course modules.</li>
-          <li>Participate in at least 6 of the 8 weekly live Zoom mentoring calls.</li>
-          <li>Submit active spreadsheets showing installation of your Lead Generation Machine and CEO Money Dashboard.</li>
-        </ul>
-        <p>If you execute these operational systems and do not experience a systems capacity score improvement, email <strong>bdm@eurodigital.ae</strong> within 60 days of purchase for a complete, hassle-free clearance of your payment.</p>
-      `
-    };
-
-    function openLegalModal(type) {
-      if (!legalTexts[type]) return;
-
-      legalContent.innerHTML = legalTexts[type];
-
-      // Update Modal Title based on tab
-      if (type === 'privacy') {
-        legalTitle.innerText = "Privacy Policy";
-      } else if (type === 'terms') {
-        legalTitle.innerText = "Terms of Service";
-      } else if (type === 'refund') {
-        legalTitle.innerText = "Refund Guarantee Policy";
-      }
-
-      legalModal.classList.add('active');
-      document.body.style.overflow = 'hidden';
-
-      // Reset scroll position of content to top
-      legalContent.scrollTop = 0;
-    }
-
-    function closeLegalModal() {
-      legalModal.classList.remove('active');
-
-      // Clean up URL hash without reloading the page if needed
-      if (['#privacy-policy', '#terms-of-service', '#refund-policy'].includes(location.hash)) {
-        history.pushState("", document.title, window.location.pathname + window.location.search);
-      }
-
-      document.body.style.overflow = 'auto';
-    }
-
-    // Modal background click closing
-    legalModal.addEventListener('click', (e) => {
-      if (e.target === legalModal) {
-        closeLegalModal();
-      }
-    });
-
-    // Handle Hash links automatically (Critical for Meta compliance crawlers)
-    function handleHashNavigation() {
-      const hash = location.hash;
-      if (hash === '#privacy-policy') {
-        openLegalModal('privacy');
-      } else if (hash === '#terms-of-service') {
-        openLegalModal('terms');
-      } else if (hash === '#refund-policy') {
-        openLegalModal('refund');
-      }
-    }
-
-    // --- DYNAMIC FAQ ACCORDION SYSTEM ---
-    document.querySelectorAll('.faq-header').forEach(header => {
-      header.addEventListener('click', () => {
-        const item = header.closest('.faq-item');
-        const isActive = item.classList.contains('active');
-
-        // Close all other FAQ items for a clean premium single-expanded look
-        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-
-        if (!isActive) {
-          item.classList.add('active');
-        }
-      });
-    });
-
-    window.addEventListener('hashchange', handleHashNavigation);
-    window.addEventListener('DOMContentLoaded', handleHashNavigation);
-  </script>
+  <script src="main.js"></script>
 </body>
 
 </html>

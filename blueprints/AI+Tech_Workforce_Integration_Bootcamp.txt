@@ -1,0 +1,318 @@
+UDYOG GURU
+Build. Scale. Lead.
+
+AI + TECH HR
+INTEGRATION BOOTCAMP
+Tier 3 - Bespoke Done-With-You Implementation
+Document in English, 1-on-1 Strategy Call Script in Hinglish
+TIER 3 - WORKFORCE DIAGNOSIS & CLARITY SUITE
+The capstone of the workforce value ladder. Where Tier 1 diagnoses and Tier 2 installs the core workforce systems, Tier 3 integrates Euro Digital's complete AI + software + hosting ecosystem into the HR function - custom-scoped to the exact dimensions the diagnosis revealed as weak, and engineered to eliminate manual bottlenecks so people-ops can scale without proportional HR headcount. This is consulting plus practical, done-with-you implementation, not a fixed course.
+Pricing. Tier 3 has no fixed price. Every engagement is custom-built and quoted in USD after the Tech-Fit Audit - the combined read of the client's Workforce X-Ray diagnosis, their Day-60 Rescore results, and a 1-on-1 discussion that pinpoints which of the five workforce dimensions still carry technology-solvable friction. The investment reflects only the services that fit that specific HR function.
+Version 1.0 |  June 2026
+
+
+Contents
+Part 1 - Program Philosophy & The Integration-First Model
+Part 2 - The Client Journey (End-to-End Engagement Workflow)
+Part 3 - The 2-Platform Technology Ecosystem & 5-Dimension Map
+Part 4 - The Tech-Fit Audit (How Custom Scope Is Built)
+Part 5 - Growth-Multiplier Mapping & Proposal Logic
+Part 6 - The Custom Implementation Proposal (Template)
+Part 7 - The 1-on-1 Strategy & Scoping Call (Full Script)
+Part 8 - WhatsApp & Email Automation Sequences
+Part 9 - Delivery, Governance & Expansion
+Part 10 - Operational Playbook for the Consulting/Delivery Team
+The Value Ladder. Tier 1 Workforce X-Ray(tm) ($99 India - $499 Worldwide) diagnoses. Tier 2 X-Ray Debrief(tm) ($999 India - $2,999 Worldwide) installs the five core workforce systems. Tier 3 AI + Tech HR Integration Bootcamp (custom, quoted after the Tech-Fit Audit) integrates HR technology and scales - the subject of this blueprint.
+
+
+Part 1 - Program Philosophy & The Integration-First Model
+Diagnosis reveals the pattern. Systems stop the bleeding. Integration builds the engine. Tier 3 exists for the HR function that has already been diagnosed (Tier 1) and has installed its core workforce systems (Tier 2), and is now ready for the highest-leverage move of all: integrating technology - AI, HR software and infrastructure - directly into the operation so that HR scale becomes engineered rather than manually forced.
+Where the earlier tiers are standardised by design, Tier 3 is deliberately bespoke. No two HR functions carry the same weak dimensions, operate in the same industry, or face the same manual bottleneck. A fixed curriculum would betray the entire diagnostic philosophy. So Tier 3 is built the way a master tailor works - measured first, cut second.
+
+The Three Principles
+1. Integration follows the diagnosis. We deploy technology only against dimensions the X-Ray and Rescore proved weak or still manually intensive. No tool is sold for its own sake.
+2. Done-WITH-you, not done-for-you. We build it alongside the HR head and their team so capability stays in the organisation after we leave. The client owns the engine.
+3. Scope is earned, never assumed. The investment is quoted only after the Tech-Fit Audit. The HR function pays for what fits - nothing more.
+
+Why There Is No Fixed Price or Fixed Timeline
+Tier 3 is a consulting-and-implementation engagement, not a course. Its scope, duration and investment are determined entirely by what the diagnosis reveals, what the Debrief installation surfaced, and what the HR function chooses to integrate. A single HR chatbot install is a different engagement from a full HRIS + CRM + AI-agent + workflow-automation rollout. The Tech-Fit Audit (Part 4) is what converts the diagnosis into a precise, custom proposal.
+What Is Fixed    What Is Custom
+The method (Audit - Proposal - Build - Optimise)    The services selected from the ecosystem
+The done-with-you delivery model    The timeline (weeks to months, per scope)
+The 5-dimension diagnostic spine    The investment (quoted after the Audit)
+The automation-led scaling ambition    The industry-specific HR configuration
+
+
+Part 2 - The Client Journey (End-to-End Engagement Workflow)
+Tier 3 begins where Tier 2 ends. The qualified client is invited from a diagnosis and a track record of execution, not from a cold pitch. Each stage de-risks the next.
+Stage    What Happens    Mechanism / Tools    Purpose
+1    Qualification    Review X-Ray + Rescore; confirm Debrief graduation    Ensure the HR function is ready to integrate, not still firefighting
+2    Tech-Fit Audit (1-on-1)    Deep-dive call to pinpoint weak dimensions + industry + automation targets    Convert diagnosis into a precise technology scope
+3    Custom Proposal    Service map + timeline + automation model + custom USD quote    Show exactly what will be built, why, and the projected time-saved / query-deflected / attrition-reduced impact
+4    Agreement & Kickoff    Scope sign-off; access; project plan; success metrics    Lock scope and set the delivery rhythm
+5    Done-With-You Build    Phased deployment of AI/software/hosting with the HR + IT team    Install the engine while transferring capability
+6    Optimise & Measure    AI dashboards, tuning, adoption reviews    Prove the multiplier; refine for compounding gains
+7    Handover & Independence    Documentation, team training, 90-day priority support    Ensure capability stays inside the client's business
+8    Quarterly Advisory (Post-Handover)    Q1-Q4 independent voice sessions    Sustain the momentum; prepare for Year 2 expansion
+
+The Critical Design Shift
+Common model: A generic "HR AI transformation" project that installs 15 tools nobody uses, delivers a 200-page playbook nobody reads, and leaves the HR function dependent on an external partner forever.
+AI + Tech HR Integration Bootcamp: A diagnosis-driven, small-set, done-with-you installation of only the technology levers that address named workforce dimensions - built alongside the internal team so that on Day 1 of independence, the HR head can operate, extend and iterate without us.
+
+
+Part 3 - The 2-Platform Technology Ecosystem & 5-Dimension Map
+Two platforms combine to form the ecosystem deployed in this Bootcamp. One accountable partner. Two complementary technology platforms.
+
+Platform 1 - eurodigital.ae
+IT infrastructure, software licensing, hosting, cybersecurity. Enterprise-grade delivery for HR technology stack.
+Capabilities: HRIS integration (Odoo HR, Zoho People, SAP SuccessFactors), CRM extensions (Zoho CRM, HubSpot for HR), hosting (cloud or on-premise), cybersecurity for employee data, GDPR / UAE PDPL / DPDP Act compliance layer, access control, audit logging.
+
+Platform 2 - eurodigi.ai
+AI chatbots, voice agents, workflow automation. The intelligent-application layer that sits on top of the infrastructure.
+Capabilities: WhatsApp Business API HR bots, web-embedded HR bots, AI voice agents (multilingual), workflow automation (n8n, Zapier, Make), custom AI dashboards (Culture Signals AI layer), predictive attrition modelling, conversation intelligence.
+
+The 5-Dimension to Technology-Lever Map
+Weak Dimension (from Tier 1 or still active post-Tier 2)    eurodigital.ae Levers    eurodigi.ai Levers
+D1: Performance & Capability    HRIS configuration (Odoo/Zoho); capability mapping database; feedback platform integration    Capability-matching AI; automated feedback prompt bot; KPI dashboard automation
+D2: Wellbeing & Stress Load    Workload data pipeline; wellbeing platform integration; secure storage    Wellbeing pulse chatbot (weekly voluntary); anomaly-detection AI; early-warning alert system
+D3: Behavioural & Productivity    Meeting analytics tool integration; calendar governance rules engine    Meeting-load AI analyser; workflow automation (n8n) for repetitive tasks; notification governance bot
+D4: Growth Gap & Aspiration    LMS deployment; internal mobility marketplace platform; career pathway database    AI pathway recommendations; learning path chatbot; mentor-matching AI
+D5: Team, Manager & Culture    Culture Signals database extension; HRIS-manager-feedback pipeline    Culture Signals AI layer (anomaly detection + predictive attrition); conversation intelligence for 1:1s; manager enablement bot
+
+Cross-Cutting Deployments (Any Dimension)
+- Universal HR Query Bot (WhatsApp + web + Slack/Teams): leave, payroll, benefits, policy queries
+- Onboarding Bot: guided Day 1-30 journey per new hire
+- Exit Bot: candid exit interview via voice agent
+- Recruitment Screening Voice Agent: Level 1 candidate qualification
+- Custom AI Dashboards: Culture Signals AI overlay on the Tier 2 dashboard architecture
+
+
+Part 4 - The Tech-Fit Audit (How Custom Scope Is Built)
+The Tech-Fit Audit is the entry point to Tier 3. It is a paid 90-minute consultation that carries a separate fee (typically $500-$1,500 USD depending on organisation size), credited against the engagement fee if the client proceeds to Bootcamp scope. If the client does not proceed, the audit output is theirs to keep - a written scope recommendation they can execute internally or with any partner.
+
+The 90-Minute Structure
+Time    Segment    Objective
+0:00-0:15    Diagnosis Review    Read X-Ray + Rescore aloud; confirm current state
+0:15-0:45    Current HR Tech Stack Audit    What is already deployed, integrated, or subscribed
+0:45-1:15    Automation Opportunity Mapping    Against the 5 dimensions, what levers apply
+1:15-1:30    Prioritisation Discussion    Impact vs effort; sequencing logic
+
+The Six Diagnostic Questions
+The audit hinges on six questions the coach asks directly. Answers determine scope. There are no wrong answers - only patterns.
+1. Which of the 5 dimensions is still your most manual pain point today, post-Debrief?
+2. What percentage of your HR team's week is spent on repetitive Level 1 queries?
+3. What HRIS or CRM platform are you already on, and how well-configured is it?
+4. What is your realistic annual technology budget - not aspirational, actual?
+5. Do you have an internal IT or tech partner who will co-own this deployment, or do we need to bring one?
+6. What is the one workforce outcome that, if 10x-improved by technology, would justify this engagement to your CEO?
+
+The Output
+Within 5 working days of the audit, the client receives a written 3-page scope recommendation:
+- Prioritised list of 3-6 build candidates (from the 5-dimension map)
+- Estimated timeline range for each candidate
+- Estimated USD investment range for each candidate (individual and combined)
+- Explicit list of what is NOT recommended for this engagement (and why)
+- One-page executive summary suitable for CEO/CHRO circulation
+
+The client then decides whether to proceed to a full Custom Proposal (Part 6) or to keep the scope recommendation and execute independently.
+
+
+Part 5 - Growth-Multiplier Mapping & Proposal Logic
+Once the audit is complete, the coach converts the prioritised build candidates into a growth-multiplier model that the CEO/CHRO can evaluate financially. This is the difference between "we will build a chatbot" and "we will deploy a chatbot that deflects 40% of Level 1 HR queries, saving [X] HR hours per week, which equals [Y] USD per year in HR capacity redeployed to strategic work."
+
+The Multiplier Categories
+Category    What It Measures    Typical Range
+Query Deflection    % of Level 1 HR queries handled by bot instead of HR team    30-60% of routine queries
+Time Reclaimed    HR team hours per week freed by automation    5-25 hours per week per HR FTE
+Onboarding Acceleration    Days shaved off new hire time-to-productivity    3-14 days per new hire
+Attrition Prevention    Estimated exit prevention via early-warning AI    2-5 senior exits prevented in Year 1
+Recruitment Efficiency    % reduction in Level 1 screening time via voice agent    50-70% reduction in initial screen time
+Adoption Rate    % of employees actively using deployed tools within 90 days    60-85% target
+Data Quality Uplift    Reduction in data-entry errors via HRIS automation    40-60% reduction
+
+The Proposal Logic
+Each build candidate carries an estimated multiplier value. The total proposal aggregates these into a Year 1 impact model:
+- Time reclaimed = HR hours per year - HR fully-loaded cost = capacity value in USD
+- Attrition prevented = number of exits prevented - fully-loaded exit cost in USD (recruitment + onboarding + productivity loss)
+- Adoption target = required condition; if not met, additional support cycle in scope
+
+The proposal is not sold on features. It is sold on the Year 1 multiplier vs the investment. If the multiplier does not clearly exceed the investment by at least 3x in Year 1, the proposal is redesigned - either by removing marginal candidates or by extending the timeline.
+
+
+Part 6 - The Custom Implementation Proposal (Template)
+The proposal is delivered as a branded PDF, typically 15-25 pages. Fields in [brackets] are populated from the audit and multiplier mapping.
+
+AI + TECH HR INTEGRATION BOOTCAMP - CUSTOM IMPLEMENTATION PROPOSAL
+Prepared for: [Client Organisation Name]  -  Prepared by: [Euro Digital / Udyog Guru]  -  Date: [Date]
+
+Section 1 - Executive Summary (1 page)
+- Client's diagnosed workforce state (from X-Ray + Rescore)
+- Recommended technology scope (5-8 lines)
+- Estimated Year 1 multiplier value in USD
+- Investment range in USD
+- Recommended kickoff date
+
+Section 2 - Diagnosis Recap (2 pages)
+- Aggregate X-Ray scores per dimension
+- Day-60 Rescore movement per dimension
+- Current manual pain points post-Debrief (from Tech-Fit Audit)
+- Dimensions targeted by this engagement
+
+Section 3 - The Scoped Build (5-10 pages, one page per build candidate)
+For each build candidate:
+- What it is (technology, platform, integration)
+- Dimension it serves
+- Estimated build timeline
+- Estimated multiplier value (Year 1)
+- Client team involvement required
+- Handover criteria
+
+Section 4 - Delivery Model (2 pages)
+- Phased plan (Audit already complete; Build; Optimise; Handover; Post-Handover Advisory)
+- Weekly cadence during Build phase
+- Access requirements (systems, data, key stakeholders)
+- Governance model (who signs off on what)
+
+Section 5 - Investment (1 page)
+- Custom USD quote per build candidate
+- Optional add-ons (with pricing)
+- Payment terms
+- Tech-Fit Audit fee credit
+
+Section 6 - The 3 Bonuses Included in Every Scope (1 page)
+1. HR Tech Vendor Selection Playbook (independent - we take no vendor commission)
+2. AI Governance + Employee Data Ethics Framework (GDPR / UAE PDPL / DPDP Act aligned)
+3. Post-Handover Quarterly Advisory (4 quarterly 60-min calls in Year 1, independent second opinion)
+
+Section 7 - Success Criteria (1 page)
+- Adoption rate targets per deployed tool
+- Multiplier value targets (query deflection, time reclaimed, etc)
+- Client team capability transfer criteria
+- Post-handover independence markers
+
+Section 8 - Terms & Signature Block (1 page)
+Standard terms; signatures; effective date.
+
+
+Part 7 - The 1-on-1 Strategy & Scoping Call (Full Script) [Hinglish]
+How to read this part. Everything in quotation marks is what the trainer SAYS - natural spoken Hinglish, delivered conversationally, not word-for-word. Everything in italics is a stage direction. Bracketed [items] are placeholders to fill live.
+
+Format: Live 1-on-1 call, 90 minutes, paid. Audience: HR head, and optionally CEO/CHRO or IT lead. Goal: Complete the Tech-Fit Audit; land the six diagnostic questions; leave with a mutual understanding of what a Custom Proposal would contain.
+
+Opening & Framing (0:00-0:10)
+Open on camera. Warm, senior, unhurried. This is a consultation, not a pitch.
+"Namaste. Aaj hum ek Tech-Fit Audit karenge. 90 minutes. Iske end mein aapke paas do cheezein hongi - ek clear samajh ki aapki HR function mein kaunse tech levers actually deploy hone chahiye, aur konsi nahi. Aur haan - koi bhi lever main aaj recommend karunga, uska ek concrete USD number aapko milega. Kya aap ready ho? Chaliye shuru karte hain."
+
+Diagnosis Review (0:10-0:25)
+Have their X-Ray Report + Rescore Report on screen. Read aloud together.
+"Sabse pehle, aapki current state. Aapki X-Ray Report mein D2 (Wellbeing) sabse kam thi at 47%, D4 (Growth Gap) 52% par thi. Debrief ke baad Day 60 rescore mein D2 51% par gaya - kuch movement - D4 55% par gaya. Yeh kaunsi picture bataata hai? Systems installed hain, lekin scaling nahi ho paa rahi. Yahaan tech aati hai."
+
+Current HR Tech Stack Audit (0:25-0:45)
+Ask specific questions. Take notes on screen.
+"Ab aapki current HR tech stack. Ek-ek karke bataayiye - kaunsa HRIS use kar rahe hain? Kaunsa payroll platform? Kya WhatsApp Business API set up hai? Kaunsi tool aapke HR team ke members roz use karte hain vs kaunsi shelfware hai?"
+Note gaps and integration issues. Don't offer solutions yet.
+
+Automation Opportunity Mapping (0:45-1:15)
+Now go dimension by dimension. Match manual pain to specific tech levers.
+"Ab main dimensions par jaunga. D2 aapki weakest thi. Aapki Debrief mein Wellbeing Operations System installed hui. Ab manual level pe kaunsi problem hai? Do example dena - kya aapki HR team abhi bhi manually weekly check-in bhejti hai employees ko? Kya workload data manually collect ho raha hai ya HRIS se automatically flow ho raha hai?"
+Listen. Then propose specific lever.
+"Iske liye eurodigi.ai se ek Wellbeing Pulse Bot deploy ho sakti hai. Weekly voluntary check-in, WhatsApp par. Data anonymised, aggregate dashboard aati hai. Time save - roughly 4-6 HR hours per week. Cost range - $X to $Y depending on scope. Aap iska use kar sakti hai?"
+Repeat for D4 (Growth Gap) - propose career pathway chatbot + AI recommendations.
+Repeat for one cross-cutting lever (HR Query Bot) - propose WhatsApp query bot with query deflection multiplier.
+
+The Six Diagnostic Questions (Interwoven, not sequential)
+Weave the six diagnostic questions naturally into the dimension conversation. By the end, you should have clear answers to all six.
+
+Prioritisation Discussion (1:15-1:25)
+Consolidate on screen. Show 4-6 candidate levers with dimension + estimated cost range + estimated multiplier.
+"Yeh 6 candidates hain. Aap sab kabhi ek saath deploy nahi karengi - yeh classic transformation trap hai. Meri recommendation: teen se shuru karo. Konsi teen? [Client picks based on discussion]. Yeh sequencing hum proposal mein reflect karenge."
+
+Close (1:25-1:30)
+Warm, clear next step. No hard sell.
+"Ab ek imaandaar baat. Main next 5 working days mein aapko ek written scope recommendation bhejunga - 3 pages, jo humne aaj discuss kiya wahi ke basis par. Aap dekhoge, board ko dikhaao agar zaroori hai, aur decide karo. Agar proceed karna hai - full Custom Proposal 10 din mein taiyaar. Agar nahi - toh yeh scope aapke paas hai, koi bhi partner ke saath execute kar sakti hain, humein credit nahi chahiye. Aur haan - aaj ki audit fee hum proposal fee mein credit kar denge agar aap proceed karti hain."
+Handshake close.
+"Aaj clarity ke liye time nikaalne ka shukriya. Aap ne 90 minutes mein woh soch ki jo bahut kam HR heads karti hain - aap technology ko diagnosis se attach kar rahi hain, na ki hype se. Yehi difference hai."
+
+Trainer reminder. Tier 3 is not sold on features - it is sold on multipliers. Every technology recommendation must carry a specific time-saved / query-deflected / attrition-prevented number. If it does not, do not recommend it.
+
+
+Part 8 - WhatsApp & Email Automation Sequences
+Tier 3 sequences are lighter than Tier 1 or Tier 2 - the relationship is consultative, not campaign-driven. Volume is low, quality is high.
+
+A. Immediately After Tech-Fit Audit Booking
+- Msg 1 (instant): "Your Tech-Fit Audit is confirmed for [date/time]. Pre-read attached: (1) your X-Ray Report, (2) your Day-60 Rescore, (3) audit prep checklist. Please have your HRIS platform info and technology budget number ready."
+- Msg 2 (-24h before audit): "Audit tomorrow at [time]. Duration 90 minutes. Optional attendees: CEO/CHRO or IT lead. Join link: [link]."
+
+B. Post-Audit
+- +48h: "Your written scope recommendation is being prepared - 3 pages, delivered within 5 working days. It will include recommended build candidates, timelines, and USD ranges. Any questions in the interim, please reply here."
+- +5 working days: "Your scope recommendation is ready: [attachment]. Please review at your pace. If you would like to discuss - book a follow-up call here: [link]. If you would like to proceed to a full Custom Proposal, please indicate which candidates from the scope you would like priced in detail."
+
+C. Custom Proposal Phase
+- On proposal delivery: "Your Custom Implementation Proposal is ready: [attachment]. This is a bespoke document reflecting exactly what we discussed. Please review with any relevant stakeholders. Signature and kickoff dates on page [X]."
+- +7 days if no reply: "Following up gently on your Custom Proposal. If it needs adjustment - scope, timeline, phasing - please let me know. If it is not the right fit at this time, that is also useful to hear."
+
+D. Kickoff & Delivery Phase
+- On kickoff: "Kickoff confirmed for [date]. Access requirements confirmed. Weekly cadence: [day/time]. Project channel created: [link]."
+- Every Monday during build: "Week [X] focus: [current build candidate]. This week's live session: [date/time]. Blockers? Reply BLOCKER."
+
+E. Handover & Post-Handover
+- Handover day: "Congratulations - handover complete. All technical documentation attached. 90-day priority support active until [date]. Your first Quarterly Advisory call is scheduled for [date]."
+- Every quarter for 4 quarters: "Quarterly Advisory call reminder: [date]. Please send any questions in advance to make best use of the 60 minutes."
+
+
+Part 9 - Delivery, Governance & Expansion
+Delivery Governance
+Every Tier 3 engagement has three governance layers:
+1. Weekly Delivery Cadence. HR head + tech lead + implementation partner. 30 minutes. Progress, blockers, decisions.
+2. Monthly Executive Review. HR head + CEO/CHRO + implementation lead. 45 minutes. Multiplier tracking, adoption metrics, next-month priorities.
+3. Quarterly Advisory (Post-Handover). HR head + independent advisor (Euro Digital or Udyog Guru). 60 minutes. Independent second opinion; no sales agenda.
+
+Adoption Discipline
+Every deployed technology carries an adoption target (60-85% within 90 days). If adoption is below target at 60 days, the engagement pauses new builds and invests in adoption support. A tool with 30% adoption is worse than no tool.
+
+Expansion Logic
+Tier 3 clients typically expand in three directions:
+1. Depth expansion - additional levers within a dimension we already deployed (e.g., adding voice agent to a chatbot deployment)
+2. Breadth expansion - deploying a new lever category (e.g., adding recruitment agent after HR query bot)
+3. Advisory retention - annual advisory contract post the 4 quarterly calls
+
+Expansion is triggered by client outcomes, not by sales calendar. If the client's multiplier is proving out, they typically request expansion themselves.
+
+The Independence Discipline
+The most important delivery outcome is client independence. By the end of the engagement, the client's HR + IT team must be able to:
+- Operate every deployed tool without external support
+- Extend and iterate on chatbot prompts and workflow rules
+- Interpret AI dashboard signals and act on them
+- Onboard new HR team members to the deployed stack
+
+If any of these are not true at handover, the engagement is not complete. Additional training and support cycles are added at no extra cost until they are.
+
+
+Part 10 - Operational Playbook for the Consulting/Delivery Team
+Per-Engagement Checklist
+1. Qualification review - confirm X-Ray + Rescore on file; confirm Debrief graduation or approved exception.
+2. Tech-Fit Audit booked; pre-read materials delivered.
+3. Deliver Tech-Fit Audit (90-min paid consultation).
+4. Prepare written scope recommendation (3 pages) - deliver within 5 working days.
+5. If client proceeds - prepare Custom Implementation Proposal (15-25 pages) - deliver within 10 working days.
+6. On signature - project plan, access, kickoff meeting, weekly cadence, monthly executive review calendared.
+7. Weekly build sessions per scope; Friday tracker updates.
+8. Monthly multiplier review with CEO/CHRO.
+9. Handover: documentation, training, 90-day priority support.
+10. Quarterly Advisory (Q1-Q4 post-handover): independent voice sessions.
+
+Quality Standards
+- No technology is recommended without a specific multiplier value attached.
+- Tech-Fit Audit is delivered whether or not the client proceeds to Bootcamp scope - the audit output is the client's property.
+- Written scope recommendation is unbranded enough that the client can execute with any partner if they choose - we do not lock scope to us.
+- Custom Proposal Year 1 multiplier value must exceed investment by at least 3x, or the proposal is redesigned.
+- Adoption discipline: no new build starts if the previous build is below 60% adoption at 60 days.
+- Independence discipline: engagement is not complete until the client's team can operate, extend, and iterate without us.
+- Quarterly Advisory is genuinely independent - no upselling within advisory calls. Expansion opportunities are discussed only when raised by the client.
+
+
+END OF TIER 3 BLUEPRINT
+Prior: Tier 1 - Workforce X-Ray(tm) ($99/$499) - Tier 2 - X-Ray Debrief(tm) ($999/$2,999)
+AI + Tech HR Integration Bootcamp  -  Tier 3 Blueprint
+
+Udyog Guru  -  Euro Digital  -  Confidential  -  Page 1
