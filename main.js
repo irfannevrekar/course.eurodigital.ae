@@ -7,7 +7,7 @@ window.tier1Price = '$10';
 window.tier2Price = '$299';
 window.tier2Emi = 'EMI Available: $150 x 2 Months';
 
-// --- 2. HEADER SCROLL & NAVIGATION HELPERS ---
+// --- 2. HEADER SCROLL & NAVIGATION HELPERS (HIGH PERFORMANCE 60FPS) ---
 window.addEventListener('DOMContentLoaded', () => {
   const mainHeader = document.getElementById('mainHeader');
   const floatingCTA = document.getElementById('floatingCTA');
@@ -15,18 +15,28 @@ window.addEventListener('DOMContentLoaded', () => {
   const mobileNavOverlay = document.getElementById('mobileNavOverlay');
 
   let scrollTicking = false;
+  let isHeaderScrolled = false;
+  let isFloatingActive = false;
+
   window.addEventListener('scroll', () => {
     if (!scrollTicking) {
       window.requestAnimationFrame(() => {
         const scrollY = window.scrollY || window.pageYOffset;
-        if (mainHeader) {
-          if (scrollY > 40) mainHeader.classList.add('scrolled');
+        const shouldHeaderScrolled = scrollY > 40;
+        const shouldFloatingActive = scrollY > 600;
+
+        if (mainHeader && isHeaderScrolled !== shouldHeaderScrolled) {
+          isHeaderScrolled = shouldHeaderScrolled;
+          if (shouldHeaderScrolled) mainHeader.classList.add('scrolled');
           else mainHeader.classList.remove('scrolled');
         }
-        if (floatingCTA) {
-          if (scrollY > 600) floatingCTA.classList.add('active');
+
+        if (floatingCTA && isFloatingActive !== shouldFloatingActive) {
+          isFloatingActive = shouldFloatingActive;
+          if (shouldFloatingActive) floatingCTA.classList.add('active');
           else floatingCTA.classList.remove('active');
         }
+
         scrollTicking = false;
       });
       scrollTicking = true;
@@ -35,6 +45,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
   if (burgerBtn) burgerBtn.addEventListener('click', toggleMobileNav);
   if (mobileNavOverlay) mobileNavOverlay.addEventListener('click', toggleMobileNav);
+
+  // Initialize smart viewport-aware video lazy management
+  initSmartVideoObserver();
 });
 
 function toggleMobileNav() {
@@ -274,17 +287,41 @@ window.addEventListener('DOMContentLoaded', () => {
     positionHrDisplayCard();
   }
 
-  // scanner layers timer (supports multiple independent scanner boxes)
+  // Viewport-aware scanner layers timer (saves CPU/GPU when off-screen)
   const scannerBoxes = document.querySelectorAll('.scanner-box');
   scannerBoxes.forEach(box => {
     const layers = box.querySelectorAll('.scanner-layer');
     if (layers.length > 0) {
       let currentActiveIdx = 0;
-      setInterval(() => {
-        layers.forEach(l => l.classList.remove('active'));
-        currentActiveIdx = (currentActiveIdx + 1) % layers.length;
-        layers[currentActiveIdx].classList.add('active');
-      }, 1500);
+      let intervalId = null;
+
+      const startScanning = () => {
+        if (intervalId) return;
+        intervalId = setInterval(() => {
+          layers.forEach(l => l.classList.remove('active'));
+          currentActiveIdx = (currentActiveIdx + 1) % layers.length;
+          layers[currentActiveIdx].classList.add('active');
+        }, 1500);
+      };
+
+      const stopScanning = () => {
+        if (intervalId) {
+          clearInterval(intervalId);
+          intervalId = null;
+        }
+      };
+
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) startScanning();
+            else stopScanning();
+          });
+        }, { threshold: 0.05 });
+        observer.observe(box);
+      } else {
+        startScanning();
+      }
     }
   });
 });
@@ -723,26 +760,113 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// --- SMART VIEWPORT VIDEO & GPU RESOURCE MANAGER ---
+function initSmartVideoObserver() {
+  const previewIframes = document.querySelectorAll('.course-video-container iframe, .course-video-wrapper iframe, .top-video-container iframe');
+  if (previewIframes.length === 0) return;
+
+  if (!('IntersectionObserver' in window)) {
+    previewIframes.forEach(iframe => {
+      iframe.setAttribute('loading', 'lazy');
+    });
+    return;
+  }
+
+  // Pre-store original src in data-src attribute for lazy streaming
+  previewIframes.forEach(iframe => {
+    iframe.setAttribute('loading', 'lazy');
+    iframe.style.transform = 'translateZ(0)';
+    iframe.style.backfaceVisibility = 'hidden';
+    if (!iframe.dataset.src && iframe.src && iframe.src !== 'about:blank') {
+      iframe.dataset.src = iframe.src;
+    }
+  });
+
+  const videoObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const iframe = entry.target;
+      const targetSrc = iframe.dataset.src;
+      if (!targetSrc) return;
+
+      if (entry.isIntersecting) {
+        // Enters buffer zone: mount/activate stream if not active
+        if (!iframe.src || iframe.src === 'about:blank' || iframe.src.indexOf('about:blank') !== -1) {
+          iframe.src = targetSrc;
+        }
+        iframe.style.opacity = '1';
+        iframe.style.pointerEvents = 'none';
+      } else {
+        // Exits buffer zone: detach heavy stream to free GPU decoding threads
+        if (iframe.closest('.course-card') || iframe.closest('.course-video-container')) {
+          if (iframe.src && iframe.src !== 'about:blank') {
+            iframe.src = 'about:blank';
+            iframe.style.opacity = '0';
+          }
+        }
+      }
+    });
+  }, {
+    root: null,
+    rootMargin: '300px 0px 300px 0px',
+    threshold: 0.01
+  });
+
+  previewIframes.forEach(iframe => videoObserver.observe(iframe));
+}
+
 // --- 5. VIDEO PLAYER MODAL CONTROLLER ---
 function openVideoModal(videoSrc) {
   const videoPlayerModal = document.getElementById('videoPlayerModal');
   const modalVideoPlayer = document.getElementById('modalVideoPlayer');
-  if (!videoPlayerModal || !modalVideoPlayer) return;
-  modalVideoPlayer.src = videoSrc;
-  modalVideoPlayer.load();
+  const modalIframePlayer = document.getElementById('modalIframePlayer');
+  if (!videoPlayerModal) return;
+
+  const isIframeOrEmbed = videoSrc.includes('player.mediadelivery.net') || videoSrc.includes('iframe') || videoSrc.includes('embed') || videoSrc.includes('youtube') || videoSrc.includes('vimeo');
+
+  if (isIframeOrEmbed) {
+    if (modalVideoPlayer) {
+      modalVideoPlayer.style.display = 'none';
+      modalVideoPlayer.pause();
+      modalVideoPlayer.src = '';
+    }
+    if (modalIframePlayer) {
+      modalIframePlayer.style.display = 'block';
+      modalIframePlayer.src = videoSrc;
+    }
+  } else {
+    if (modalIframePlayer) {
+      modalIframePlayer.style.display = 'none';
+      modalIframePlayer.src = '';
+    }
+    if (modalVideoPlayer) {
+      modalVideoPlayer.style.display = 'block';
+      modalVideoPlayer.src = videoSrc;
+      modalVideoPlayer.load();
+      modalVideoPlayer.play().catch(e => console.log("Autoplay blocked:", e));
+    }
+  }
+
   videoPlayerModal.classList.add('active');
   document.body.style.overflow = 'hidden';
-  modalVideoPlayer.play().catch(e => console.log("Autoplay blocked:", e));
 }
 
 function closeVideoModal() {
   const videoPlayerModal = document.getElementById('videoPlayerModal');
   const modalVideoPlayer = document.getElementById('modalVideoPlayer');
-  if (!videoPlayerModal || !modalVideoPlayer) return;
+  const modalIframePlayer = document.getElementById('modalIframePlayer');
+  if (!videoPlayerModal) return;
+
   videoPlayerModal.classList.remove('active');
   document.body.style.overflow = 'auto';
-  modalVideoPlayer.pause();
-  modalVideoPlayer.src = "";
+
+  if (modalVideoPlayer) {
+    modalVideoPlayer.pause();
+    modalVideoPlayer.src = '';
+  }
+  if (modalIframePlayer) {
+    modalIframePlayer.src = '';
+    modalIframePlayer.style.display = 'none';
+  }
 }
 
 // --- 6. LEGAL MODALS CONTROLLER & CONTENTS ---
