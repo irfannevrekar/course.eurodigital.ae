@@ -3,7 +3,7 @@
    ========================================================================== */
 
 // --- 1. STATIC PRICING CONFIGURATION ---
-window.tier1Price = '$10';
+window.tier1Price = '$29';
 window.tier2Price = '$299';
 window.tier2Emi = 'EMI Available: $150 x 2 Months';
 
@@ -495,7 +495,7 @@ window.switchClarityTest = function (mode) {
             <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 12px;">
               For business owners who need immediate diagnostic clarity. 62-point audit across 7 operational layers + Founder Mindset layer, producing a coach-reviewed fix report.
             </p>
-            <a href="business-x-ray.html" style="font-size: 13px; font-weight: 700; color: var(--accent-orange);">View Business X-Ray Details →</a>
+            <a href="bxr/index.html" style="font-size: 13px; font-weight: 700; color: var(--accent-orange);">View Business X-Ray Details →</a>
           </div>
         </div>
 
@@ -506,7 +506,7 @@ window.switchClarityTest = function (mode) {
             <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 12px;">
               For owners with validated offers who need to build marketing, sales closing, team delegation, and cashflow control machines over 60 days.
             </p>
-            <a href="business-acceleration-engine.html" style="font-size: 13px; font-weight: 700; color: var(--accent-green);">View Acceleration Engine Details →</a>
+            <a href="bae/index.html" style="font-size: 13px; font-weight: 700; color: var(--accent-green);">View Acceleration Engine Details →</a>
           </div>
         </div>
 
@@ -517,7 +517,7 @@ window.switchClarityTest = function (mode) {
             <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 12px;">
               For established businesses ready to deploy Euro Digital's complete software ('eurodigital.ae') and AI agent ('eurodigi.ai') ecosystem to scale 10x–50x.
             </p>
-            <a href="ai-tech-integration-bootcamp.html" style="font-size: 13px; font-weight: 700; color: var(--accent-blue);">View AI Tech Integration Details →</a>
+            <a href="bai/index.html" style="font-size: 13px; font-weight: 700; color: var(--accent-blue);">View AI Tech Integration Details →</a>
           </div>
         </div>
       `;
@@ -530,7 +530,7 @@ window.switchClarityTest = function (mode) {
             <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 12px;">
               For HR leaders & CEOs needing precision workforce health diagnosis. 60-question examination across 5 workplace health dimensions + HR Leader Mindset assessment.
             </p>
-            <a href="workforce-x-ray.html" style="font-size: 13px; font-weight: 700; color: var(--accent-lime-dark);">View Workforce X-Ray Details →</a>
+            <a href="wxr/index.html" style="font-size: 13px; font-weight: 700; color: var(--accent-lime-dark);">View Workforce X-Ray Details →</a>
           </div>
         </div>
 
@@ -630,7 +630,7 @@ function attachQuizBoxListeners() {
 
     if (currentQuizMode === 'business') {
       title = "Business X-Ray™";
-      price = window.tier1Price || "$10";
+      price = window.tier1Price || "$29";
       badgeColor = "badge-orange";
       desc = "You need a structured 7-layer diagnostic audit and roadmap to identify your operational and mindset bottlenecks before prescribing heavy tools.";
       features = [
@@ -639,7 +639,7 @@ function attachQuizBoxListeners() {
         "Attend the 2-hour live masterclass to build your 60-day roadmap"
       ];
       btnLabel = `Enroll in X-Ray™ Program (${price})`;
-      btnUrl = "business-x-ray.html";
+      btnUrl = "bxr/index.html";
 
       if (counts['high-ticket'] >= 2) {
         recommendation = 'high';
@@ -653,7 +653,7 @@ function attachQuizBoxListeners() {
           "Deploy live BI dashboards alongside your newly trained team"
         ];
         btnLabel = "Explore Bootcamp & Book Audit";
-        btnUrl = "ai-tech-integration-bootcamp.html";
+        btnUrl = "bai/index.html";
       } else if (counts['mid-ticket'] >= 2 || (counts['low-ticket'] === 1 && counts['mid-ticket'] === 1 && counts['high-ticket'] === 1)) {
         recommendation = 'mid';
         title = "Business Acceleration Engine™";
@@ -666,7 +666,7 @@ function attachQuizBoxListeners() {
           "Participate in 8 weekly live hot-seat mentorship reviews"
         ];
         btnLabel = "View Scaling Engine Details";
-        btnUrl = "business-acceleration-engine.html";
+        btnUrl = "bae/index.html";
       }
     } else {
       // WORKFORCE MODE
@@ -680,7 +680,7 @@ function attachQuizBoxListeners() {
         "Attend 2-hour live masterclass to decode cohort heatmaps & build roadmap"
       ];
       btnLabel = "Enroll in Workforce X-Ray™ (From $160)";
-      btnUrl = "workforce-x-ray.html";
+      btnUrl = "wxr/index.html";
 
       if (counts['high-ticket'] >= 2) {
         recommendation = 'high';
