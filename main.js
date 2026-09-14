@@ -794,7 +794,11 @@ function initSmartVideoObserver() {
           iframe.src = targetSrc;
         }
         iframe.style.opacity = '1';
-        iframe.style.pointerEvents = 'none';
+        if (iframe.closest('.top-video-container')) {
+          iframe.style.pointerEvents = 'auto';
+        } else {
+          iframe.style.pointerEvents = 'none';
+        }
       } else {
         // Exits buffer zone: detach heavy stream to free GPU decoding threads
         if (iframe.closest('.course-card') || iframe.closest('.course-video-container')) {
