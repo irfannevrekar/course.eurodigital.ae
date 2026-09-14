@@ -671,7 +671,7 @@ function attachQuizBoxListeners() {
     } else {
       // WORKFORCE MODE
       title = "Workforce X-Ray™";
-      price = "From $160";
+      price = "From $350";
       badgeColor = "badge-teal";
       desc = "You need a structured 5-dimension workplace MRI diagnostic audit (Performance, Wellbeing, Productivity, Growth Gap, Manager/Culture) and HR Leader Mindset assessment.";
       features = [
@@ -679,7 +679,7 @@ function attachQuizBoxListeners() {
         "Receive dual Personal Employee & Aggregate Organisational Fix Reports",
         "Attend 2-hour live masterclass to decode cohort heatmaps & build roadmap"
       ];
-      btnLabel = "Enroll in Workforce X-Ray™ (From $160)";
+      btnLabel = "Enroll in Workforce X-Ray™ (From $350)";
       btnUrl = "wxr/index.html";
 
       if (counts['high-ticket'] >= 2) {
@@ -1025,49 +1025,49 @@ function openPricingModal(courseKey) {
                 <td class="pricing-tier-name">Individual</td>
                 <td class="text-center">Up to 50</td>
                 <td class="text-center">1 HR</td>
-                <td class="text-center pricing-base-val">$260</td>
-                <td class="text-right"><span class="pricing-early-bird">$160</span></td>
+                <td class="text-center pricing-base-val">$550</td>
+                <td class="text-right"><span class="pricing-early-bird">$350</span></td>
               </tr>
               <tr>
                 <td class="pricing-tier-name">Starter</td>
-                <td class="text-center">50 - 100</td>
+                <td class="text-center">50 to 100</td>
                 <td class="text-center">5 HR</td>
-                <td class="text-center pricing-base-val">$2,090</td>
-                <td class="text-right"><span class="pricing-early-bird">$1,560</span></td>
+                <td class="text-center pricing-base-val">$2,499</td>
+                <td class="text-right"><span class="pricing-early-bird">$1,799</span></td>
               </tr>
               <tr>
                 <td class="pricing-tier-name">Growth</td>
                 <td class="text-center">101–250</td>
                 <td class="text-center">10 HR</td>
-                <td class="text-center pricing-base-val">$3,660</td>
-                <td class="text-right"><span class="pricing-early-bird">$2,610</span></td>
+                <td class="text-center pricing-base-val">$4,499</td>
+                <td class="text-right"><span class="pricing-early-bird">$2,999</span></td>
               </tr>
               <tr>
                 <td class="pricing-tier-name">Mid-Market</td>
                 <td class="text-center">251–500</td>
                 <td class="text-center">15 HR</td>
-                <td class="text-center pricing-base-val">$5,230</td>
-                <td class="text-right"><span class="pricing-early-bird">$4,180</span></td>
+                <td class="text-center pricing-base-val">$6,999</td>
+                <td class="text-right"><span class="pricing-early-bird">$4,999</span></td>
               </tr>
               <tr>
                 <td class="pricing-tier-name">Enterprise</td>
                 <td class="text-center">501–1,000</td>
                 <td class="text-center">20 HR</td>
-                <td class="text-center pricing-base-val">$8,380</td>
-                <td class="text-right"><span class="pricing-early-bird">$6,280</span></td>
+                <td class="text-center pricing-base-val">$9,999</td>
+                <td class="text-right"><span class="pricing-early-bird">$7,499</span></td>
               </tr>
               <tr>
                 <td class="pricing-tier-name">Large Enterprise</td>
                 <td class="text-center">1,001–2,500</td>
                 <td class="text-center">30 HR</td>
-                <td class="text-center pricing-base-val">$15,710</td>
-                <td class="text-right"><span class="pricing-early-bird">$12,570</span></td>
+                <td class="text-center pricing-base-val">$19,999</td>
+                <td class="text-right"><span class="pricing-early-bird">$14,999</span></td>
               </tr>
               <tr>
-                <td class="pricing-tier-name">Custom (Group)</td>
+                <td class="pricing-tier-name">Custom</td>
                 <td class="text-center">2,500+</td>
                 <td class="text-center">50+ HR</td>
-                <td class="text-center pricing-base-val">From $26,200</td>
+                <td class="text-center pricing-base-val">From $29,999</td>
                 <td class="text-right"><span class="pricing-early-bird">Bespoke</span></td>
               </tr>
             </tbody>
