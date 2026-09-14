@@ -812,10 +812,32 @@ function initSmartVideoObserver() {
   }, {
     root: null,
     rootMargin: '300px 0px 300px 0px',
-    threshold: 0.01
-  });
-
   previewIframes.forEach(iframe => videoObserver.observe(iframe));
+}
+
+// --- UNMUTE & PLAY INTRO VIDEO ---
+function unmuteIntroVideo() {
+  const overlay = document.getElementById('introVideoOverlay');
+  const iframe = document.getElementById('introVideoIframe') || document.querySelector('.top-video-container iframe');
+
+  if (overlay) {
+    overlay.style.opacity = '0';
+    setTimeout(() => {
+      overlay.style.display = 'none';
+    }, 300);
+  }
+
+  if (iframe) {
+    let currentSrc = iframe.src || iframe.dataset.src || '';
+    if (currentSrc.includes('muted=true')) {
+      currentSrc = currentSrc.replace('muted=true', 'muted=false');
+    } else if (!currentSrc.includes('muted=')) {
+      currentSrc += (currentSrc.includes('?') ? '&' : '?') + 'muted=false';
+    }
+    iframe.src = currentSrc;
+    iframe.dataset.src = currentSrc;
+    iframe.style.pointerEvents = 'auto';
+  }
 }
 
 // --- 5. VIDEO PLAYER MODAL CONTROLLER ---
