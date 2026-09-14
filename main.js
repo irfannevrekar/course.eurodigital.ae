@@ -833,6 +833,9 @@ function unmuteIntroVideo() {
 
   if (iframe) {
     let currentSrc = iframe.src || iframe.dataset.src || '';
+    if (currentSrc.includes('autoplay=false')) {
+      currentSrc = currentSrc.replace('autoplay=false', 'autoplay=true');
+    }
     if (currentSrc.includes('muted=true')) {
       currentSrc = currentSrc.replace('muted=true', 'muted=false');
     } else if (!currentSrc.includes('muted=')) {
