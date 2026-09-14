@@ -999,7 +999,7 @@ function openPricingModal(courseKey) {
       headerDesc.textContent = "Workforce X-Ray™ Pricing";
       headerDesc.style.color = "var(--accent-lime-dark)";
     }
-    if (title) title.textContent = "India — Bundle Pricing (USD)";
+    if (title) title.textContent = "Bundle Pricing (USD)";
     if (metaRow) {
       metaRow.innerHTML = `
         <span>Tiered organizational diagnostic packages</span>
