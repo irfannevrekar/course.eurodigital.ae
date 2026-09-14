@@ -812,6 +812,9 @@ function initSmartVideoObserver() {
   }, {
     root: null,
     rootMargin: '300px 0px 300px 0px',
+    threshold: 0.01
+  });
+
   previewIframes.forEach(iframe => videoObserver.observe(iframe));
 }
 
@@ -822,6 +825,7 @@ function unmuteIntroVideo() {
 
   if (overlay) {
     overlay.style.opacity = '0';
+    overlay.style.pointerEvents = 'none';
     setTimeout(() => {
       overlay.style.display = 'none';
     }, 300);
@@ -839,6 +843,7 @@ function unmuteIntroVideo() {
     iframe.style.pointerEvents = 'auto';
   }
 }
+window.unmuteIntroVideo = unmuteIntroVideo;
 
 // --- 5. VIDEO PLAYER MODAL CONTROLLER ---
 function openVideoModal(videoSrc) {
